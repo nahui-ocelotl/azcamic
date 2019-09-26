@@ -1403,7 +1403,7 @@
   </PIN>
   <PIN pinname="X" visible="1" values="|-4|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|0.01|">
+  <PIN pinname="Y" visible="1" values="|0.1|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|15|">
   </PIN>
@@ -2292,6 +2292,20 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="714" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="450" top="13335" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <NODE id="715" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
   <BOUNDS type="Node" left="990" top="18030" width="100" height="100">
   </BOUNDS>
@@ -2699,5 +2713,7 @@
   <LINK srcnodeid="704" srcpinname="Output" dstnodeid="514" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="705" srcpinname="Output String" dstnodeid="46" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="714" srcpinname="Transform Out" dstnodeid="60" dstpinname="Transform In">
   </LINK>
   </PATCH>
