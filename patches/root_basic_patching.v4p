@@ -1975,11 +1975,11 @@
   </PIN>
   <PIN pinname="Input 16" visible="1">
   </PIN>
-  <PIN pinname="Input 17" visible="1" values="|0|">
+  <PIN pinname="Input 17" visible="1">
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1" values="|-0.44000000000000006|">
+  <PIN pinname="Input 19" visible="1">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
@@ -2057,11 +2057,11 @@
   </PIN>
   <PIN pinname="Input 16" visible="1">
   </PIN>
-  <PIN pinname="Input 17" visible="1" values="|0|">
+  <PIN pinname="Input 17" visible="1">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|0|">
+  <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1" values="|-14|">
+  <PIN pinname="Input 19" visible="1">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
@@ -2143,7 +2143,7 @@
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1" values="|-63|">
+  <PIN pinname="Input 19" visible="1">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
@@ -2573,11 +2573,5 @@
   <LINK srcnodeid="737" srcpinname="Output" dstnodeid="744" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="744" srcpinname="Output" dstnodeid="740" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="742" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="743" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="744" dstpinname="Index">
   </LINK>
   </PATCH>
