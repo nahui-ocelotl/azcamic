@@ -165,7 +165,7 @@ h2
     
 }
 
-.input {
+.label {
     
     width:33.3%;
     height: 33.3%;
@@ -187,7 +187,7 @@ body {
  background-size: cover;
 }
 
-label {
+input {
   background-color: darkorange;
   position: absolute;
   width: 7%;
