@@ -1975,9 +1975,9 @@
   </PIN>
   <PIN pinname="Input 16" visible="1">
   </PIN>
-  <PIN pinname="Input 17" visible="1" values="|0|">
+  <PIN pinname="Input 17" visible="1">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|-0.43999999999999995|">
+  <PIN pinname="Input 18" visible="1">
   </PIN>
   <PIN pinname="Input 19" visible="1">
   </PIN>
@@ -2059,7 +2059,7 @@
   </PIN>
   <PIN pinname="Input 17" visible="1">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|-67|">
+  <PIN pinname="Input 18" visible="1">
   </PIN>
   <PIN pinname="Input 19" visible="1">
   </PIN>
@@ -2105,7 +2105,7 @@
   </PIN>
   </NODE>
   <NODE id="737" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9420" top="26145" width="100" height="100">
+  <BOUNDS type="Node" left="9465" top="26295" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2141,7 +2141,7 @@
   </PIN>
   <PIN pinname="Input 17" visible="1">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|-83|">
+  <PIN pinname="Input 18" visible="1">
   </PIN>
   <PIN pinname="Input 19" visible="1">
   </PIN>
@@ -2254,28 +2254,6 @@
   <PIN pinname="Bin Size" visible="1">
   </PIN>
   <PIN pinname="Index" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="745" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="2445" top="27390" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="746" nodename="Subtract (Value)" systemname="Subtract (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8835" top="24075" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2595,15 +2573,5 @@
   <LINK srcnodeid="737" srcpinname="Output" dstnodeid="744" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="744" srcpinname="Output" dstnodeid="740" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="742" srcpinname="Output" dstnodeid="745" dstpinname="Y Input Value">
-  </LINK>
-  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="746" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="746" srcpinname="Output" dstnodeid="742" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="746" srcpinname="Output" dstnodeid="743" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="746" srcpinname="Output" dstnodeid="744" dstpinname="Index">
   </LINK>
   </PATCH>
