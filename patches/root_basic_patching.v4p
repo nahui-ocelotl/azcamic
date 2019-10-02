@@ -1911,7 +1911,7 @@
   </PIN>
   </NODE>
   <NODE id="728" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="13365" top="23370" width="0" height="0">
+  <BOUNDS type="Box" left="7890" top="23700" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -1979,7 +1979,7 @@
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1">
+  <PIN pinname="Input 19" visible="1" values="|0.0575|">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
@@ -2061,7 +2061,7 @@
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1">
+  <PIN pinname="Input 19" visible="1" values="|-80|">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
@@ -2143,7 +2143,7 @@
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1">
+  <PIN pinname="Input 19" visible="1" values="|-80|">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
@@ -2254,6 +2254,16 @@
   <PIN pinname="Bin Size" visible="1">
   </PIN>
   <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="745" nodename="AvoidNIL (Spreads)" systemname="AvoidNIL (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13620" top="23220" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2546,8 +2556,6 @@
   </LINK>
   <LINK srcnodeid="724" srcpinname="Attribute Value" dstnodeid="726" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="727" srcpinname="Output" dstnodeid="728" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="720" srcpinname="Text" dstnodeid="726" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="621" srcpinname="rotateY" dstnodeid="738" dstpinname="Input 1">
@@ -2573,5 +2581,15 @@
   <LINK srcnodeid="737" srcpinname="Output" dstnodeid="744" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="744" srcpinname="Output" dstnodeid="740" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="727" srcpinname="Output" dstnodeid="745" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="745" srcpinname="Output" dstnodeid="728" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="742" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="743" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="744" dstpinname="Index">
   </LINK>
   </PATCH>
