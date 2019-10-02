@@ -186,7 +186,7 @@ body {
  background-size: cover;
 }
 
-input {
+label {
   background-color: darkorange;
   position: absolute;
   width: 7%;
