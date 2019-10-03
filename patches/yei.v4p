@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="20310">
+  <BOUNDS type="Window" width="18720" height="20310">
   </BOUNDS>
   <NODE id="24" nodename="cubo.v4p" systemname="cubo" filename="cubo.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="7905" top="15750" width="100" height="100">
@@ -1325,7 +1325,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-1.5|">
+  <PIN pinname="X" visible="1" values="|-3.75|">
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
@@ -1359,23 +1359,23 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|12|">
+  <PIN pinname="X" visible="1" values="|30|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|0.25|">
+  <PIN pinname="Y" visible="1" values="|0.5|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|3|">
+  <PIN pinname="Z" visible="1" values="|6|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="218" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14430" top="13080" width="100" height="100">
+  <BOUNDS type="Node" left="12945" top="13605" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|-0.67|">
+  <PIN pinname="Input 1" visible="1" values="|-1.75|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|1.05|">
+  <PIN pinname="Input 2" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|2.75|">
+  <PIN pinname="Input 3" visible="1" values="|8|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|3|">
   </PIN>
@@ -1383,23 +1383,9 @@
   </PIN>
   </NODE>
   <NODE id="219" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16245" top="13260" width="100" height="100">
+  <BOUNDS type="Node" left="15180" top="13860" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0.75|">
-  </PIN>
-  <PIN pinname="Input 3" visible="1" values="|0.75|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="221" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14325" top="13965" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|0.7100000000000002|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|1|">
   </PIN>
@@ -1410,9 +1396,35 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="222" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="750" top="2655" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0.75|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="225" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15930" top="13860" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0.75|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0.75|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0.75|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="25" srcpinname="Transform Out" dstnodeid="24" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="26" srcpinname="Transform Out" dstnodeid="25" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="55" srcpinname="Y Output Value" dstnodeid="54" dstpinname="Input 1">
   </LINK>
@@ -1802,8 +1814,6 @@
   </LINK>
   <LINK srcnodeid="204" srcpinname="Output" dstnodeid="99" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="207" srcpinname="Output Node" dstnodeid="209" dstpinname="Transform In">
-  </LINK>
   <LINK srcnodeid="209" srcpinname="Transform Out" dstnodeid="26" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="24" srcpinname="Layer" dstnodeid="210" dstpinname="Layer 1">
@@ -1813,8 +1823,6 @@
   <LINK srcnodeid="211" srcpinname="Layer" dstnodeid="210" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="213" srcpinname="Mesh" dstnodeid="211" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="209" srcpinname="Transform Out" dstnodeid="212" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="214" srcpinname="Output" dstnodeid="211" dstpinname="Ambient Color">
   </LINK>
@@ -1826,6 +1834,14 @@
   </LINK>
   <LINK srcnodeid="219" srcpinname="Output" dstnodeid="214" dstpinname="Saturation">
   </LINK>
-  <LINK srcnodeid="221" srcpinname="Output" dstnodeid="214" dstpinname="Value">
+  <LINK srcnodeid="207" srcpinname="Output Node" dstnodeid="222" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="222" srcpinname="Transform Out" dstnodeid="209" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="26" srcpinname="Transform Out" dstnodeid="25" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="207" srcpinname="Output Node" dstnodeid="212" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="225" srcpinname="Output" dstnodeid="214" dstpinname="Value">
   </LINK>
   </PATCH>
