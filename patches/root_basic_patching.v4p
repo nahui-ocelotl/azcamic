@@ -1967,7 +1967,7 @@
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1" values="|-0.4400000000000002|">
+  <PIN pinname="Input 19" visible="1" values="|-0.442|">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
@@ -2131,7 +2131,7 @@
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input 19" visible="1" values="|-83|">
+  <PIN pinname="Input 19" visible="1" values="|-83.5|">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
