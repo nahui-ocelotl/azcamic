@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="36705">
+  <BOUNDS type="Window" width="20235" height="36705">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -2265,7 +2265,7 @@
   </PIN>
   </NODE>
   <NODE id="747" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="16950" top="24855" width="100" height="100">
+  <BOUNDS type="Node" left="16905" top="25350" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -2281,7 +2281,7 @@
   </PIN>
   <PIN pinname="Light Direction XYZ" visible="1">
   </PIN>
-  <PIN pinname="Ambient Color" visible="1">
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
   </PIN>
   <PIN pinname="Diffuse Color" visible="1">
   </PIN>
@@ -2303,11 +2303,11 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1">
+  <PIN pinname="X" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Y" visible="1">
+  <PIN pinname="Y" visible="1" values="|2|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|0|">
+  <PIN pinname="Z" visible="1" values="|9|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2356,6 +2356,20 @@
   <PIN pinname="Input String" visible="1" values="|tex/facade/hueyatl.png|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="754" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17715" top="24810" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|1.5|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2684,8 +2698,6 @@
   </LINK>
   <LINK srcnodeid="260" srcpinname="Transform Out" dstnodeid="748" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="748" srcpinname="Transform Out" dstnodeid="747" dstpinname="Transform">
-  </LINK>
   <LINK srcnodeid="749" srcpinname="Mesh" dstnodeid="747" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="227" srcpinname="Layer" dstnodeid="750" dstpinname="Layer 1">
@@ -2697,5 +2709,9 @@
   <LINK srcnodeid="752" srcpinname="Texture Out" dstnodeid="747" dstpinname="Texture">
   </LINK>
   <LINK srcnodeid="753" srcpinname="Output String" dstnodeid="752" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="748" srcpinname="Transform Out" dstnodeid="754" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="754" srcpinname="Transform Out" dstnodeid="747" dstpinname="Transform">
   </LINK>
   </PATCH>
