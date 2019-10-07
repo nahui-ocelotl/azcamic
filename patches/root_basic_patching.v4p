@@ -2015,7 +2015,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|55|">
+  <PIN pinname="Input 2" visible="1" values="|54|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|44|">
   </PIN>
@@ -2097,7 +2097,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-57|">
+  <PIN pinname="Input 2" visible="1" values="|-51.5|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|-49|">
   </PIN>
@@ -2313,7 +2313,7 @@
   </PIN>
   </NODE>
   <NODE id="749" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16020" top="23745" width="100" height="100">
+  <BOUNDS type="Node" left="16665" top="23430" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1">
   </PIN>
@@ -2331,7 +2331,9 @@
   </PIN>
   <PIN pinname="Layer 2" visible="1">
   </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  <PIN pinname="Layer 3" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|3|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2368,6 +2370,102 @@
   <PIN pinname="X" visible="1" values="|1.5|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="755" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="19680" top="25290" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
+  <PIN pinname="Light Direction XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
+  </PIN>
+  <PIN pinname="Diffuse Color" visible="1">
+  </PIN>
+  <PIN pinname="Specular Color" visible="1">
+  </PIN>
+  <PIN pinname="Power" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="756" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="19830" top="24105" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|0.775|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0.9199999999999959|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="757" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="19440" top="23370" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Resolution X" visible="1">
+  </PIN>
+  <PIN pinname="Resolution Y" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="758" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="20880" top="23280" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="759" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="20115" top="22245" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/facade/huitzili.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="760" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="20490" top="24750" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|0.15|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0.25|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|1|">
   </PIN>
@@ -2713,5 +2811,19 @@
   <LINK srcnodeid="748" srcpinname="Transform Out" dstnodeid="754" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="754" srcpinname="Transform Out" dstnodeid="747" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="757" srcpinname="Mesh" dstnodeid="755" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="760" srcpinname="Transform Out" dstnodeid="755" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="758" srcpinname="Texture Out" dstnodeid="755" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="759" srcpinname="Output String" dstnodeid="758" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="756" srcpinname="Transform Out" dstnodeid="760" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="755" srcpinname="Layer" dstnodeid="750" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="225" srcpinname="Transform Out" dstnodeid="756" dstpinname="Transform In">
   </LINK>
   </PATCH>
