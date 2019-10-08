@@ -308,6 +308,7 @@ button {
 .m {
   bottom: 30%;
   right: 39%;
+  background-color: HotPink ;	 
 }
     
 .n {
@@ -344,6 +345,7 @@ button {
 .t {
   bottom: 25%;
   right: 33%;
+  background-color: HotPink ;	 
 }
 
 .u {
@@ -399,7 +401,7 @@ button {
 }
     
 .biblioteca {
-  background-color: aquamarine;
+  background-color: HotPink ;	 
   bottom: 22%;
   right: 20%;
   width: 10%;    
@@ -407,7 +409,7 @@ button {
 }
     
 .audiovisual {
-  background-color: DarkSeaGreen ;
+  background-color: HotPink ;	 
   bottom: 32%;
   right: 48%;
   width: 7%;    
