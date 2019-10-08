@@ -243,6 +243,7 @@ button {
 .a {
   top: 52%;
   left: 32%;
+  background-color: green;
 }
     
 .b {
@@ -312,6 +313,7 @@ button {
 .n {
   bottom: 35%;
   right: 36%;
+  background-color: green;
 }
     
 .o {
@@ -405,7 +407,7 @@ button {
 }
     
 .audiovisual {
-  background-color: violet;
+  background-color: green;
   bottom: 32%;
   right: 48%;
   width: 7%;    
