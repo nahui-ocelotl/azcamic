@@ -204,6 +204,7 @@ button {
   background-color: darkorange;
   position: absolute;
   width: 7%;
+  height: 4%;
   font-size: 9px;
   border: none;
   cursor: pointer;
