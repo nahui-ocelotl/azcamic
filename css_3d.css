@@ -169,7 +169,6 @@ h2
     
     width:33.3%;
     height: 33.3%;
-    z-index: 4;
     transform: translate(-50%, -50%);
     -webkit-transform:translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
@@ -197,7 +196,7 @@ input {
   border-radius: 4px;
   box-shadow: 2px 2px;
   text-align: center;
-  opacity: 0;
+  opacity: 0.1;
   z-index: 16;
 }
     
