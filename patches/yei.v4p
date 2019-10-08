@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="20310">
+  <BOUNDS type="Window" width="19245" height="20310">
   </BOUNDS>
   <NODE id="24" nodename="cubo.v4p" systemname="cubo" filename="cubo.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="7905" top="15750" width="100" height="100">
@@ -171,7 +171,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/campa2.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/ixpan2.jpg|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/ahcopa.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -203,7 +203,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/campa2.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/ixpan2.jpg|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/ahcopa.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -219,7 +219,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/campa2.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/ixpan2.jpg|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/ahcopa.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -1207,7 +1207,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/campa2.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/ixpan2.jpg|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/ahcopa.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
