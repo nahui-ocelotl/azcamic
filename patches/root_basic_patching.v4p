@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="14160" height="37305">
+  <BOUNDS type="Window" width="28545" height="37305">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -2807,7 +2807,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|SaddleBrown |">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2918,6 +2918,100 @@
   <PIN pinname="Value" visible="1" values="|0.5|">
   </PIN>
   <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="789" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="20175" top="29910" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|Gold|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|DarkSeaGreen|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|DarkGray|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|DarkOrange|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|DarkOrange|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|MediumPurple|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|MediumPurple|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|MediumPurple|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="|MediumPurple|">
+  </PIN>
+  <PIN pinname="Input 10" visible="1" values="|HotPink|">
+  </PIN>
+  <PIN pinname="Input 11" visible="1" values="|HotPink|">
+  </PIN>
+  <PIN pinname="Input 12" visible="1" values="|DarkGray|">
+  </PIN>
+  <PIN pinname="Input 13" visible="1" values="|DarkOrange|">
+  </PIN>
+  <PIN pinname="Input 14" visible="1" values="|Tomato|">
+  </PIN>
+  <PIN pinname="Input 15" visible="1" values="|DarkSeaGreen|">
+  </PIN>
+  <PIN pinname="Input 16" visible="1" values="|Gold|">
+  </PIN>
+  <PIN pinname="Input 17" visible="1" values="|DarkGray|">
+  </PIN>
+  <PIN pinname="Input 18" visible="1" values="|MediumPurple|">
+  </PIN>
+  <PIN pinname="Input 19" visible="1" values="|MediumPurple|">
+  </PIN>
+  <PIN pinname="Input 20" visible="1" values="|HotPink|">
+  </PIN>
+  <PIN pinname="Input 21" visible="1" values="|Tomato|">
+  </PIN>
+  <PIN pinname="Input 22" visible="1" values="|Tomato|">
+  </PIN>
+  <PIN pinname="Input 23" visible="1" values="|HotPink|">
+  </PIN>
+  <PIN pinname="Input 24" visible="1" values="|DarkGray|">
+  </PIN>
+  <PIN pinname="Input 25" visible="1" values="|DarkOrange|">
+  </PIN>
+  <PIN pinname="Input 26" visible="1" values="|GreenYellow|">
+  </PIN>
+  <PIN pinname="Input 27" visible="1" values="|DarkSeaGreen|">
+  </PIN>
+  <PIN pinname="Input 28" visible="1" values="|Gold|">
+  </PIN>
+  <PIN pinname="Input 29" visible="1" values="|Gold|">
+  </PIN>
+  <PIN pinname="Input 30" visible="1" values="|Tomato|">
+  </PIN>
+  <PIN pinname="Input 31" visible="1" values="|DarkSeaGreen|">
+  </PIN>
+  <PIN pinname="Input 32" visible="1" values="|HotPink|">
+  </PIN>
+  <PIN pinname="Input 33" visible="1" values="|GreenYellow|">
+  </PIN>
+  <PIN pinname="Input 34" visible="1" values="|CornflowerBlue|">
+  </PIN>
+  <PIN pinname="Input 35" visible="1" values="|GreenYellow|">
+  </PIN>
+  <PIN pinname="Input 36" visible="1" values="|DarkGray|">
+  </PIN>
+  <PIN pinname="Input 37" visible="1" values="|DarkGray|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|37|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="790" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="20670" top="31755" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3323,5 +3417,11 @@
   <LINK srcnodeid="226" srcpinname="Transform Out" dstnodeid="781" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="786" srcpinname="Output" dstnodeid="780" dstpinname="Ambient Color">
+  </LINK>
+  <LINK srcnodeid="789" srcpinname="Output" dstnodeid="790" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="790" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="790" srcpinname="Output" dstnodeid="779" dstpinname="Property Value">
   </LINK>
   </PATCH>
