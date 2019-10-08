@@ -201,7 +201,7 @@ input {
 }
 
 button {
-  background-color: darkorange;
+  background-color: DarkGray ;
   position: absolute;
   width: 7%;
   height: 3%;
@@ -256,11 +256,14 @@ button {
 .c {
   top: 42%;
   left: 41%;
+  background-color: DarkOrange ; 
+	
 }
     
 .d {
   top: 37%;
   left: 36%;
+  background-color: DarkOrange ; 
 }
     
 .e {
@@ -305,6 +308,7 @@ button {
   left: 51%;
   width: 2%;
   height: 10%;
+  background-color: DarkOrange ; 
 }
     
 .m {
@@ -328,6 +332,7 @@ button {
 .p {
   bottom: 45%;
   right: 33%;
+  background-color: DarkOrange ; 
 }
     
 .q {
