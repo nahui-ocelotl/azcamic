@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="37305">
+  <BOUNDS type="Window" width="19260" height="37305">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -2625,17 +2625,17 @@
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|Itzehecayan|">
   </PIN>
-  <PIN pinname="Input 6" visible="1">
+  <PIN pinname="Input 6" visible="1" values="|Pancuecuetlacayan|">
   </PIN>
-  <PIN pinname="Input 7" visible="1">
+  <PIN pinname="Input 7" visible="1" values="|Pancuecuetlacayan|">
   </PIN>
-  <PIN pinname="Input 8" visible="1">
+  <PIN pinname="Input 8" visible="1" values="|Pancuecuetlacayan|">
   </PIN>
-  <PIN pinname="Input 9" visible="1">
+  <PIN pinname="Input 9" visible="1" values="|Pancuecuetlacayan|">
   </PIN>
-  <PIN pinname="Input 10" visible="1">
+  <PIN pinname="Input 10" visible="1" values="|Temiminaloayan|">
   </PIN>
-  <PIN pinname="Input 11" visible="1">
+  <PIN pinname="Input 11" visible="1" values="|Temiminaloayan|">
   </PIN>
   <PIN pinname="Input 12" visible="1">
   </PIN>
@@ -2653,19 +2653,19 @@
   </PIN>
   <PIN pinname="Input 19" visible="1" values="|Pancuecuetlacayan|">
   </PIN>
-  <PIN pinname="Input 20" visible="1">
+  <PIN pinname="Input 20" visible="1" values="|Temiminaloayan|">
   </PIN>
   <PIN pinname="Input 21" visible="1" values="|Apanohuayan|">
   </PIN>
   <PIN pinname="Input 22" visible="1" values="|Iztepetl|">
   </PIN>
-  <PIN pinname="Input 23" visible="1">
+  <PIN pinname="Input 23" visible="1" values="|Temiminaloayan|">
   </PIN>
   <PIN pinname="Input 24" visible="1">
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|Itzehecayan|">
   </PIN>
-  <PIN pinname="Input 26" visible="1">
+  <PIN pinname="Input 26" visible="1" values="|Teyollocualoyan|">
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|Tlalticpac|">
   </PIN>
@@ -2677,13 +2677,13 @@
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|Apanohuayan|">
   </PIN>
-  <PIN pinname="Input 32" visible="1">
+  <PIN pinname="Input 32" visible="1" values="|Temiminaloayan|">
   </PIN>
-  <PIN pinname="Input 33" visible="1">
+  <PIN pinname="Input 33" visible="1" values="|Teyollocualoyan|">
   </PIN>
-  <PIN pinname="Input 34" visible="1">
+  <PIN pinname="Input 34" visible="1" values="|Itzmictlan Apochcalocan|">
   </PIN>
-  <PIN pinname="Input 35" visible="1">
+  <PIN pinname="Input 35" visible="1" values="|Teyollocualoyan|">
   </PIN>
   <PIN pinname="Input 36" visible="1">
   </PIN>
@@ -2707,17 +2707,17 @@
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|“El lugar del viento de obsidiana”|">
   </PIN>
-  <PIN pinname="Input 6" visible="1">
+  <PIN pinname="Input 6" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
   </PIN>
-  <PIN pinname="Input 7" visible="1">
+  <PIN pinname="Input 7" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
   </PIN>
-  <PIN pinname="Input 8" visible="1">
+  <PIN pinname="Input 8" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
   </PIN>
-  <PIN pinname="Input 9" visible="1">
+  <PIN pinname="Input 9" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
   </PIN>
-  <PIN pinname="Input 10" visible="1">
+  <PIN pinname="Input 10" visible="1" values="|“El lugar donde es flecha a la gente”|">
   </PIN>
-  <PIN pinname="Input 11" visible="1">
+  <PIN pinname="Input 11" visible="1" values="|“El lugar donde es flecha a la gente”|">
   </PIN>
   <PIN pinname="Input 12" visible="1">
   </PIN>
@@ -2735,19 +2735,19 @@
   </PIN>
   <PIN pinname="Input 19" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
   </PIN>
-  <PIN pinname="Input 20" visible="1">
+  <PIN pinname="Input 20" visible="1" values="|“El lugar donde es flecha a la gente”|">
   </PIN>
   <PIN pinname="Input 21" visible="1" values="|“El pasadero del agua”|">
   </PIN>
   <PIN pinname="Input 22" visible="1" values="|“El cerro de obsidiana”|">
   </PIN>
-  <PIN pinname="Input 23" visible="1">
+  <PIN pinname="Input 23" visible="1" values="|Temiminaloayan|">
   </PIN>
   <PIN pinname="Input 24" visible="1">
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|“El lugar del viento de obsidiana”|">
   </PIN>
-  <PIN pinname="Input 26" visible="1">
+  <PIN pinname="Input 26" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|“Sobre la tierra&quot;|">
   </PIN>
@@ -2759,13 +2759,13 @@
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|“El pasadero del agua”|">
   </PIN>
-  <PIN pinname="Input 32" visible="1">
+  <PIN pinname="Input 32" visible="1" values="|“El lugar donde es flecha a la gente”|">
   </PIN>
-  <PIN pinname="Input 33" visible="1">
+  <PIN pinname="Input 33" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
   </PIN>
-  <PIN pinname="Input 34" visible="1">
+  <PIN pinname="Input 34" visible="1" values="|“El sitio de obsidiana de los muertos”|">
   </PIN>
-  <PIN pinname="Input 35" visible="1">
+  <PIN pinname="Input 35" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
   </PIN>
   <PIN pinname="Input 36" visible="1">
   </PIN>
