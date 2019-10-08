@@ -129,6 +129,7 @@ h2
     margin-top: 15px;
     margin-left: 15px;
 }
+
 .logo_button {
     background-color: rgba(0,0,0,1);
     width:auto; 
@@ -173,7 +174,13 @@ h2
     -ms-transform: translate(-50%,-50%);
 }
 
-
+.button {
+    width:33.3%;
+    height: 33.3%;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
     
         
 .footer_content {display:inline-block ;
