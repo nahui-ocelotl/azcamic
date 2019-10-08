@@ -269,23 +269,25 @@ button {
 .e {
   top: 31.5%;
   left: 37%;
+  background-color: BlueViolet ; 	 
 }
 
 .f {
   top: 24.5%;
   left: 28%;
-  background-color: aquamarine;
+  background-color: BlueViolet ; 	 
 }
     
 .g {
   top: 19.5%;
   left: 28%;
-  background-color: aquamarine;
+  background-color: BlueViolet ; 	 
 }
 
 .h {
   top: 37%;
   left: 45%;
+  background-color: BlueViolet ; 	 
 }
     
 .i {
@@ -338,11 +340,13 @@ button {
 .q {
   bottom: 50%;
   right: 36%;
+  background-color: BlueViolet ; 	 
 }
     
 .r {
   top: 40%;
   right: 40%;
+  background-color: BlueViolet ; 	 
 }
     
 .s {
@@ -426,7 +430,6 @@ button {
 }
     
 .gimnasio {
-  background-color: violet;
   top: 19.5%;
   left: 40%;
   width: 5%;    
@@ -434,34 +437,29 @@ button {
 }
     
 .siladin {
-  background-color: aquamarine;
   top: 19.5%;
   right: 36%;
 }
     
 .computo {
-  background-color: aquamarine;
   top: 19.5%;
   right: 20%;
   width: 10%;   
 }
     
 .dcultural {
-  background-color: violet;
   top: 26%;
   right: 20%;
   width: 10%;  
 }
     
 .efisica {
-  background-color: violet;
   top: 29%;
   right: 20%;
   width: 10%;
 }
     
 .cdeportivo {
-  background-color: violet;
   bottom: 41%;
   right: 20%;
   width: 10%;    
