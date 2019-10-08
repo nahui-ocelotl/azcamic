@@ -166,7 +166,6 @@ h2
 }
 
 .input {
-    
     width:33.3%;
     height: 33.3%;
     transform: translate(-50%, -50%);
@@ -204,7 +203,6 @@ button {
   border-radius: 4px;
   box-shadow: 2px 2px;
   text-align: center;
-  opacity: 0.1;
   z-index: 15;
 }
     
