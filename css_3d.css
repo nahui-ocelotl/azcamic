@@ -238,6 +238,7 @@ button {
 .fi {
   top: 51%;
   left: 42.5%;
+  background-color: Gold ;
 }    
 
 .a {
@@ -249,6 +250,7 @@ button {
 .b {
   top: 46.7%;
   left: 34%;
+  background-color: Gold ;
 }
     
 .c {
@@ -320,6 +322,7 @@ button {
 .o {
   bottom: 40%;
   right: 39%;
+  background-color: Gold ;
 }
     
 .p {
@@ -353,6 +356,7 @@ button {
   right: 32%;
   width: 2%;
   height: 10%;
+  background-color: Gold ;
 }
     
 .w {
@@ -389,13 +393,13 @@ button {
 }
     
 .pec1 {
-  background-color: yellow;
+  background-color: Gold ;
   top: 42%;
   left: 23%;
 }
     
 .pec2 {
-  background-color: yellow;
+  background-color: Gold ;
   top: 37%;
   left: 21%;
 }
