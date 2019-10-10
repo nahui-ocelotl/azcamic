@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="37305">
+  <BOUNDS type="Window" width="20235" height="37305">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -2637,7 +2637,7 @@
   </PIN>
   <PIN pinname="Input 11" visible="1" values="|Temiminaloayan|">
   </PIN>
-  <PIN pinname="Input 12" visible="1">
+  <PIN pinname="Input 12" visible="1" values="|Teyollocualoyan|">
   </PIN>
   <PIN pinname="Input 13" visible="1" values="|Itzehecayan|">
   </PIN>
@@ -2661,7 +2661,7 @@
   </PIN>
   <PIN pinname="Input 23" visible="1" values="|Temiminaloayan|">
   </PIN>
-  <PIN pinname="Input 24" visible="1">
+  <PIN pinname="Input 24" visible="1" values="|Teyollocualoyan|">
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|Itzehecayan|">
   </PIN>
@@ -2685,7 +2685,7 @@
   </PIN>
   <PIN pinname="Input 35" visible="1" values="|Teyollocualoyan|">
   </PIN>
-  <PIN pinname="Input 36" visible="1">
+  <PIN pinname="Input 36" visible="1" values="|Teyollocualoyan|">
   </PIN>
   <PIN pinname="Input 37" visible="1">
   </PIN>
@@ -2719,7 +2719,7 @@
   </PIN>
   <PIN pinname="Input 11" visible="1" values="|“El lugar donde es flecha a la gente”|">
   </PIN>
-  <PIN pinname="Input 12" visible="1">
+  <PIN pinname="Input 12" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
   </PIN>
   <PIN pinname="Input 13" visible="1" values="|“El lugar del viento de obsidiana”|">
   </PIN>
@@ -2741,9 +2741,9 @@
   </PIN>
   <PIN pinname="Input 22" visible="1" values="|“El cerro de obsidiana”|">
   </PIN>
-  <PIN pinname="Input 23" visible="1" values="|Temiminaloayan|">
+  <PIN pinname="Input 23" visible="1" values="|“El lugar donde es flecha a la gente”|">
   </PIN>
-  <PIN pinname="Input 24" visible="1">
+  <PIN pinname="Input 24" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|“El lugar del viento de obsidiana”|">
   </PIN>
@@ -2767,7 +2767,7 @@
   </PIN>
   <PIN pinname="Input 35" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
   </PIN>
-  <PIN pinname="Input 36" visible="1">
+  <PIN pinname="Input 36" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
   </PIN>
   <PIN pinname="Input 37" visible="1">
   </PIN>
@@ -2899,7 +2899,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|1.5|">
+  <PIN pinname="X" visible="1" values="|2.2|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|3|">
   </PIN>
@@ -2947,7 +2947,7 @@
   </PIN>
   <PIN pinname="Input 11" visible="1" values="|HotPink|">
   </PIN>
-  <PIN pinname="Input 12" visible="1" values="|DarkGray|">
+  <PIN pinname="Input 12" visible="1" values="|GreenYellow|">
   </PIN>
   <PIN pinname="Input 13" visible="1" values="|DarkOrange|">
   </PIN>
@@ -2971,7 +2971,7 @@
   </PIN>
   <PIN pinname="Input 23" visible="1" values="|HotPink|">
   </PIN>
-  <PIN pinname="Input 24" visible="1" values="|DarkGray|">
+  <PIN pinname="Input 24" visible="1" values="|GreenYellow|">
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|DarkOrange|">
   </PIN>
@@ -2995,7 +2995,7 @@
   </PIN>
   <PIN pinname="Input 35" visible="1" values="|GreenYellow|">
   </PIN>
-  <PIN pinname="Input 36" visible="1" values="|DarkGray|">
+  <PIN pinname="Input 36" visible="1" values="|GreenYellow|">
   </PIN>
   <PIN pinname="Input 37" visible="1" values="|DarkGray|">
   </PIN>
