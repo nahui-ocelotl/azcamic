@@ -1929,7 +1929,7 @@
   </PIN>
   </NODE>
   <NODE id="735" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9465" top="24270" width="100" height="100">
+  <BOUNDS type="Node" left="9450" top="24270" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -1983,15 +1983,15 @@
   </PIN>
   <PIN pinname="Input 26" visible="1">
   </PIN>
-  <PIN pinname="Input 27" visible="1">
+  <PIN pinname="Input 27" visible="1" values="|0.4900000000000002|">
   </PIN>
-  <PIN pinname="Input 28" visible="1">
+  <PIN pinname="Input 28" visible="1" values="|0.24000000000000007|">
   </PIN>
-  <PIN pinname="Input 29" visible="1">
+  <PIN pinname="Input 29" visible="1" values="|-4.5102810375396984e-17|">
   </PIN>
   <PIN pinname="Input 30" visible="1" values="|-0.19999999999999998|">
   </PIN>
-  <PIN pinname="Input 31" visible="1">
+  <PIN pinname="Input 31" visible="1" values="|-0.20000000000000004|">
   </PIN>
   <PIN pinname="Input 32" visible="1">
   </PIN>
@@ -2007,7 +2007,7 @@
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|37|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|rotación|">
   </PIN>
   </NODE>
   <NODE id="736" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
@@ -2065,15 +2065,15 @@
   </PIN>
   <PIN pinname="Input 26" visible="1">
   </PIN>
-  <PIN pinname="Input 27" visible="1">
+  <PIN pinname="Input 27" visible="1" values="|9|">
   </PIN>
-  <PIN pinname="Input 28" visible="1">
+  <PIN pinname="Input 28" visible="1" values="|82|">
   </PIN>
-  <PIN pinname="Input 29" visible="1">
+  <PIN pinname="Input 29" visible="1" values="|136|">
   </PIN>
   <PIN pinname="Input 30" visible="1" values="|-138|">
   </PIN>
-  <PIN pinname="Input 31" visible="1">
+  <PIN pinname="Input 31" visible="1" values="|-27|">
   </PIN>
   <PIN pinname="Input 32" visible="1">
   </PIN>
@@ -2089,7 +2089,7 @@
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|37|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|horizontal|">
   </PIN>
   </NODE>
   <NODE id="737" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
@@ -2147,15 +2147,15 @@
   </PIN>
   <PIN pinname="Input 26" visible="1">
   </PIN>
-  <PIN pinname="Input 27" visible="1">
+  <PIN pinname="Input 27" visible="1" values="|-37|">
   </PIN>
-  <PIN pinname="Input 28" visible="1">
+  <PIN pinname="Input 28" visible="1" values="|-61|">
   </PIN>
-  <PIN pinname="Input 29" visible="1">
+  <PIN pinname="Input 29" visible="1" values="|-70|">
   </PIN>
-  <PIN pinname="Input 30" visible="1" values="|-0.27|">
+  <PIN pinname="Input 30" visible="1" values="|-0.17999999999999997|">
   </PIN>
-  <PIN pinname="Input 31" visible="1">
+  <PIN pinname="Input 31" visible="1" values="|-41|">
   </PIN>
   <PIN pinname="Input 32" visible="1">
   </PIN>
@@ -2171,7 +2171,7 @@
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|37|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|profundidad|">
   </PIN>
   </NODE>
   <NODE id="738" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
