@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="9420" height="37305">
+  <BOUNDS type="Window" width="28545" height="37305">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -1931,7 +1931,7 @@
   <NODE id="735" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="9450" top="24270" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|-0.43999999999999995|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-0.442|">
   </PIN>
@@ -2005,7 +2005,9 @@
   </PIN>
   <PIN pinname="Input 37" visible="1" values="|0.05999999999999995|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|37|">
+  <PIN pinname="Input 38" visible="1" values="|-0.43999999999999995|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|rotación|">
   </PIN>
@@ -2013,7 +2015,7 @@
   <NODE id="736" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="9450" top="25275" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|-13.5|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|54|">
   </PIN>
@@ -2087,7 +2089,9 @@
   </PIN>
   <PIN pinname="Input 37" visible="1" values="|-156|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|37|">
+  <PIN pinname="Input 38" visible="1" values="|-13.5|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|horizontal|">
   </PIN>
@@ -2095,7 +2099,7 @@
   <NODE id="737" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="9450" top="26295" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|-61|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-54|">
   </PIN>
@@ -2169,7 +2173,9 @@
   </PIN>
   <PIN pinname="Input 37" visible="1" values="|-45|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|37|">
+  <PIN pinname="Input 38" visible="1" values="|-61|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|profundidad|">
   </PIN>
@@ -2477,7 +2483,7 @@
   </PIN>
   </NODE>
   <NODE id="761" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17625" top="32595" width="100" height="100">
+  <BOUNDS type="Node" left="18915" top="33030" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2511,9 +2517,9 @@
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1" values="|bottom|">
+  <PIN pinname="Property Name" visible="1" values="|top|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|20%|">
+  <PIN pinname="Property Value" visible="1" values="|30%|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2525,7 +2531,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|left|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|13%|">
+  <PIN pinname="Property Value" visible="1" values="|3%|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2537,7 +2543,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|width|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|480|">
+  <PIN pinname="Property Value" visible="1" values="|440|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2549,7 +2555,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|height|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|100|">
+  <PIN pinname="Property Value" visible="1" values="|400|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2584,26 +2590,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="772" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17025" top="35250" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Tag Name" visible="1" values="|h1|">
-  </PIN>
-  <PIN pinname="Parent" visible="1">
-  </PIN>
-  <PIN pinname="Text" visible="1">
-  </PIN>
-  <PIN pinname="Enabled" visible="1">
-  </PIN>
-  <PIN pinname="Attribute Names" visible="0" values="||">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="773" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17460" top="31920" width="100" height="100">
+  <BOUNDS type="Node" left="18735" top="31890" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2691,7 +2679,9 @@
   </PIN>
   <PIN pinname="Input 37" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|37|">
+  <PIN pinname="Input 38" visible="1" values="|Ixtepetl|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2699,99 +2689,89 @@
   <NODE id="775" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="9810" top="32235" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|“Sobre la tierra&quot;|">
+  <PIN pinname="Input 1" visible="1" values="|Sobre la tierra|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|“El lugar donde se encuentran los cerros”|">
+  <PIN pinname="Input 2" visible="1" values="|El lugar donde se encuentran los cerros|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|“El cerro de obsidiana”|">
+  <PIN pinname="Input 3" visible="1" values="|El cerro de obsidiana|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|“El lugar del viento de obsidiana”|">
+  <PIN pinname="Input 4" visible="1" values="|El lugar del viento de obsidiana|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|“El lugar del viento de obsidiana”|">
+  <PIN pinname="Input 5" visible="1" values="|El lugar del viento de obsidiana|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
+  <PIN pinname="Input 6" visible="1" values="|El lugar donde los hombres revolotean como banderas|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
+  <PIN pinname="Input 7" visible="1" values="|El lugar donde los hombres revolotean como banderas|">
   </PIN>
-  <PIN pinname="Input 8" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
+  <PIN pinname="Input 8" visible="1" values="|El lugar donde los hombres revolotean como banderas|">
   </PIN>
-  <PIN pinname="Input 9" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
+  <PIN pinname="Input 9" visible="1" values="|El lugar donde los hombres revolotean como banderas|">
   </PIN>
-  <PIN pinname="Input 10" visible="1" values="|“El lugar donde es flecha a la gente”|">
+  <PIN pinname="Input 10" visible="1" values="|El lugar donde es flecha a la gente|">
   </PIN>
-  <PIN pinname="Input 11" visible="1" values="|“El lugar donde es flecha a la gente”|">
+  <PIN pinname="Input 11" visible="1" values="|El lugar donde es flecha a la gente|">
   </PIN>
-  <PIN pinname="Input 12" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
+  <PIN pinname="Input 12" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
   </PIN>
-  <PIN pinname="Input 13" visible="1" values="|“El lugar del viento de obsidiana”|">
+  <PIN pinname="Input 13" visible="1" values="|El lugar del viento de obsidiana|">
   </PIN>
-  <PIN pinname="Input 14" visible="1" values="|“El pasadero del agua”|">
+  <PIN pinname="Input 14" visible="1" values="|El pasadero del agua|">
   </PIN>
-  <PIN pinname="Input 15" visible="1" values="|“El lugar donde se encuentran los cerros”|">
+  <PIN pinname="Input 15" visible="1" values="|El lugar donde se encuentran los cerros|">
   </PIN>
-  <PIN pinname="Input 16" visible="1" values="|“El cerro de obsidiana”|">
+  <PIN pinname="Input 16" visible="1" values="|El cerro de obsidiana|">
   </PIN>
-  <PIN pinname="Input 17" visible="1" values="|“El lugar del viento de obsidiana”|">
+  <PIN pinname="Input 17" visible="1" values="|El lugar del viento de obsidiana|">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
+  <PIN pinname="Input 18" visible="1" values="|El lugar donde los hombres revolotean como banderas|">
   </PIN>
-  <PIN pinname="Input 19" visible="1" values="|“El lugar donde los hombres revolotean como banderas”|">
+  <PIN pinname="Input 19" visible="1" values="|El lugar donde los hombres revolotean como banderas|">
   </PIN>
-  <PIN pinname="Input 20" visible="1" values="|“El lugar donde es flecha a la gente”|">
+  <PIN pinname="Input 20" visible="1" values="|El lugar donde es flecha a la gente|">
   </PIN>
-  <PIN pinname="Input 21" visible="1" values="|“El pasadero del agua”|">
+  <PIN pinname="Input 21" visible="1" values="|El pasadero del agua|">
   </PIN>
-  <PIN pinname="Input 22" visible="1" values="|“El cerro de obsidiana”|">
+  <PIN pinname="Input 22" visible="1" values="|El cerro de obsidiana|">
   </PIN>
-  <PIN pinname="Input 23" visible="1" values="|“El lugar donde es flecha a la gente”|">
+  <PIN pinname="Input 23" visible="1" values="|El lugar donde es flecha a la gente|">
   </PIN>
-  <PIN pinname="Input 24" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
+  <PIN pinname="Input 24" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
   </PIN>
-  <PIN pinname="Input 25" visible="1" values="|“El lugar del viento de obsidiana”|">
+  <PIN pinname="Input 25" visible="1" values="|El lugar del viento de obsidiana|">
   </PIN>
-  <PIN pinname="Input 26" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
+  <PIN pinname="Input 26" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
   </PIN>
-  <PIN pinname="Input 27" visible="1" values="|“Sobre la tierra&quot;|">
+  <PIN pinname="Input 27" visible="1" values="|Sobre la tierra|">
   </PIN>
-  <PIN pinname="Input 28" visible="1" values="|“El cerro de obsidiana”|">
+  <PIN pinname="Input 28" visible="1" values="|El cerro de obsidiana|">
   </PIN>
-  <PIN pinname="Input 29" visible="1" values="|“El cerro de obsidiana”|">
+  <PIN pinname="Input 29" visible="1" values="|El cerro de obsidiana|">
   </PIN>
-  <PIN pinname="Input 30" visible="1" values="|“El pasadero del agua”|">
+  <PIN pinname="Input 30" visible="1" values="|El pasadero del agua|">
   </PIN>
-  <PIN pinname="Input 31" visible="1" values="|“El pasadero del agua”|">
+  <PIN pinname="Input 31" visible="1" values="|El pasadero del agua|">
   </PIN>
-  <PIN pinname="Input 32" visible="1" values="|“El lugar donde es flecha a la gente”|">
+  <PIN pinname="Input 32" visible="1" values="|El lugar donde es flecha a la gente|">
   </PIN>
-  <PIN pinname="Input 33" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
+  <PIN pinname="Input 33" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
   </PIN>
-  <PIN pinname="Input 34" visible="1" values="|“El sitio de obsidiana de los muertos”|">
+  <PIN pinname="Input 34" visible="1" values="|El sitio de obsidiana de los muertos|">
   </PIN>
-  <PIN pinname="Input 35" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
+  <PIN pinname="Input 35" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
   </PIN>
-  <PIN pinname="Input 36" visible="1" values="|“El lugar donde son comidos los corazones de la gente”|">
+  <PIN pinname="Input 36" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
   </PIN>
   <PIN pinname="Input 37" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|37|">
+  <PIN pinname="Input 38" visible="1" values="|El cerro de obsidiana|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="777" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="12690" top="33585" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Bin Size" visible="1">
-  </PIN>
-  <PIN pinname="Index" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="778" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13380" top="34545" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -2927,7 +2907,7 @@
   <NODE id="789" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="20175" top="29910" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|Gold|">
+  <PIN pinname="Input 1" visible="1" values="|DarkSeaGreen|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|DarkSeaGreen|">
   </PIN>
@@ -3001,13 +2981,15 @@
   </PIN>
   <PIN pinname="Input 37" visible="1" values="|DarkGray|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|37|">
+  <PIN pinname="Input 38" visible="1" values="|Gold|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="790" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20670" top="31755" width="100" height="100">
+  <BOUNDS type="Node" left="19065" top="30450" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -3057,7 +3039,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-18.3|">
+  <PIN pinname="X" visible="1" values="|-19|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|1|">
   </PIN>
@@ -3105,7 +3087,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|1|">
+  <PIN pinname="X" visible="1" values="|0.75|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|2|">
   </PIN>
@@ -3150,6 +3132,30 @@
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="802" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8655" top="33000" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="803" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="8385" top="31005" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ nahuatl / caxtilan|">
   </PIN>
   </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
@@ -3518,21 +3524,11 @@
   </LINK>
   <LINK srcnodeid="761" srcpinname="Layers Out" dstnodeid="771" dstpinname="Parent">
   </LINK>
-  <LINK srcnodeid="771" srcpinname="Layers Out" dstnodeid="772" dstpinname="Parent">
-  </LINK>
   <LINK srcnodeid="773" srcpinname="Style Out" dstnodeid="761" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="774" srcpinname="Output" dstnodeid="777" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="777" dstpinname="Index">
   </LINK>
-  <LINK srcnodeid="775" srcpinname="Output" dstnodeid="778" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="778" dstpinname="Index">
-  </LINK>
   <LINK srcnodeid="777" srcpinname="Output" dstnodeid="771" dstpinname="Text">
-  </LINK>
-  <LINK srcnodeid="778" srcpinname="Output" dstnodeid="772" dstpinname="Text">
   </LINK>
   <LINK srcnodeid="768" srcpinname="Style Out" dstnodeid="779" dstpinname="Style In">
   </LINK>
@@ -3579,5 +3575,13 @@
   <LINK srcnodeid="800" srcpinname="Output" dstnodeid="801" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="801" srcpinname="Output" dstnodeid="792" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="803" srcpinname="Y Output Value" dstnodeid="802" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="774" srcpinname="Output" dstnodeid="802" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="775" srcpinname="Output" dstnodeid="802" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="802" srcpinname="Output" dstnodeid="777" dstpinname="Input">
   </LINK>
   </PATCH>
