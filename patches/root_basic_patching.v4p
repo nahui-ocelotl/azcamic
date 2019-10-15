@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28050" height="37695">
+  <BOUNDS type="Window" width="28545" height="37695">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -2205,7 +2205,7 @@
   </PIN>
   </NODE>
   <NODE id="740" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7155" top="27660" width="100" height="100">
+  <BOUNDS type="Node" left="7125" top="27795" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2241,7 +2241,7 @@
   </PIN>
   </NODE>
   <NODE id="744" nodename="GetSlice (Spreads)" systemname="GetSlice (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8070" top="26820" width="100" height="100">
+  <BOUNDS type="Node" left="7830" top="26400" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -3039,7 +3039,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-19|">
+  <PIN pinname="X" visible="1">
   </PIN>
   <PIN pinname="Y" visible="1" values="|1|">
   </PIN>
@@ -3111,7 +3111,7 @@
   </PIN>
   </NODE>
   <NODE id="800" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25815" top="26730" width="100" height="100">
+  <BOUNDS type="Node" left="26940" top="26505" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -3123,7 +3123,7 @@
   </PIN>
   </NODE>
   <NODE id="801" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26325" top="27375" width="100" height="100">
+  <BOUNDS type="Node" left="27450" top="27150" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -3256,6 +3256,30 @@
   <PIN pinname="Default 1" visible="1">
   </PIN>
   <PIN pinname="Initialize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="813" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26055" top="26595" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="814" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26565" top="27240" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3562,11 +3586,7 @@
   </LINK>
   <LINK srcnodeid="736" srcpinname="Output" dstnodeid="743" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="743" srcpinname="Output" dstnodeid="739" dstpinname="Input 2">
-  </LINK>
   <LINK srcnodeid="737" srcpinname="Output" dstnodeid="744" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="744" srcpinname="Output" dstnodeid="740" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="727" srcpinname="Output" dstnodeid="745" dstpinname="Input">
   </LINK>
@@ -3674,8 +3694,6 @@
   </LINK>
   <LINK srcnodeid="800" srcpinname="Output" dstnodeid="801" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="801" srcpinname="Output" dstnodeid="792" dstpinname="Z">
-  </LINK>
   <LINK srcnodeid="803" srcpinname="Y Output Value" dstnodeid="802" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="774" srcpinname="Output" dstnodeid="802" dstpinname="Input 1">
@@ -3705,5 +3723,17 @@
   <LINK srcnodeid="811" srcpinname="Output" dstnodeid="812" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="812" srcpinname="Output 1" dstnodeid="804" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="813" srcpinname="Output" dstnodeid="814" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="translateX" dstnodeid="813" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="814" srcpinname="Output" dstnodeid="792" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="801" srcpinname="Output" dstnodeid="792" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="743" srcpinname="Output" dstnodeid="739" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="744" srcpinname="Output" dstnodeid="740" dstpinname="Input 2">
   </LINK>
   </PATCH>
