@@ -238,10 +238,10 @@ button {
   height: auto;
 }
 
-.fi {
-  top: 51%;
+.entrada {
+  top: 81%;
   left: 42.5%;
-  background-color: Gold ;
+  background-color: GreenYellow ; 
 }    
 
 .a {
@@ -480,4 +480,10 @@ background-color: GreenYellow ;
   width: 10%;    
   height: 22%;
   background-color: Tan ; 
+}
+
+.fi {
+  top: 51%;
+  left: 42.5%;
+  background-color: Gold ;
 }
