@@ -1495,7 +1495,7 @@
   </PIN>
   </NODE>
   <NODE id="621" nodename="nav.v4p" systemname="nav" filename="nav.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5460" top="26025" width="100" height="100">
+  <BOUNDS type="Node" left="5280" top="25860" width="100" height="100">
   </BOUNDS>
   <PIN pinname="reset" visible="1">
   </PIN>
@@ -3000,40 +3000,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="791" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="25950" top="25335" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Render State" visible="1">
-  </PIN>
-  <PIN pinname="Mesh" visible="1">
-  </PIN>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="Technique" visible="1">
-  </PIN>
-  <PIN pinname="VS Defines" visible="1">
-  </PIN>
-  <PIN pinname="PS Defines" visible="1">
-  </PIN>
-  <PIN pinname="Light Direction XYZ" visible="1">
-  </PIN>
-  <PIN pinname="Ambient Color" visible="1">
-  </PIN>
-  <PIN pinname="Diffuse Color" visible="1">
-  </PIN>
-  <PIN pinname="Specular Color" visible="1">
-  </PIN>
-  <PIN pinname="Power" visible="1">
-  </PIN>
-  <PIN pinname="Texture" visible="1">
-  </PIN>
-  <PIN pinname="Texture Transform" visible="1">
-  </PIN>
-  <PIN pinname="Alpha" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="792" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
   <BOUNDS type="Node" left="26100" top="24150" width="100" height="100">
   </BOUNDS>
@@ -3071,11 +3037,11 @@
   </PIN>
   </NODE>
   <NODE id="795" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="26385" top="22290" width="0" height="0">
+  <BOUNDS type="Box" left="26625" top="20160" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/facade/icampa_cihuatl.png|">
+  <PIN pinname="Input String" visible="1" values="|tex/facade/ixpan_cihuatl.png|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -3111,7 +3077,7 @@
   </PIN>
   </NODE>
   <NODE id="800" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26940" top="26505" width="100" height="100">
+  <BOUNDS type="Node" left="26790" top="21855" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -3123,7 +3089,7 @@
   </PIN>
   </NODE>
   <NODE id="801" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="27450" top="27150" width="100" height="100">
+  <BOUNDS type="Node" left="27300" top="22500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -3261,7 +3227,7 @@
   </PIN>
   </NODE>
   <NODE id="813" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26055" top="26595" width="100" height="100">
+  <BOUNDS type="Node" left="25905" top="21945" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -3273,13 +3239,97 @@
   </PIN>
   </NODE>
   <NODE id="814" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26565" top="27240" width="100" height="100">
+  <BOUNDS type="Node" left="26415" top="22590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="815" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="27765" top="21795" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="816" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="28275" top="22440" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="818" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26100" top="21090" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="819" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="23640" top="20130" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/facade/icampa_cihuatl.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="820" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="26025" top="25905" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
+  <PIN pinname="Light Direction XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1">
+  </PIN>
+  <PIN pinname="Diffuse Color" visible="1">
+  </PIN>
+  <PIN pinname="Specular Color" visible="1">
+  </PIN>
+  <PIN pinname="Power" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3676,19 +3726,7 @@
   </LINK>
   <LINK srcnodeid="790" srcpinname="Output" dstnodeid="779" dstpinname="Property Value">
   </LINK>
-  <LINK srcnodeid="793" srcpinname="Mesh" dstnodeid="791" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="796" srcpinname="Transform Out" dstnodeid="791" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="797" srcpinname="Output" dstnodeid="791" dstpinname="Ambient Color">
-  </LINK>
-  <LINK srcnodeid="794" srcpinname="Texture Out" dstnodeid="791" dstpinname="Texture">
-  </LINK>
-  <LINK srcnodeid="795" srcpinname="Output String" dstnodeid="794" dstpinname="Filename">
-  </LINK>
   <LINK srcnodeid="792" srcpinname="Transform Out" dstnodeid="796" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="791" srcpinname="Layer" dstnodeid="750" dstpinname="Layer 5">
   </LINK>
   <LINK srcnodeid="621" srcpinname="translateZ" dstnodeid="800" dstpinname="Input 1">
   </LINK>
@@ -3735,5 +3773,27 @@
   <LINK srcnodeid="743" srcpinname="Output" dstnodeid="739" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="744" srcpinname="Output" dstnodeid="740" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="815" srcpinname="Output" dstnodeid="816" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="rotateY" dstnodeid="815" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="819" srcpinname="Output String" dstnodeid="818" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="795" srcpinname="Output String" dstnodeid="818" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="818" srcpinname="Output" dstnodeid="794" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="_ tlani" dstnodeid="818" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="793" srcpinname="Mesh" dstnodeid="820" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="796" srcpinname="Transform Out" dstnodeid="820" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="797" srcpinname="Output" dstnodeid="820" dstpinname="Ambient Color">
+  </LINK>
+  <LINK srcnodeid="794" srcpinname="Texture Out" dstnodeid="820" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="820" srcpinname="Layer" dstnodeid="750" dstpinname="Layer 5">
   </LINK>
   </PATCH>
