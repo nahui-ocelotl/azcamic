@@ -67,7 +67,10 @@ body
 	left:0;
 	width: 100vw;
 	height: 100vh;
-        background-color: rgba(255,255,255,0);
+        bac
+	
+	
+	ground-color: rgba(255,255,255,0);
 }
 
 #btn-editor {
@@ -305,6 +308,7 @@ button {
 .k {
   top: 19.5%;
   right: 43.5%;
+  background-color: GreenYellow ;
 }
     
 .l {
@@ -382,6 +386,7 @@ button {
 .x {
   top: 26%;
   right: 32%;
+  background-color: GreenYellow ; 
 }
     
 .azc {
@@ -466,6 +471,7 @@ background-color: GreenYellow ;
   top: 29%;
   right: 20%;
   width: 10%;
+  background-color: GreenYellow ; 
 }
     
 .cdeportivo {
