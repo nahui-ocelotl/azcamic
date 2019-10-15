@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="37305">
+  <BOUNDS type="Window" width="9420" height="37305">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -1931,7 +1931,7 @@
   <NODE id="735" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="9450" top="24270" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
+  <PIN pinname="Input 1" visible="1" values="|-0.43999999999999995|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-0.442|">
   </PIN>
@@ -1939,23 +1939,23 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0.558|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|-0.43999999999999995|">
   </PIN>
-  <PIN pinname="Input 6" visible="1">
+  <PIN pinname="Input 6" visible="1" values="|-0.44000000000000017|">
   </PIN>
-  <PIN pinname="Input 7" visible="1">
+  <PIN pinname="Input 7" visible="1" values="|-0.44000000000000006|">
   </PIN>
-  <PIN pinname="Input 8" visible="1">
+  <PIN pinname="Input 8" visible="1" values="|0.060000000000000005|">
   </PIN>
-  <PIN pinname="Input 9" visible="1">
+  <PIN pinname="Input 9" visible="1" values="|-0.43999999999999984|">
   </PIN>
-  <PIN pinname="Input 10" visible="1">
+  <PIN pinname="Input 10" visible="1" values="|-0.44100000000000006|">
   </PIN>
-  <PIN pinname="Input 11" visible="1">
+  <PIN pinname="Input 11" visible="1" values="|-0.44200000000000017|">
   </PIN>
-  <PIN pinname="Input 12" visible="1">
+  <PIN pinname="Input 12" visible="1" values="|0.05380000000000004|">
   </PIN>
-  <PIN pinname="Input 13" visible="1">
+  <PIN pinname="Input 13" visible="1" values="|0.32000000000000023|">
   </PIN>
   <PIN pinname="Input 14" visible="1" values="|-0.44999999999999984|">
   </PIN>
@@ -1965,45 +1965,45 @@
   </PIN>
   <PIN pinname="Input 17" visible="1">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|-0.45000000000000007|">
+  <PIN pinname="Input 18" visible="1" values="|0.5500000000000002|">
   </PIN>
   <PIN pinname="Input 19" visible="1" values="|-0.442|">
   </PIN>
-  <PIN pinname="Input 20" visible="1">
+  <PIN pinname="Input 20" visible="1" values="|-0.43999999999999984|">
   </PIN>
   <PIN pinname="Input 21" visible="1" values="|-0.442|">
   </PIN>
-  <PIN pinname="Input 22" visible="1">
+  <PIN pinname="Input 22" visible="1" values="|-0.19999999999999984|">
   </PIN>
-  <PIN pinname="Input 23" visible="1">
+  <PIN pinname="Input 23" visible="1" values="|-0.2|">
   </PIN>
-  <PIN pinname="Input 24" visible="1">
+  <PIN pinname="Input 24" visible="1" values="|0.56|">
   </PIN>
-  <PIN pinname="Input 25" visible="1">
+  <PIN pinname="Input 25" visible="1" values="|0.31000000000000005|">
   </PIN>
-  <PIN pinname="Input 26" visible="1">
+  <PIN pinname="Input 26" visible="1" values="|0.55|">
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|0.4900000000000002|">
   </PIN>
-  <PIN pinname="Input 28" visible="1" values="|0.24000000000000007|">
+  <PIN pinname="Input 28" visible="1" values="|0.06000000000000003|">
   </PIN>
-  <PIN pinname="Input 29" visible="1" values="|-4.5102810375396984e-17|">
+  <PIN pinname="Input 29" visible="1" values="|0.04999999999999996|">
   </PIN>
   <PIN pinname="Input 30" visible="1" values="|-0.19999999999999998|">
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|-0.20000000000000004|">
   </PIN>
-  <PIN pinname="Input 32" visible="1">
+  <PIN pinname="Input 32" visible="1" values="|-0.9420000000000004|">
   </PIN>
-  <PIN pinname="Input 33" visible="1">
+  <PIN pinname="Input 33" visible="1" values="|-0.9400000000000004|">
   </PIN>
-  <PIN pinname="Input 34" visible="1">
+  <PIN pinname="Input 34" visible="1" values="|1.0500000000000005|">
   </PIN>
-  <PIN pinname="Input 35" visible="1">
+  <PIN pinname="Input 35" visible="1" values="|0.5499999999999999|">
   </PIN>
-  <PIN pinname="Input 36" visible="1">
+  <PIN pinname="Input 36" visible="1" values="|0.05|">
   </PIN>
-  <PIN pinname="Input 37" visible="1">
+  <PIN pinname="Input 37" visible="1" values="|0.05999999999999995|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|37|">
   </PIN>
@@ -2013,7 +2013,7 @@
   <NODE id="736" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="9450" top="25275" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
+  <PIN pinname="Input 1" visible="1" values="|-13.5|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|54|">
   </PIN>
@@ -2021,71 +2021,71 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|36|">
   </PIN>
-  <PIN pinname="Input 6" visible="1">
+  <PIN pinname="Input 6" visible="1" values="|29|">
   </PIN>
-  <PIN pinname="Input 7" visible="1">
+  <PIN pinname="Input 7" visible="1" values="|80|">
   </PIN>
-  <PIN pinname="Input 8" visible="1">
+  <PIN pinname="Input 8" visible="1" values="|80|">
   </PIN>
-  <PIN pinname="Input 9" visible="1">
+  <PIN pinname="Input 9" visible="1" values="|-19|">
   </PIN>
-  <PIN pinname="Input 10" visible="1">
+  <PIN pinname="Input 10" visible="1" values="|-30|">
   </PIN>
-  <PIN pinname="Input 11" visible="1">
+  <PIN pinname="Input 11" visible="1" values="|-29|">
   </PIN>
-  <PIN pinname="Input 12" visible="1">
+  <PIN pinname="Input 12" visible="1" values="|-55|">
   </PIN>
-  <PIN pinname="Input 13" visible="1">
+  <PIN pinname="Input 13" visible="1" values="|-47|">
   </PIN>
-  <PIN pinname="Input 14" visible="1" values="|-77|">
+  <PIN pinname="Input 14" visible="1" values="|-81|">
   </PIN>
-  <PIN pinname="Input 15" visible="1" values="|-87|">
+  <PIN pinname="Input 15" visible="1" values="|-92|">
   </PIN>
   <PIN pinname="Input 16" visible="1" values="|-76|">
   </PIN>
   <PIN pinname="Input 17" visible="1">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|-79|">
+  <PIN pinname="Input 18" visible="1" values="|-72|">
   </PIN>
   <PIN pinname="Input 19" visible="1" values="|-66.68|">
   </PIN>
-  <PIN pinname="Input 20" visible="1">
+  <PIN pinname="Input 20" visible="1" values="|-78|">
   </PIN>
   <PIN pinname="Input 21" visible="1" values="|-101|">
   </PIN>
-  <PIN pinname="Input 22" visible="1">
+  <PIN pinname="Input 22" visible="1" values="|-119|">
   </PIN>
-  <PIN pinname="Input 23" visible="1">
+  <PIN pinname="Input 23" visible="1" values="|-102|">
   </PIN>
-  <PIN pinname="Input 24" visible="1">
+  <PIN pinname="Input 24" visible="1" values="|-106|">
   </PIN>
-  <PIN pinname="Input 25" visible="1">
+  <PIN pinname="Input 25" visible="1" values="|59|">
   </PIN>
-  <PIN pinname="Input 26" visible="1">
+  <PIN pinname="Input 26" visible="1" values="|-115|">
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|9|">
   </PIN>
-  <PIN pinname="Input 28" visible="1" values="|82|">
+  <PIN pinname="Input 28" visible="1" values="|105|">
   </PIN>
-  <PIN pinname="Input 29" visible="1" values="|136|">
+  <PIN pinname="Input 29" visible="1" values="|121|">
   </PIN>
   <PIN pinname="Input 30" visible="1" values="|-138|">
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|-27|">
   </PIN>
-  <PIN pinname="Input 32" visible="1">
+  <PIN pinname="Input 32" visible="1" values="|16|">
   </PIN>
-  <PIN pinname="Input 33" visible="1">
+  <PIN pinname="Input 33" visible="1" values="|-85|">
   </PIN>
-  <PIN pinname="Input 34" visible="1">
+  <PIN pinname="Input 34" visible="1" values="|-160|">
   </PIN>
-  <PIN pinname="Input 35" visible="1">
+  <PIN pinname="Input 35" visible="1" values="|-149|">
   </PIN>
-  <PIN pinname="Input 36" visible="1">
+  <PIN pinname="Input 36" visible="1" values="|-178|">
   </PIN>
-  <PIN pinname="Input 37" visible="1">
+  <PIN pinname="Input 37" visible="1" values="|-156|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|37|">
   </PIN>
@@ -2093,81 +2093,81 @@
   </PIN>
   </NODE>
   <NODE id="737" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9465" top="26295" width="100" height="100">
+  <BOUNDS type="Node" left="9450" top="26295" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|0|">
+  <PIN pinname="Input 1" visible="1" values="|-61|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-51.5|">
+  <PIN pinname="Input 2" visible="1" values="|-54|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|-49|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|-77.5|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|-87|">
   </PIN>
-  <PIN pinname="Input 6" visible="1">
+  <PIN pinname="Input 6" visible="1" values="|-101|">
   </PIN>
-  <PIN pinname="Input 7" visible="1">
+  <PIN pinname="Input 7" visible="1" values="|-115|">
   </PIN>
-  <PIN pinname="Input 8" visible="1">
+  <PIN pinname="Input 8" visible="1" values="|-111|">
   </PIN>
-  <PIN pinname="Input 9" visible="1">
+  <PIN pinname="Input 9" visible="1" values="|-85|">
   </PIN>
-  <PIN pinname="Input 10" visible="1">
+  <PIN pinname="Input 10" visible="1" values="|-94|">
   </PIN>
-  <PIN pinname="Input 11" visible="1">
+  <PIN pinname="Input 11" visible="1" values="|-108|">
   </PIN>
-  <PIN pinname="Input 12" visible="1">
+  <PIN pinname="Input 12" visible="1" values="|-100|">
   </PIN>
-  <PIN pinname="Input 13" visible="1">
+  <PIN pinname="Input 13" visible="1" values="|-56|">
   </PIN>
-  <PIN pinname="Input 14" visible="1" values="|-23|">
+  <PIN pinname="Input 14" visible="1" values="|-24.1|">
   </PIN>
-  <PIN pinname="Input 15" visible="1" values="|-32|">
+  <PIN pinname="Input 15" visible="1" values="|-34|">
   </PIN>
   <PIN pinname="Input 16" visible="1" values="|-46|">
   </PIN>
   <PIN pinname="Input 17" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 18" visible="1" values="|-66|">
+  <PIN pinname="Input 18" visible="1" values="|-69|">
   </PIN>
   <PIN pinname="Input 19" visible="1" values="|-83.5|">
   </PIN>
-  <PIN pinname="Input 20" visible="1">
+  <PIN pinname="Input 20" visible="1" values="|-98|">
   </PIN>
   <PIN pinname="Input 21" visible="1" values="|-18|">
   </PIN>
-  <PIN pinname="Input 22" visible="1">
+  <PIN pinname="Input 22" visible="1" values="|-25|">
   </PIN>
-  <PIN pinname="Input 23" visible="1">
+  <PIN pinname="Input 23" visible="1" values="|-77|">
   </PIN>
-  <PIN pinname="Input 24" visible="1">
+  <PIN pinname="Input 24" visible="1" values="|-110|">
   </PIN>
-  <PIN pinname="Input 25" visible="1">
+  <PIN pinname="Input 25" visible="1" values="|-80|">
   </PIN>
-  <PIN pinname="Input 26" visible="1">
+  <PIN pinname="Input 26" visible="1" values="|-130|">
   </PIN>
-  <PIN pinname="Input 27" visible="1" values="|-37|">
+  <PIN pinname="Input 27" visible="1" values="|-36|">
   </PIN>
-  <PIN pinname="Input 28" visible="1" values="|-61|">
+  <PIN pinname="Input 28" visible="1" values="|-58|">
   </PIN>
-  <PIN pinname="Input 29" visible="1" values="|-70|">
+  <PIN pinname="Input 29" visible="1" values="|-69|">
   </PIN>
-  <PIN pinname="Input 30" visible="1" values="|-0.17999999999999997|">
+  <PIN pinname="Input 30" visible="1" values="|-5|">
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|-41|">
   </PIN>
-  <PIN pinname="Input 32" visible="1">
+  <PIN pinname="Input 32" visible="1" values="|-99|">
   </PIN>
-  <PIN pinname="Input 33" visible="1">
+  <PIN pinname="Input 33" visible="1" values="|-107|">
   </PIN>
-  <PIN pinname="Input 34" visible="1">
+  <PIN pinname="Input 34" visible="1" values="|-114|">
   </PIN>
-  <PIN pinname="Input 35" visible="1">
+  <PIN pinname="Input 35" visible="1" values="|-117|">
   </PIN>
-  <PIN pinname="Input 36" visible="1">
+  <PIN pinname="Input 36" visible="1" values="|-93|">
   </PIN>
-  <PIN pinname="Input 37" visible="1">
+  <PIN pinname="Input 37" visible="1" values="|-45|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|37|">
   </PIN>
