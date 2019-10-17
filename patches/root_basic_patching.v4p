@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="25575" height="51585">
+  <BOUNDS type="Window" width="28545" height="51585">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -2487,7 +2487,7 @@
   </PIN>
   <PIN pinname="Input 15" visible="1" values="|Apanohuayan|">
   </PIN>
-  <PIN pinname="Input 16" visible="1" values="|Iztepetl|">
+  <PIN pinname="Input 16" visible="1" values="|Tepetl Monamiquian|">
   </PIN>
   <PIN pinname="Input 17" visible="1" values="|Itzehecayan|">
   </PIN>
@@ -2529,9 +2529,9 @@
   </PIN>
   <PIN pinname="Input 36" visible="1" values="|Teyollocualoyan|">
   </PIN>
-  <PIN pinname="Input 37" visible="1">
+  <PIN pinname="Input 37" visible="1" values="|Tepetl Monamiquian|">
   </PIN>
-  <PIN pinname="Input 38" visible="1" values="|Ixtepetl|">
+  <PIN pinname="Input 38" visible="1" values="|Tepetl Monamiquian|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
@@ -2571,7 +2571,7 @@
   </PIN>
   <PIN pinname="Input 15" visible="1" values="|El pasadero del agua|">
   </PIN>
-  <PIN pinname="Input 16" visible="1" values="|El cerro de obsidiana|">
+  <PIN pinname="Input 16" visible="1" values="|El lugar donde se encuentran los cerros|">
   </PIN>
   <PIN pinname="Input 17" visible="1" values="|El lugar del viento de obsidiana|">
   </PIN>
@@ -2613,9 +2613,9 @@
   </PIN>
   <PIN pinname="Input 36" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
   </PIN>
-  <PIN pinname="Input 37" visible="1">
+  <PIN pinname="Input 37" visible="1" values="|El lugar donde se encuentran los cerros|">
   </PIN>
-  <PIN pinname="Input 38" visible="1" values="|El cerro de obsidiana|">
+  <PIN pinname="Input 38" visible="1" values="|El lugar donde se encuentran los cerros|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
@@ -2831,7 +2831,7 @@
   </PIN>
   <PIN pinname="Input 36" visible="1" values="|Khaki |">
   </PIN>
-  <PIN pinname="Input 37" visible="1" values="|MediumPurple |">
+  <PIN pinname="Input 37" visible="1" values="|LightSalmon |">
   </PIN>
   <PIN pinname="Input 38" visible="1" values="|LightSalmon |">
   </PIN>
@@ -3205,7 +3205,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|tex/facade/tlalli.jpg|">
   </PIN>
-  <PIN pinname="Input 2" visible="1">
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
   <PIN pinname="Input 3" visible="1">
   </PIN>
@@ -3233,7 +3233,7 @@
   </PIN>
   <PIN pinname="Input 15" visible="1" values="|tex/facade/atl.jpg|">
   </PIN>
-  <PIN pinname="Input 16" visible="1">
+  <PIN pinname="Input 16" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
   <PIN pinname="Input 17" visible="1">
   </PIN>
@@ -3275,9 +3275,9 @@
   </PIN>
   <PIN pinname="Input 36" visible="1">
   </PIN>
-  <PIN pinname="Input 37" visible="1">
+  <PIN pinname="Input 37" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
-  <PIN pinname="Input 38" visible="1" values="|tex/facade/tlalli.jpg|">
+  <PIN pinname="Input 38" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
