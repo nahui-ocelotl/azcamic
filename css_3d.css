@@ -241,74 +241,61 @@ button {
 .entrada {
   bottom: 25%;
   left: 42.5%;
-  background-color: DarkSeaGreen ; 
 }    
 
 .a {
   top: 52%;
   left: 32%;
-  background-color: DarkSeaGreen ;
 }
     
 .b {
   top: 46.7%;
   left: 34%;
-  background-color: Gold ;
 }
     
 .c {
   top: 42%;
   left: 41%;
-  background-color: DarkOrange ; 
-	
 }
     
 .d {
   top: 37%;
   left: 36%;
-  background-color: DarkOrange ; 
 }
     
 .e {
   top: 31.5%;
-  left: 37%;
-  background-color: MediumPurple  ; 	 
+  left: 37%;	 
 }
 
 .f {
   top: 24.5%;
-  left: 28%;
-  background-color: MediumPurple  ; 	 
+  left: 28%;	 
 }
     
 .g {
   top: 19.5%;
-  left: 28%;
-  background-color: MediumPurple  ; 	 
+  left: 28%; 
 }
 
 .h {
   top: 37%;
-  left: 45%;
-  background-color: MediumPurple  ; 	 
+  left: 45%;	 
 }
     
 .i {
   top: 31.5%;
-  left: 46%;
-  background-color: HotPink ;	
+  left: 46%;	
 }
     
 .j {
   top: 26%;
-  left: 46%;
-  background-color: HotPink ;	
+  left: 46%;	
 }
     
 .k {
   top: 19.5%;
   right: 43.5%;
-  background-color: GreenYellow ;
 }
     
 .l {
@@ -316,55 +303,46 @@ button {
   left: 51%;
   width: 2%;
   height: 10%;
-  background-color: DarkOrange ; 
 }
     
 .m {
   bottom: 30%;
-  right: 39%;
-  background-color: Tomato ;	 
+  right: 39%; 
 }
     
 .n {
   bottom: 35%;
   right: 36%;
-  background-color: DarkSeaGreen ;
 }
     
 .o {
   bottom: 40%;
   right: 39%;
-  background-color: Gold ;
 }
     
 .p {
   bottom: 45%;
   right: 33%;
-  background-color: DarkOrange ; 
 }
     
 .q {
   bottom: 50%;
-  right: 36%;
-  background-color: MediumPurple  ; 	 
+  right: 36%;	 
 }
     
 .r {
   top: 40%;
-  right: 40%;
-  background-color: MediumPurple  ; 	 
+  right: 40%;	 
 }
     
 .s {
   top: 31.5%;
   right: 37%;
-  background-color: HotPink ;	
 }
     
 .t {
   bottom: 25%;
-  right: 33%;
-  background-color: Tomato ;	 
+  right: 33%; 
 }
 
 .u {
@@ -372,32 +350,27 @@ button {
   right: 32%;
   width: 2%;
   height: 10%;
-  background-color: Tomato ;
 }
     
 .w {
   top: 35%;
   right: 34%;
   width: 2%;
-  height: 10%;
-  background-color: HotPink ;	
+  height: 10%;	
 }
     
 .x {
   top: 26%;
   right: 32%;
-  background-color: GreenYellow ; 
 }
     
 .azc {
   top: 21%;
   right: 31%;
   width: 4%;
-background-color: GreenYellow ; 
 }
     
 .z {
-  background-color: DarkOrange ; 
   top: 35%;
   left: 32%;
   width: 2%;
@@ -405,34 +378,29 @@ background-color: GreenYellow ;
 }
     
 .direccion {
-  background-color: DarkSeaGreen;
   bottom: 35%;
   left: 35%;
   width: 9%;
 }
     
 .pec1 {
-  background-color: Gold ;
   top: 42%;
   left: 23%;
 }
     
 .pec2 {
-  background-color: Gold ;
   top: 37%;
   left: 21%;
 }
     
-.biblioteca {
-  background-color: Tomato ;	 
+.biblioteca { 
   bottom: 22%;
   right: 20%;
   width: 10%;    
   height: 12%;
 }
     
-.audiovisual {
-  background-color: DarkSeaGreen ;	 
+.audiovisual {	 
   bottom: 32%;
   right: 48%;
   width: 7%;    
@@ -443,35 +411,30 @@ background-color: GreenYellow ;
   top: 19.5%;
   left: 40%;
   width: 5%;    
-  height: 4%;
-  background-color: HotPink ;	
+  height: 4%;	
 }
     
 .siladin {
   top: 19.5%;
   right: 36%;
-background-color: GreenYellow ; 
 }
     
 .computo {
   top: 19.5%;
   right: 20%;
   width: 10%;   
-  background-color: CornflowerBlue  ; 
 }
     
 .dcultural {
   top: 26%;
   right: 20%;
   width: 10%;
-background-color: GreenYellow ; 
 }
     
 .efisica {
   top: 29%;
   right: 20%;
   width: 10%;
-  background-color: GreenYellow ; 
 }
     
 .cdeportivo {
@@ -479,11 +442,9 @@ background-color: GreenYellow ;
   right: 20%;
   width: 10%;    
   height: 22%;
-  background-color: Tan ; 
 }
 
 .fi {
   top: 51%;
   left: 42.5%;
-  background-color: Gold ;
 }
