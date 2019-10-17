@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="51585">
+  <BOUNDS type="Window" width="20235" height="51585">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -2759,9 +2759,9 @@
   <NODE id="789" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="18660" top="28725" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|Tan|">
+  <PIN pinname="Input 1" visible="1" values="|DarkSeaGreen |">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|LightSalmon |">
+  <PIN pinname="Input 2" visible="1" values="|Tan|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|SlateGray|">
   </PIN>
@@ -2785,11 +2785,11 @@
   </PIN>
   <PIN pinname="Input 13" visible="1" values="|SlateGray|">
   </PIN>
-  <PIN pinname="Input 14" visible="1" values="|Tan|">
+  <PIN pinname="Input 14" visible="1" values="|DarkSeaGreen |">
   </PIN>
   <PIN pinname="Input 15" visible="1" values="|LightSkyBlue |">
   </PIN>
-  <PIN pinname="Input 16" visible="1" values="|LightSalmon |">
+  <PIN pinname="Input 16" visible="1" values="|Tan|">
   </PIN>
   <PIN pinname="Input 17" visible="1" values="|DarkGray|">
   </PIN>
@@ -2799,7 +2799,7 @@
   </PIN>
   <PIN pinname="Input 20" visible="1" values="|Khaki |">
   </PIN>
-  <PIN pinname="Input 21" visible="1" values="|Tan|">
+  <PIN pinname="Input 21" visible="1" values="|DarkSeaGreen |">
   </PIN>
   <PIN pinname="Input 22" visible="1" values="|LightSkyBlue |">
   </PIN>
@@ -2817,7 +2817,7 @@
   </PIN>
   <PIN pinname="Input 29" visible="1" values="|Linen |">
   </PIN>
-  <PIN pinname="Input 30" visible="1" values="|Tan|">
+  <PIN pinname="Input 30" visible="1" values="|DarkSeaGreen |">
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|LightSkyBlue |">
   </PIN>
@@ -2831,9 +2831,9 @@
   </PIN>
   <PIN pinname="Input 36" visible="1" values="|Khaki |">
   </PIN>
-  <PIN pinname="Input 37" visible="1" values="|LightSalmon |">
+  <PIN pinname="Input 37" visible="1" values="|Tan|">
   </PIN>
-  <PIN pinname="Input 38" visible="1" values="|LightSalmon |">
+  <PIN pinname="Input 38" visible="1" values="|Tan|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
@@ -3203,13 +3203,13 @@
   <NODE id="823" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="15810" top="10650" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|tex/facade/tlalli.jpg|">
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|tex/facade/zacatl.jpg|">
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/tlalli.jpg|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/iztli.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/mixtli.jpg|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -3229,21 +3229,21 @@
   </PIN>
   <PIN pinname="Input 13" visible="1" values="|tex/facade/iztli.jpg|">
   </PIN>
-  <PIN pinname="Input 14" visible="1" values="|tex/facade/tlalli.jpg|">
+  <PIN pinname="Input 14" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
   <PIN pinname="Input 15" visible="1" values="|tex/facade/atl.jpg|">
   </PIN>
-  <PIN pinname="Input 16" visible="1" values="|tex/facade/zacatl.jpg|">
+  <PIN pinname="Input 16" visible="1" values="|tex/facade/tlalli.jpg|">
   </PIN>
   <PIN pinname="Input 17" visible="1" values="|tex/facade/iztli.jpg|">
   </PIN>
   <PIN pinname="Input 18" visible="1" values="|tex/facade/iztli.jpg|">
   </PIN>
-  <PIN pinname="Input 19" visible="1">
+  <PIN pinname="Input 19" visible="1" values="|tex/facade/mixtli.jpg|">
   </PIN>
   <PIN pinname="Input 20" visible="1">
   </PIN>
-  <PIN pinname="Input 21" visible="1" values="|tex/facade/tlalli.jpg|">
+  <PIN pinname="Input 21" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
   <PIN pinname="Input 22" visible="1" values="|tex/facade/atl.jpg|">
   </PIN>
@@ -3257,11 +3257,11 @@
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|tex/facade/atl.jpg|">
   </PIN>
-  <PIN pinname="Input 28" visible="1">
+  <PIN pinname="Input 28" visible="1" values="|tex/facade/mixtli.jpg|">
   </PIN>
-  <PIN pinname="Input 29" visible="1">
+  <PIN pinname="Input 29" visible="1" values="||">
   </PIN>
-  <PIN pinname="Input 30" visible="1" values="|tex/facade/tlalli.jpg|">
+  <PIN pinname="Input 30" visible="1" values="|tex/facade/zacatl.jpg|">
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|tex/facade/atl.jpg|">
   </PIN>
@@ -3275,9 +3275,9 @@
   </PIN>
   <PIN pinname="Input 36" visible="1">
   </PIN>
-  <PIN pinname="Input 37" visible="1" values="|tex/facade/zacatl.jpg|">
+  <PIN pinname="Input 37" visible="1" values="|tex/facade/tlalli.jpg|">
   </PIN>
-  <PIN pinname="Input 38" visible="1" values="|tex/facade/zacatl.jpg|">
+  <PIN pinname="Input 38" visible="1" values="|tex/facade/tlalli.jpg|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
@@ -3315,7 +3315,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|Tan|">
+  <PIN pinname="Property Value" visible="1" values="|DarkSeaGreen |">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3413,7 +3413,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|LightSalmon |">
+  <PIN pinname="Property Value" visible="1" values="|Tan|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
