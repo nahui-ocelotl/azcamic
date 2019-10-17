@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="51585">
+  <BOUNDS type="Window" width="28545" height="51585">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -1751,7 +1751,7 @@
   </PIN>
   </NODE>
   <NODE id="728" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7890" top="23700" width="0" height="0">
+  <BOUNDS type="Box" left="7845" top="38115" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -3748,6 +3748,390 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="867" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15090" top="37830" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|p|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="869" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14310" top="38445" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|p|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="871" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18240" top="32460" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|font-family|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|Verdana|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="872" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12735" top="36720" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|font-weight|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|normal|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="873" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11595" top="39975" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|¡Bienvenidos al recorrido virtual de CCH Azcapotzalco! Te invitamos a conmemorar una  de las mayores tradiciones de la cultura mexicana a través de un viaje por el inframundo. |">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Los difuntos deben pasar a través de las montañas, si te atrapan te destruirán impidiendo la llegada al inframundo, |">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input 10" visible="1">
+  </PIN>
+  <PIN pinname="Input 11" visible="1">
+  </PIN>
+  <PIN pinname="Input 12" visible="1">
+  </PIN>
+  <PIN pinname="Input 13" visible="1">
+  </PIN>
+  <PIN pinname="Input 14" visible="1" values="|¡Bienvenidos al recorrido virtual de CCH Azcapotzalco! Te invitamos a conmemorar una  de las mayores tradiciones de la cultura mexicana a través de un viaje por el inframundo. |">
+  </PIN>
+  <PIN pinname="Input 15" visible="1" values="|El agua es un puente entre ambos mundos, los difuntos deben atravesar el río montados sobre el lomo de un perro, este se convertirá en su guía durante todo el viaje…|">
+  </PIN>
+  <PIN pinname="Input 16" visible="1" values="|Los difuntos deben pasar a través de las montañas, si te atrapan te destruirán impidiendo la llegada al inframundo, |">
+  </PIN>
+  <PIN pinname="Input 17" visible="1">
+  </PIN>
+  <PIN pinname="Input 18" visible="1">
+  </PIN>
+  <PIN pinname="Input 19" visible="1">
+  </PIN>
+  <PIN pinname="Input 20" visible="1">
+  </PIN>
+  <PIN pinname="Input 21" visible="1" values="|¡Bienvenidos al recorrido virtual de CCH Azcapotzalco! Te invitamos a conmemorar una  de las mayores tradiciones de la cultura mexicana a través de un viaje por el inframundo. |">
+  </PIN>
+  <PIN pinname="Input 22" visible="1" values="|El agua es un puente entre ambos mundos, los difuntos deben atravesar el río montados sobre el lomo de un perro, este se convertirá en su guía durante todo el viaje…|">
+  </PIN>
+  <PIN pinname="Input 23" visible="1">
+  </PIN>
+  <PIN pinname="Input 24" visible="1">
+  </PIN>
+  <PIN pinname="Input 25" visible="1">
+  </PIN>
+  <PIN pinname="Input 26" visible="1">
+  </PIN>
+  <PIN pinname="Input 27" visible="1" values="|El agua es un puente entre ambos mundos, los difuntos deben atravesar el río montados sobre el lomo de un perro, este se convertirá en su guía durante todo el viaje…|">
+  </PIN>
+  <PIN pinname="Input 28" visible="1">
+  </PIN>
+  <PIN pinname="Input 29" visible="1">
+  </PIN>
+  <PIN pinname="Input 30" visible="1" values="|¡Bienvenidos al recorrido virtual de CCH Azcapotzalco! Te invitamos a conmemorar una  de las mayores tradiciones de la cultura mexicana a través de un viaje por el inframundo. |">
+  </PIN>
+  <PIN pinname="Input 31" visible="1" values="|El agua es un puente entre ambos mundos, los difuntos deben atravesar el río montados sobre el lomo de un perro, este se convertirá en su guía durante todo el viaje…|">
+  </PIN>
+  <PIN pinname="Input 32" visible="1">
+  </PIN>
+  <PIN pinname="Input 33" visible="1">
+  </PIN>
+  <PIN pinname="Input 34" visible="1">
+  </PIN>
+  <PIN pinname="Input 35" visible="1">
+  </PIN>
+  <PIN pinname="Input 36" visible="1">
+  </PIN>
+  <PIN pinname="Input 37" visible="1" values="|Los difuntos deben pasar a través de las montañas, si te atrapan te destruirán impidiendo la llegada al inframundo, |">
+  </PIN>
+  <PIN pinname="Input 38" visible="1" values="|Los difuntos deben pasar a través de las montañas, si te atrapan te destruirán impidiendo la llegada al inframundo, |">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="874" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11580" top="41190" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|En este momento te encuentras en el primer paso, el sitio donde la tierra se conecta con el mundo de los muertos…|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|¡Cuidado! |">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input 10" visible="1">
+  </PIN>
+  <PIN pinname="Input 11" visible="1">
+  </PIN>
+  <PIN pinname="Input 12" visible="1">
+  </PIN>
+  <PIN pinname="Input 13" visible="1">
+  </PIN>
+  <PIN pinname="Input 14" visible="1" values="|En este momento te encuentras en el primer paso, el sitio donde la tierra se conecta con el mundo de los muertos…|">
+  </PIN>
+  <PIN pinname="Input 15" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 16" visible="1" values="|¡Cuidado! |">
+  </PIN>
+  <PIN pinname="Input 17" visible="1">
+  </PIN>
+  <PIN pinname="Input 18" visible="1">
+  </PIN>
+  <PIN pinname="Input 19" visible="1">
+  </PIN>
+  <PIN pinname="Input 20" visible="1">
+  </PIN>
+  <PIN pinname="Input 21" visible="1" values="|En este momento te encuentras en el primer paso, el sitio donde la tierra se conecta con el mundo de los muertos…|">
+  </PIN>
+  <PIN pinname="Input 22" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 23" visible="1">
+  </PIN>
+  <PIN pinname="Input 24" visible="1">
+  </PIN>
+  <PIN pinname="Input 25" visible="1">
+  </PIN>
+  <PIN pinname="Input 26" visible="1">
+  </PIN>
+  <PIN pinname="Input 27" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 28" visible="1">
+  </PIN>
+  <PIN pinname="Input 29" visible="1">
+  </PIN>
+  <PIN pinname="Input 30" visible="1" values="|En este momento te encuentras en el primer paso, el sitio donde la tierra se conecta con el mundo de los muertos…|">
+  </PIN>
+  <PIN pinname="Input 31" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 32" visible="1">
+  </PIN>
+  <PIN pinname="Input 33" visible="1">
+  </PIN>
+  <PIN pinname="Input 34" visible="1">
+  </PIN>
+  <PIN pinname="Input 35" visible="1">
+  </PIN>
+  <PIN pinname="Input 36" visible="1">
+  </PIN>
+  <PIN pinname="Input 37" visible="1" values="|¡Cuidado! |">
+  </PIN>
+  <PIN pinname="Input 38" visible="1" values="|¡Cuidado! |">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="875" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11595" top="40650" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="876" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11580" top="41805" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="877" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11625" top="42570" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|¡Diviértete, agregamos personajes que probablemente conoces!...|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Cuando el ave Oactli canta se anuncia la destrucción... |">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input 10" visible="1">
+  </PIN>
+  <PIN pinname="Input 11" visible="1">
+  </PIN>
+  <PIN pinname="Input 12" visible="1">
+  </PIN>
+  <PIN pinname="Input 13" visible="1">
+  </PIN>
+  <PIN pinname="Input 14" visible="1" values="|¡Diviértete, agregamos personajes que probablemente conoces!...|">
+  </PIN>
+  <PIN pinname="Input 15" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 16" visible="1" values="|Cuando el ave Oactli canta se anuncia la destrucción... |">
+  </PIN>
+  <PIN pinname="Input 17" visible="1">
+  </PIN>
+  <PIN pinname="Input 18" visible="1">
+  </PIN>
+  <PIN pinname="Input 19" visible="1">
+  </PIN>
+  <PIN pinname="Input 20" visible="1">
+  </PIN>
+  <PIN pinname="Input 21" visible="1" values="|¡Diviértete, agregamos personajes que probablemente conoces!...|">
+  </PIN>
+  <PIN pinname="Input 22" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 23" visible="1">
+  </PIN>
+  <PIN pinname="Input 24" visible="1">
+  </PIN>
+  <PIN pinname="Input 25" visible="1">
+  </PIN>
+  <PIN pinname="Input 26" visible="1">
+  </PIN>
+  <PIN pinname="Input 27" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 28" visible="1">
+  </PIN>
+  <PIN pinname="Input 29" visible="1">
+  </PIN>
+  <PIN pinname="Input 30" visible="1" values="|¡Diviértete, agregamos personajes que probablemente conoces!...|">
+  </PIN>
+  <PIN pinname="Input 31" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 32" visible="1">
+  </PIN>
+  <PIN pinname="Input 33" visible="1">
+  </PIN>
+  <PIN pinname="Input 34" visible="1">
+  </PIN>
+  <PIN pinname="Input 35" visible="1">
+  </PIN>
+  <PIN pinname="Input 36" visible="1">
+  </PIN>
+  <PIN pinname="Input 37" visible="1" values="|Cuando el ave Oactli canta se anuncia la destrucción... |">
+  </PIN>
+  <PIN pinname="Input 38" visible="1" values="|Cuando el ave Oactli canta se anuncia la destrucción... |">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|38|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="878" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11625" top="43185" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="879" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13620" top="39210" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|p|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="880" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="19050" top="36180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|p|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -4088,8 +4472,6 @@
   </LINK>
   <LINK srcnodeid="767" srcpinname="Style Out" dstnodeid="768" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="773" srcpinname="Style Out" dstnodeid="761" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="777" dstpinname="Index">
   </LINK>
   <LINK srcnodeid="777" srcpinname="Output" dstnodeid="771" dstpinname="Text">
@@ -4133,8 +4515,6 @@
   <LINK srcnodeid="775" srcpinname="Output" dstnodeid="802" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="802" srcpinname="Output" dstnodeid="777" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="805" srcpinname="Element Slot 1" dstnodeid="804" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="761" srcpinname="Layers Out" dstnodeid="805" dstpinname="Parent">
   </LINK>
@@ -4251,5 +4631,39 @@
   <LINK srcnodeid="837" srcpinname="Output" dstnodeid="834" dstpinname="Selector">
   </LINK>
   <LINK srcnodeid="833" srcpinname="Output" dstnodeid="838" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="771" srcpinname="Layers Out" dstnodeid="867" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="867" srcpinname="Layers Out" dstnodeid="869" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="773" srcpinname="Style Out" dstnodeid="871" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="871" srcpinname="Style Out" dstnodeid="761" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="872" srcpinname="Style Out" dstnodeid="867" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="873" srcpinname="Output" dstnodeid="875" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="874" srcpinname="Output" dstnodeid="876" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="875" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="876" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="877" srcpinname="Output" dstnodeid="878" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="878" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="869" srcpinname="Layers Out" dstnodeid="879" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="875" srcpinname="Output" dstnodeid="867" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="876" srcpinname="Output" dstnodeid="869" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="878" srcpinname="Output" dstnodeid="879" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="805" srcpinname="Element Slot 1" dstnodeid="880" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="880" srcpinname="Layers Out" dstnodeid="804" dstpinname="Parent">
   </LINK>
   </PATCH>
