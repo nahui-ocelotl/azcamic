@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="27060" height="53775">
+  <BOUNDS type="Window" width="20235" height="53775">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -3152,102 +3152,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="823" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15810" top="10650" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|tex/facade/zacatl.jpg|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|tex/facade/tlalli.jpg|">
-  </PIN>
-  <PIN pinname="Input 3" visible="1" values="|tex/facade/iztli.jpg|">
-  </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/mixtli.jpg|">
-  </PIN>
-  <PIN pinname="Input 5" visible="1">
-  </PIN>
-  <PIN pinname="Input 6" visible="1">
-  </PIN>
-  <PIN pinname="Input 7" visible="1">
-  </PIN>
-  <PIN pinname="Input 8" visible="1">
-  </PIN>
-  <PIN pinname="Input 9" visible="1">
-  </PIN>
-  <PIN pinname="Input 10" visible="1">
-  </PIN>
-  <PIN pinname="Input 11" visible="1">
-  </PIN>
-  <PIN pinname="Input 12" visible="1">
-  </PIN>
-  <PIN pinname="Input 13" visible="1" values="|tex/facade/iztli.jpg|">
-  </PIN>
-  <PIN pinname="Input 14" visible="1" values="|tex/facade/zacatl.jpg|">
-  </PIN>
-  <PIN pinname="Input 15" visible="1" values="|tex/facade/atl.jpg|">
-  </PIN>
-  <PIN pinname="Input 16" visible="1" values="|tex/facade/tlalli.jpg|">
-  </PIN>
-  <PIN pinname="Input 17" visible="1" values="|tex/facade/iztli.jpg|">
-  </PIN>
-  <PIN pinname="Input 18" visible="1" values="|tex/facade/iztli.jpg|">
-  </PIN>
-  <PIN pinname="Input 19" visible="1" values="|tex/facade/mixtli.jpg|">
-  </PIN>
-  <PIN pinname="Input 20" visible="1">
-  </PIN>
-  <PIN pinname="Input 21" visible="1" values="|tex/facade/zacatl.jpg|">
-  </PIN>
-  <PIN pinname="Input 22" visible="1" values="|tex/facade/atl.jpg|">
-  </PIN>
-  <PIN pinname="Input 23" visible="1">
-  </PIN>
-  <PIN pinname="Input 24" visible="1">
-  </PIN>
-  <PIN pinname="Input 25" visible="1">
-  </PIN>
-  <PIN pinname="Input 26" visible="1">
-  </PIN>
-  <PIN pinname="Input 27" visible="1" values="|tex/facade/atl.jpg|">
-  </PIN>
-  <PIN pinname="Input 28" visible="1" values="|tex/facade/mixtli.jpg|">
-  </PIN>
-  <PIN pinname="Input 29" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input 30" visible="1" values="|tex/facade/zacatl.jpg|">
-  </PIN>
-  <PIN pinname="Input 31" visible="1" values="|tex/facade/atl.jpg|">
-  </PIN>
-  <PIN pinname="Input 32" visible="1">
-  </PIN>
-  <PIN pinname="Input 33" visible="1">
-  </PIN>
-  <PIN pinname="Input 34" visible="1">
-  </PIN>
-  <PIN pinname="Input 35" visible="1">
-  </PIN>
-  <PIN pinname="Input 36" visible="1">
-  </PIN>
-  <PIN pinname="Input 37" visible="1" values="|tex/facade/tlalli.jpg|">
-  </PIN>
-  <PIN pinname="Input 38" visible="1" values="|tex/facade/tlalli.jpg|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|38|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="824" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15675" top="12345" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Bin Size" visible="1">
-  </PIN>
-  <PIN pinname="Index" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="825" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="22770" top="31500" width="100" height="100">
   </BOUNDS>
@@ -4475,7 +4379,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-20|">
+  <PIN pinname="Input 2" visible="1" values="|-25|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -4581,7 +4485,7 @@
   </PIN>
   </NODE>
   <NODE id="917" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="28590" top="45900" width="0" height="0">
+  <BOUNDS type="Box" left="28440" top="45645" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -4673,7 +4577,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|11|">
+  <PIN pinname="Input 2" visible="1" values="|9|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -4696,6 +4600,290 @@
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="928" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="28680" top="51075" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/zacatl.jpg|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/atl.jpg|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|tex/facade/tlalli.jpg|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/iztli.jpg|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|tex/facade/mixtli.jpg|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="929" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="28875" top="52065" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="930" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13635" top="44970" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="931" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13230" top="43980" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|.direccion|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|.audiovisual|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|.n|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|.u|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="932" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11955" top="45180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="933" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12645" top="45990" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Apanohuayan|">
+  </PIN>
+  </NODE>
+  <NODE id="934" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17325" top="44835" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="935" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16920" top="43845" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|.a|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|.fi|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|.o|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|.cdeportivo|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="936" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15645" top="45045" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="937" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16335" top="45855" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Tepetl Monamiquian|">
+  </PIN>
+  </NODE>
+  <NODE id="938" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13470" top="48180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="939" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13065" top="47190" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|.b|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|.l|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|.q|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="940" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11790" top="48390" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="941" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12480" top="49200" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Iztepetl|">
+  </PIN>
+  </NODE>
+  <NODE id="942" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17430" top="48150" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="943" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17025" top="47160" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|.pec1|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|.c|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|.r|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="944" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15750" top="48360" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="945" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16425" top="49170" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Itzehecayan|">
+  </PIN>
+  </NODE>
+  <NODE id="946" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25980" top="36375" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Name" visible="1" values="|apanohuayan|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="947" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10155" top="43920" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|apanohuayan|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="948" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10560" top="44460" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="950" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10035" top="45465" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|block|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -5130,12 +5318,6 @@
   </LINK>
   <LINK srcnodeid="822" srcpinname="Output" dstnodeid="58" dstpinname="Ambient Color">
   </LINK>
-  <LINK srcnodeid="823" srcpinname="Output" dstnodeid="824" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="728" srcpinname="Y Output Value" dstnodeid="824" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="824" srcpinname="Output" dstnodeid="67" dstpinname="Input String">
-  </LINK>
   <LINK srcnodeid="827" srcpinname="Style Out" dstnodeid="828" dstpinname="Style">
   </LINK>
   <LINK srcnodeid="825" srcpinname="Layers Out" dstnodeid="828" dstpinname="Element">
@@ -5317,5 +5499,43 @@
   <LINK srcnodeid="927" srcpinname="Output" dstnodeid="926" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="923" srcpinname="Output" dstnodeid="925" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="928" srcpinname="Output" dstnodeid="929" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="926" srcpinname="Y Output Value" dstnodeid="929" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="929" srcpinname="Output" dstnodeid="67" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="931" srcpinname="Output" dstnodeid="930" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="930" srcpinname="Layers Out" dstnodeid="933" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="932" srcpinname="Style Out" dstnodeid="933" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="935" srcpinname="Output" dstnodeid="934" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="936" srcpinname="Style Out" dstnodeid="937" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="934" srcpinname="Layers Out" dstnodeid="937" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="939" srcpinname="Output" dstnodeid="938" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="940" srcpinname="Style Out" dstnodeid="941" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="938" srcpinname="Layers Out" dstnodeid="941" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="943" srcpinname="Output" dstnodeid="942" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="944" srcpinname="Style Out" dstnodeid="945" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="942" srcpinname="Layers Out" dstnodeid="945" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="905" srcpinname="Y Output Value" dstnodeid="946" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="947" srcpinname="Output" dstnodeid="948" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="948" srcpinname="Output" dstnodeid="950" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="950" srcpinname="Output" dstnodeid="932" dstpinname="Property Value">
   </LINK>
   </PATCH>
