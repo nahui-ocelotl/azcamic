@@ -2933,7 +2933,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-48|">
+  <PIN pinname="Input 2" visible="1" values="|2.5|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -3071,7 +3071,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-39.13|">
+  <PIN pinname="Input 2" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -4414,6 +4414,30 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="890" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25785" top="22065" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="891" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26805" top="21855" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -4960,8 +4984,12 @@
   </LINK>
   <LINK srcnodeid="886" srcpinname="Output" dstnodeid="889" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="739" srcpinname="Output" dstnodeid="814" dstpinname="Input 1">
+  <LINK srcnodeid="621" srcpinname="translateX" dstnodeid="890" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="740" srcpinname="Output" dstnodeid="801" dstpinname="Input 1">
+  <LINK srcnodeid="890" srcpinname="Output" dstnodeid="814" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="translateZ" dstnodeid="891" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="891" srcpinname="Output" dstnodeid="801" dstpinname="Input 1">
   </LINK>
   </PATCH>
