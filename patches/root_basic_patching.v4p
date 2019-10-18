@@ -1751,7 +1751,7 @@
   </PIN>
   </NODE>
   <NODE id="728" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7845" top="38115" width="0" height="0">
+  <BOUNDS type="Box" left="9390" top="30105" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -2928,18 +2928,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="800" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26790" top="21855" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-1|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="801" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
   <BOUNDS type="Node" left="27300" top="22500" width="100" height="100">
   </BOUNDS>
@@ -3078,48 +3066,12 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="813" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25905" top="21945" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-1|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="814" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
   <BOUNDS type="Node" left="26415" top="22590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|0.7|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="815" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="27765" top="21795" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-1|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="816" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="28275" top="22440" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -4834,10 +4786,6 @@
   </LINK>
   <LINK srcnodeid="792" srcpinname="Transform Out" dstnodeid="796" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="621" srcpinname="translateZ" dstnodeid="800" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="800" srcpinname="Output" dstnodeid="801" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="803" srcpinname="Y Output Value" dstnodeid="802" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="774" srcpinname="Output" dstnodeid="802" dstpinname="Input 1">
@@ -4866,10 +4814,6 @@
   </LINK>
   <LINK srcnodeid="812" srcpinname="Output 1" dstnodeid="804" dstpinname="Text">
   </LINK>
-  <LINK srcnodeid="813" srcpinname="Output" dstnodeid="814" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="621" srcpinname="translateX" dstnodeid="813" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="814" srcpinname="Output" dstnodeid="792" dstpinname="X">
   </LINK>
   <LINK srcnodeid="801" srcpinname="Output" dstnodeid="792" dstpinname="Z">
@@ -4877,10 +4821,6 @@
   <LINK srcnodeid="743" srcpinname="Output" dstnodeid="739" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="744" srcpinname="Output" dstnodeid="740" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="815" srcpinname="Output" dstnodeid="816" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="621" srcpinname="rotateY" dstnodeid="815" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="819" srcpinname="Output String" dstnodeid="818" dstpinname="Input 1">
   </LINK>
@@ -5019,5 +4959,9 @@
   <LINK srcnodeid="884" srcpinname="Output" dstnodeid="888" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="886" srcpinname="Output" dstnodeid="889" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="739" srcpinname="Output" dstnodeid="814" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="740" srcpinname="Output" dstnodeid="801" dstpinname="Input 1">
   </LINK>
   </PATCH>
