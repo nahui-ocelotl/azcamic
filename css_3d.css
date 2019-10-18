@@ -215,6 +215,7 @@ button {
   box-shadow: 2px 2px;
   text-align: center;
   z-index: 15;
+  display: none;
 }
     
 .container {
@@ -223,6 +224,7 @@ button {
  right: 0%;
  width: 42%;
  z-index: 15;
+ display: none;
 }
 
 .container2 {
@@ -231,6 +233,7 @@ button {
  left: 0%;
  width: 58%;
  z-index: 15;
+ display: none;
 }
 
 .container img {
