@@ -2933,7 +2933,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|2|">
+  <PIN pinname="Input 2" visible="1" values="|-48|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -3071,7 +3071,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0.7|">
+  <PIN pinname="Input 2" visible="1" values="|-39.13|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
