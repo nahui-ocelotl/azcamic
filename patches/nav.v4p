@@ -1671,11 +1671,11 @@
   </PIN>
   </NODE>
   <NODE id="151" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="19200" top="10620" width="100" height="100">
+  <BOUNDS type="Node" left="17040" top="10530" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|ArrowRight|">
+  <PIN pinname="Input 2" visible="1" values="|ArrowLeft|">
   </PIN>
   <PIN pinname="Case Sensitive" visible="1">
   </PIN>
@@ -1683,11 +1683,11 @@
   </PIN>
   </NODE>
   <NODE id="152" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16800" top="10485" width="100" height="100">
+  <BOUNDS type="Node" left="19185" top="10530" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|ArrowLeft|">
+  <PIN pinname="Input 2" visible="1" values="|ArrowRight|">
   </PIN>
   <PIN pinname="Case Sensitive" visible="1">
   </PIN>
@@ -1719,7 +1719,7 @@
   </PIN>
   </NODE>
   <NODE id="155" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="19125" top="11295" width="0" height="0">
+  <BOUNDS type="Box" left="16965" top="11205" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -1739,7 +1739,7 @@
   </PIN>
   </NODE>
   <NODE id="157" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="16650" top="11310" width="0" height="0">
+  <BOUNDS type="Box" left="19035" top="11355" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
