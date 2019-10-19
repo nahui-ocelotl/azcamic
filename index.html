@@ -32,10 +32,12 @@
 </script>
 		
 <script>
-function myFunction(event) {
-  var x = event.key;
-  document.getElementById("tecla").innerHTML = x;
-}	 
+$(document).ready(function(){
+  $(document).keydown(function(){
+    var x = event.key;
+    document.getElementById("tecla").innerHTML = "Tecla: " + x;
+  });
+});	 
 </script>
 		
 
