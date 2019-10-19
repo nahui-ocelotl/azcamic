@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="57300">
+  <BOUNDS type="Window" width="20235" height="57300">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -4307,7 +4307,7 @@
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|block|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|block|">
   </PIN>
@@ -4815,7 +4815,7 @@
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|block|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|block|">
   </PIN>
@@ -4891,11 +4891,45 @@
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|block|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|block|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1023" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="39120" top="49635" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|button|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1024" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="38085" top="50490" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|block|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1025" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="38835" top="51480" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -5518,8 +5552,6 @@
   </LINK>
   <LINK srcnodeid="971" srcpinname="Output" dstnodeid="970" dstpinname="Selector">
   </LINK>
-  <LINK srcnodeid="972" srcpinname="Style Out" dstnodeid="973" dstpinname="Style">
-  </LINK>
   <LINK srcnodeid="948" srcpinname="Output" dstnodeid="950" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="969" srcpinname="Output" dstnodeid="974" dstpinname="Switch">
@@ -5602,8 +5634,6 @@
   </LINK>
   <LINK srcnodeid="1016" srcpinname="Output" dstnodeid="1014" dstpinname="Property Value">
   </LINK>
-  <LINK srcnodeid="1014" srcpinname="Style Out" dstnodeid="1015" dstpinname="Style">
-  </LINK>
   <LINK srcnodeid="1012" srcpinname="Layers Out" dstnodeid="1015" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="1011" srcpinname="Output" dstnodeid="1016" dstpinname="Switch">
@@ -5618,8 +5648,6 @@
   </LINK>
   <LINK srcnodeid="1022" srcpinname="Output" dstnodeid="1020" dstpinname="Property Value">
   </LINK>
-  <LINK srcnodeid="1020" srcpinname="Style Out" dstnodeid="1021" dstpinname="Style">
-  </LINK>
   <LINK srcnodeid="1017" srcpinname="Output" dstnodeid="1022" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="909" srcpinname="Y Output Value" dstnodeid="1017" dstpinname="Input 1">
@@ -5627,5 +5655,9 @@
   <LINK srcnodeid="911" srcpinname="Y Output Value" dstnodeid="1017" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="1018" srcpinname="Layers Out" dstnodeid="1021" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1024" srcpinname="Style Out" dstnodeid="1025" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="1023" srcpinname="Layers Out" dstnodeid="1025" dstpinname="Element">
   </LINK>
   </PATCH>
