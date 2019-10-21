@@ -1523,7 +1523,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/ilhuicatl.png|">
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/ilhuicatl.jpg|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
