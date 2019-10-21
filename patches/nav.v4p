@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="6213900">
+  <BOUNDS type="Window" width="18705" height="6213900">
   </BOUNDS>
   <NODE id="1" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="1740" top="7050" width="100" height="100">
@@ -1553,7 +1553,7 @@
   <NODE id="138" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="7935" top="12465" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|19|">
+  <PIN pinname="Y Input Value" visible="1" values="|18.5|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
