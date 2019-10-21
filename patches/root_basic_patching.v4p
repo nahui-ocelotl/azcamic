@@ -1358,40 +1358,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="654" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7275" top="20610" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Selector" visible="1">
-  </PIN>
-  <PIN pinname="Parent" visible="1">
-  </PIN>
-  <PIN pinname="Refresh" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="655" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6705" top="19695" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1" values="|block|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="656" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5385" top="22065" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style" visible="1">
-  </PIN>
-  <PIN pinname="Element" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="657" nodename="leja2.v4p" systemname="leja2" filename="leja2.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2970" top="20385" width="100" height="100">
   </BOUNDS>
@@ -2209,7 +2175,7 @@
   </PIN>
   </NODE>
   <NODE id="777" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12690" top="33585" width="100" height="100">
+  <BOUNDS type="Node" left="5580" top="42495" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -2343,7 +2309,7 @@
   </PIN>
   </NODE>
   <NODE id="802" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8655" top="33000" width="100" height="100">
+  <BOUNDS type="Node" left="5430" top="41850" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -2357,7 +2323,7 @@
   </PIN>
   </NODE>
   <NODE id="803" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="9675" top="37125" width="0" height="0">
+  <BOUNDS type="Box" left="9480" top="37605" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -2919,7 +2885,7 @@
   </PIN>
   </NODE>
   <NODE id="867" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15090" top="37830" width="100" height="100">
+  <BOUNDS type="Node" left="6675" top="45630" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2949,7 +2915,7 @@
   </PIN>
   </NODE>
   <NODE id="872" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12735" top="36720" width="100" height="100">
+  <BOUNDS type="Node" left="6255" top="44970" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2961,7 +2927,7 @@
   </PIN>
   </NODE>
   <NODE id="875" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11595" top="40650" width="100" height="100">
+  <BOUNDS type="Node" left="9210" top="43770" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -2991,7 +2957,7 @@
   </PIN>
   </NODE>
   <NODE id="883" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1650" top="40680" width="100" height="100">
+  <BOUNDS type="Node" left="5235" top="43845" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -3003,41 +2969,13 @@
   </PIN>
   </NODE>
   <NODE id="887" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9075" top="40440" width="100" height="100">
+  <BOUNDS type="Node" left="7245" top="44355" width="720" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="888" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10035" top="40860" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Switch" visible="1">
-  </PIN>
-  <PIN pinname="Input 1" visible="1" values="|Axcan tica ipan inic ce centlaxitl, in ohtli campa in tlalli centilia ihuan mictlan...|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|En este momento te encuentras en el primer paso, el sitio donde la tierra se conecta con el mundo de los muertos…|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="889" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8925" top="41700" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Switch" visible="1">
-  </PIN>
-  <PIN pinname="Input 1" visible="1" values="|¡Timomahuizoa, titlapohuah ahnelli tlacah tlein neltililoni tixmati!|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|¡Diviértete, agregamos personajes que probablemente conoces!...|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -3293,7 +3231,7 @@
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|_ ohtli|">
   </PIN>
   </NODE>
   <NODE id="927" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
@@ -3352,18 +3290,6 @@
   <PIN pinname="Input" visible="1">
   </PIN>
   <PIN pinname="Name" visible="1" values="|apanohuayan|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="976" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8040" top="19680" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|.container|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|.container2|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3557,7 +3483,7 @@
   </PIN>
   </NODE>
   <NODE id="1000" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5820" top="37335" width="100" height="100">
+  <BOUNDS type="Node" left="5220" top="40380" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|Tlalticpac|">
   </PIN>
@@ -3583,7 +3509,7 @@
   </PIN>
   </NODE>
   <NODE id="1001" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7890" top="38160" width="100" height="100">
+  <BOUNDS type="Node" left="5775" top="41010" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -3595,7 +3521,7 @@
   </PIN>
   </NODE>
   <NODE id="1002" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5775" top="36255" width="100" height="100">
+  <BOUNDS type="Node" left="5610" top="39300" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|Sobre la tierra|">
   </PIN>
@@ -3621,7 +3547,7 @@
   </PIN>
   </NODE>
   <NODE id="1003" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7500" top="37110" width="100" height="100">
+  <BOUNDS type="Node" left="6030" top="39885" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -3633,7 +3559,7 @@
   </PIN>
   </NODE>
   <NODE id="1005" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3930" top="39090" width="100" height="100">
+  <BOUNDS type="Node" left="5055" top="43140" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|Axcan tica ipan inic ce centlaxitl, in ohtli campa in tlalli centilia ihuan mictlan...|">
   </PIN>
@@ -3659,7 +3585,7 @@
   </PIN>
   </NODE>
   <NODE id="1008" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15210" top="39240" width="100" height="100">
+  <BOUNDS type="Node" left="9135" top="43125" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|Ahora te encuentras en el primer paso, un camino donde la tierra se une con el lugar de los muertos...|">
   </PIN>
@@ -4566,14 +4492,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1154" nodename="OnOpen (VVVV)" systemname="OnOpen (VVVV)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1455" top="4785" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Simulate" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1157" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="1725" top="5985" width="0" height="0">
   </BOUNDS>
@@ -4600,6 +4518,16 @@
   <BOUNDS type="Node" left="1365" top="7425" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1160" nodename="tlahcuilolli.v4p" systemname="tlahcuilolli" filename="tlahcuilolli.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="12975" top="41115" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ nahuatl / caxtilan" visible="1">
+  </PIN>
+  <PIN pinname="_ ohtli" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -4739,8 +4667,6 @@
   <LINK srcnodeid="652" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 7">
   </LINK>
   <LINK srcnodeid="653" srcpinname="Transform Out" dstnodeid="652" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="654" srcpinname="Layers Out" dstnodeid="656" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="657" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 8">
   </LINK>
@@ -5038,10 +4964,6 @@
   </LINK>
   <LINK srcnodeid="905" srcpinname="Y Output Value" dstnodeid="946" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="655" srcpinname="Style Out" dstnodeid="656" dstpinname="Style">
-  </LINK>
-  <LINK srcnodeid="976" srcpinname="Output" dstnodeid="654" dstpinname="Selector">
-  </LINK>
   <LINK srcnodeid="985" srcpinname="Style Out" dstnodeid="980" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="980" srcpinname="Style Out" dstnodeid="981" dstpinname="Style In">
@@ -5320,12 +5242,12 @@
   </LINK>
   <LINK srcnodeid="1143" srcpinname="Output String" dstnodeid="1144" dstpinname="Filename">
   </LINK>
-  <LINK srcnodeid="1154" srcpinname="Output" dstnodeid="1144" dstpinname="Do Seek">
-  </LINK>
   <LINK srcnodeid="1157" srcpinname="Y Output Value" dstnodeid="1158" dstpinname="Gain">
   </LINK>
   <LINK srcnodeid="1144" srcpinname="Output" dstnodeid="1158" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="1158" srcpinname="Output 1" dstnodeid="1159" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="651" srcpinname="Output" dstnodeid="1144" dstpinname="Do Seek">
   </LINK>
   </PATCH>
