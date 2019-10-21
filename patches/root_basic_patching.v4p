@@ -4535,7 +4535,7 @@
   </PIN>
   </NODE>
   <NODE id="1143" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="4155" top="4470" width="0" height="0">
+  <BOUNDS type="Box" left="2550" top="4770" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -4566,8 +4566,26 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1149" nodename="Gain (HTML5 Audio)" systemname="Gain (HTML5 Audio)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1275" top="6975" width="100" height="100">
+  <NODE id="1154" nodename="OnOpen (VVVV)" systemname="OnOpen (VVVV)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1455" top="4785" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Simulate" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1157" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="1725" top="5985" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1158" nodename="Gain (HTML5 Audio)" systemname="Gain (HTML5 Audio)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1380" top="6615" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -4578,18 +4596,10 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1150" nodename="AudioDestination (HTML5 Audio)" systemname="AudioDestination (HTML5 Audio)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2310" top="8010" width="100" height="100">
+  <NODE id="1159" nodename="AudioDestination (HTML5 Audio)" systemname="AudioDestination (HTML5 Audio)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1365" top="7425" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1154" nodename="OnOpen (VVVV)" systemname="OnOpen (VVVV)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1455" top="4785" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Simulate" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -5310,10 +5320,12 @@
   </LINK>
   <LINK srcnodeid="1143" srcpinname="Output String" dstnodeid="1144" dstpinname="Filename">
   </LINK>
-  <LINK srcnodeid="1144" srcpinname="Output" dstnodeid="1149" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="1149" srcpinname="Output 1" dstnodeid="1150" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="1154" srcpinname="Output" dstnodeid="1144" dstpinname="Do Seek">
+  </LINK>
+  <LINK srcnodeid="1157" srcpinname="Y Output Value" dstnodeid="1158" dstpinname="Gain">
+  </LINK>
+  <LINK srcnodeid="1144" srcpinname="Output" dstnodeid="1158" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="1158" srcpinname="Output 1" dstnodeid="1159" dstpinname="Input 1">
   </LINK>
   </PATCH>
