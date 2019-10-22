@@ -4364,60 +4364,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1189" nodename="tlalticpac.v4p" systemname="tlalticpac" filename="tlalticpac.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="11715" top="4095" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1190" nodename="apanohuayan.v4p" systemname="apanohuayan" filename="apanohuayan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="15990" top="4185" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1192" nodename="tepetl_monamiquan.v4p" systemname="tepetl_monamiquan" filename="tepetl_monamiquan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="23745" top="3870" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1194" nodename="itzehecayan.v4p" systemname="itzehecayan" filename="itzehecayan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="26805" top="3915" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1195" nodename="pancucuetlacayan.v4p" systemname="pancucuetlacayan" filename="pancucuetlacayan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="32385" top="3735" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1196" nodename="temimiloyan.v4p" systemname="temimiloyan" filename="temimiloyan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="39570" top="3390" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1197" nodename="teyollocualoyan.v4p" systemname="teyollocualoyan" filename="teyollocualoyan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="45105" top="3450" width="1710" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1199" nodename="itzmictlan_apochcalocan.v4p" systemname="itzmictlan_apochcalocan" filename="itzmictlan_apochcalocan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="50130" top="3510" width="1710" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1200" nodename="itztepetl.v4p" systemname="itztepetl" filename="itztepetl.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="20505" top="3795" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
