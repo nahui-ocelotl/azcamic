@@ -19,7 +19,7 @@ body
         -moz-box-sizing: border-box;    /* Firefox, other Gecko */
         box-sizing: border-box;         /* Opera/IE 8+ */
         width: 100%;
-        color: Black;
+        color: White;
 	background-color: Black;
 	margin: 0 -3px 0 0;
         overflow-x: hidden;
