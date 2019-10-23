@@ -352,32 +352,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="241" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="41610" top="660" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="letra" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/f.png|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ f|">
-  </PIN>
-  </NODE>
-  <NODE id="242" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="41610" top="105" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|-96|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|82|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="265" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
   <BOUNDS type="Node" left="990" top="5250" width="42180" height="100">
   </BOUNDS>
@@ -402,132 +376,6 @@
   <PIN pinname="Layer 9" visible="1">
   </PIN>
   <PIN pinname="Layer Template Count" visible="0" values="|9|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="267" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="47880" top="615" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/g.png|">
-  </PIN>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ g|">
-  </PIN>
-  </NODE>
-  <NODE id="268" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="47880" top="90" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|-95|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|92|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="269" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="50775" top="600" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/k.png|">
-  </PIN>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ k|">
-  </PIN>
-  </NODE>
-  <NODE id="270" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="50775" top="75" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|37|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|83|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="280" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="44430" top="645" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="letra" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/x.png|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ x|">
-  </PIN>
-  </NODE>
-  <NODE id="281" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="44430" top="105" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|89|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|76|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="285" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="43035" top="660" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/i.png|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ j|">
-  </PIN>
-  </NODE>
-  <NODE id="286" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="43035" top="75" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|162|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|77|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="296" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="45840" top="630" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/dcultural.png|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ dcultural|">
-  </PIN>
-  </NODE>
-  <NODE id="297" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="45840" top="105" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|128|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|86|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -692,50 +540,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="643" nodename="ccomputo.v4p" systemname="ccomputo" filename="ccomputo.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="54735" top="615" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="644" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="54735" top="75" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|128|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|104|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="647" nodename="siladin.v4p" systemname="siladin" filename="siladin.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="52245" top="615" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="648" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="52245" top="90" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|64|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|98|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="651" nodename="Add (Value Spectral)" systemname="Add (Value Spectral)" componentmode="Hidden">
   <BOUNDS type="Node" left="5760" top="25200" width="100" height="100">
   </BOUNDS>
@@ -814,54 +618,6 @@
   <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="662" nodename="gimnasio.v4p" systemname="gimnasio" filename="gimnasio.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="49395" top="615" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="663" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="49395" top="75" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|-38|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|93|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="667" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="53505" top="90" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|90|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|98|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="668" nodename="azc.v4p" systemname="azc" filename="azc.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="53535" top="600" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/azc.png|">
-  </PIN>
-  <PIN pinname="letra" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ azc|">
   </PIN>
   </NODE>
   <NODE id="714" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -3144,70 +2900,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1126" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="44010" top="2400" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Enabled" visible="1">
-  </PIN>
-  <PIN pinname="Layer 1" visible="1">
-  </PIN>
-  <PIN pinname="Layer 2" visible="1">
-  </PIN>
-  <PIN pinname="Layer 3" visible="1">
-  </PIN>
-  <PIN pinname="Layer 4" visible="1">
-  </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|4|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ Teyollocualoyan|">
-  </PIN>
-  </NODE>
-  <NODE id="1128" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="43290" top="1770" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|7|">
-  </PIN>
-  <PIN pinname="Epsilon" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1129" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="51210" top="2490" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Enabled" visible="1">
-  </PIN>
-  <PIN pinname="Layer 1" visible="1">
-  </PIN>
-  <PIN pinname="Layer 2" visible="1">
-  </PIN>
-  <PIN pinname="Layer 3" visible="1">
-  </PIN>
-  <PIN pinname="Layer 4" visible="1">
-  </PIN>
-  <PIN pinname="Layer 5" visible="1">
-  </PIN>
-  <PIN pinname="Layer 6" visible="1">
-  </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|6|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ Itzmictlan Apochcalocan|">
-  </PIN>
-  </NODE>
-  <NODE id="1131" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="50820" top="1905" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|8|">
-  </PIN>
-  <PIN pinname="Epsilon" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1132" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="23985" top="28995" width="100" height="100">
   </BOUNDS>
@@ -3448,22 +3140,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1186" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="43095" top="1215" width="270" height="100">
-  </BOUNDS>
-  <PIN pinname="Name" visible="1" values="|ohtli|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1187" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="50445" top="1305" width="270" height="100">
-  </BOUNDS>
-  <PIN pinname="Name" visible="1" values="|ohtli|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1188" nodename="tlalticpac.v4p" systemname="tlalticpac" filename="tlalticpac.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2535" top="3780" width="100" height="100">
   </BOUNDS>
@@ -3508,6 +3184,12 @@
   </NODE>
   <NODE id="1195" nodename="teyollocualoyan.v4p" systemname="teyollocualoyan" filename="teyollocualoyan.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="37815" top="3300" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1196" nodename="itzmictlan_apochcalocan.v4p" systemname="itzmictlan_apochcalocan" filename="itzmictlan_apochcalocan.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="42690" top="3465" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3558,19 +3240,7 @@
   </LINK>
   <LINK srcnodeid="235" srcpinname="Y Output Value" dstnodeid="236" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="242" srcpinname="Transform Out" dstnodeid="241" dstpinname="Transform">
-  </LINK>
   <LINK srcnodeid="265" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 1">
-  </LINK>
-  <LINK srcnodeid="268" srcpinname="Transform Out" dstnodeid="267" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="270" srcpinname="Transform Out" dstnodeid="269" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="281" srcpinname="Transform Out" dstnodeid="280" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="286" srcpinname="Transform Out" dstnodeid="285" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="297" srcpinname="Transform Out" dstnodeid="296" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="378" srcpinname="Transform Out" dstnodeid="410" dstpinname="Input 1">
   </LINK>
@@ -3596,8 +3266,6 @@
   </LINK>
   <LINK srcnodeid="638" srcpinname="Layers Out" dstnodeid="640" dstpinname="Element">
   </LINK>
-  <LINK srcnodeid="644" srcpinname="Transform Out" dstnodeid="643" dstpinname="Transform">
-  </LINK>
   <LINK srcnodeid="640" srcpinname="OnEvent" dstnodeid="651" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="651" srcpinname="Output" dstnodeid="621" dstpinname="reset">
@@ -3611,12 +3279,6 @@
   <LINK srcnodeid="658" srcpinname="Transform Out" dstnodeid="657" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="660" srcpinname="Transform Out" dstnodeid="658" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="648" srcpinname="Transform Out" dstnodeid="647" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="663" srcpinname="Transform Out" dstnodeid="662" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="667" srcpinname="Transform Out" dstnodeid="668" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="714" srcpinname="Transform Out" dstnodeid="60" dstpinname="Transform In">
   </LINK>
@@ -3950,32 +3612,6 @@
   </LINK>
   <LINK srcnodeid="1099" srcpinname="Style Out" dstnodeid="860" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="1128" srcpinname="Output" dstnodeid="1126" dstpinname="Enabled">
-  </LINK>
-  <LINK srcnodeid="241" srcpinname="Layer" dstnodeid="1126" dstpinname="Layer 1">
-  </LINK>
-  <LINK srcnodeid="280" srcpinname="Layer" dstnodeid="1126" dstpinname="Layer 3">
-  </LINK>
-  <LINK srcnodeid="296" srcpinname="Layer" dstnodeid="1126" dstpinname="Layer 4">
-  </LINK>
-  <LINK srcnodeid="285" srcpinname="Layer" dstnodeid="1126" dstpinname="Layer 2">
-  </LINK>
-  <LINK srcnodeid="1129" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 9">
-  </LINK>
-  <LINK srcnodeid="1131" srcpinname="Output" dstnodeid="1129" dstpinname="Enabled">
-  </LINK>
-  <LINK srcnodeid="267" srcpinname="Layer" dstnodeid="1129" dstpinname="Layer 1">
-  </LINK>
-  <LINK srcnodeid="662" srcpinname="Layer" dstnodeid="1129" dstpinname="Layer 2">
-  </LINK>
-  <LINK srcnodeid="269" srcpinname="Layer" dstnodeid="1129" dstpinname="Layer 3">
-  </LINK>
-  <LINK srcnodeid="647" srcpinname="Layer" dstnodeid="1129" dstpinname="Layer 4">
-  </LINK>
-  <LINK srcnodeid="668" srcpinname="Layer" dstnodeid="1129" dstpinname="Layer 5">
-  </LINK>
-  <LINK srcnodeid="643" srcpinname="Layer" dstnodeid="1129" dstpinname="Layer 6">
-  </LINK>
   <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 9">
   </LINK>
   <LINK srcnodeid="1132" srcpinname="Output" dstnodeid="825" dstpinname="Selector">
@@ -4040,10 +3676,6 @@
   </LINK>
   <LINK srcnodeid="1173" srcpinname="Output" dstnodeid="929" dstpinname="Index">
   </LINK>
-  <LINK srcnodeid="1186" srcpinname="Output" dstnodeid="1128" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="1187" srcpinname="Output" dstnodeid="1131" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="1188" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="1189" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 2">
@@ -4059,5 +3691,7 @@
   <LINK srcnodeid="1194" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 7">
   </LINK>
   <LINK srcnodeid="1195" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 8">
+  </LINK>
+  <LINK srcnodeid="1196" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 9">
   </LINK>
   </PATCH>
