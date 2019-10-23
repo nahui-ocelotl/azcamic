@@ -4008,6 +4008,12 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1191" nodename="itztepetl.v4p" systemname="itztepetl" filename="itztepetl.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="18630" top="3330" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -4526,8 +4532,6 @@
   </LINK>
   <LINK srcnodeid="253" srcpinname="Layer" dstnodeid="1114" dstpinname="Layer 4">
   </LINK>
-  <LINK srcnodeid="1114" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
-  </LINK>
   <LINK srcnodeid="1117" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 5">
   </LINK>
   <LINK srcnodeid="1120" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 6">
@@ -4633,5 +4637,7 @@
   <LINK srcnodeid="1189" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="1190" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="1191" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
   </LINK>
   </PATCH>
