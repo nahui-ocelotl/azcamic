@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19005" height="10155">
+  <BOUNDS type="Window" width="18510" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="1125" width="100" height="100">
@@ -249,7 +249,7 @@
   </PIN>
   </NODE>
   <NODE id="21" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12900" top="2760" width="100" height="100">
+  <BOUNDS type="Node" left="13080" top="3090" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style" visible="1">
   </PIN>
@@ -287,17 +287,13 @@
   <NODE id="24" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="13860" top="1635" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|.direccion|">
+  <PIN pinname="Input 1" visible="1" values="|.entrada|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|.t|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|.m|">
+  <PIN pinname="Input 3" visible="1" values="|.biblioteca|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|.biblioteca|">
-  </PIN>
-  <PIN pinname="Input 5" visible="1" values="|.entrada|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|5|">
+  <PIN pinname="Input Count" visible="0" values="|3|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -348,12 +344,12 @@
   </LINK>
   <LINK srcnodeid="23" srcpinname="Output" dstnodeid="20" dstpinname="Property Value">
   </LINK>
-  <LINK srcnodeid="20" srcpinname="Style Out" dstnodeid="21" dstpinname="Style">
-  </LINK>
   <LINK srcnodeid="19" srcpinname="Layers Out" dstnodeid="21" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="25" srcpinname="Output" dstnodeid="22" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="22" srcpinname="Output" dstnodeid="23" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="20" srcpinname="Style Out" dstnodeid="21" dstpinname="Style">
   </LINK>
   </PATCH>

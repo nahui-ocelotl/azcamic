@@ -2142,6 +2142,18 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1198" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="735" top="25530" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|block|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -2487,5 +2499,7 @@
   <LINK srcnodeid="1196" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 9">
   </LINK>
   <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 4">
+  </LINK>
+  <LINK srcnodeid="1198" srcpinname="Style Out" dstnodeid="1134" dstpinname="Style In">
   </LINK>
   </PATCH>
