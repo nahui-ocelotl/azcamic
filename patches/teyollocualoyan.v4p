@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20490" height="10155">
+  <BOUNDS type="Window" width="19995" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="3330" top="4200" width="750" height="240">
@@ -148,6 +148,90 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="13" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11985" top="2820" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Teyollocualoyan|">
+  </PIN>
+  </NODE>
+  <NODE id="14" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10800" top="3000" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|background-color|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="15" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11160" top="3690" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="16" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11805" top="2205" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|.f|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|.j|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|.x|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|.dcultural|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="17" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9555" top="1245" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|7|">
+  </PIN>
+  <PIN pinname="Epsilon" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="18" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10185" top="2205" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Tomato|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="19" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9180" top="690" width="270" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|ohtli|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="3" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="5" srcpinname="Transform Out" dstnodeid="4" dstpinname="Transform">
@@ -169,5 +253,17 @@
   <LINK srcnodeid="12" srcpinname="Output" dstnodeid="11" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="1" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="16" srcpinname="Output" dstnodeid="13" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="18" srcpinname="Output" dstnodeid="14" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="14" srcpinname="Style Out" dstnodeid="15" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="13" srcpinname="Layers Out" dstnodeid="15" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="19" srcpinname="Output" dstnodeid="17" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="17" srcpinname="Output" dstnodeid="18" dstpinname="Switch">
   </LINK>
   </PATCH>
