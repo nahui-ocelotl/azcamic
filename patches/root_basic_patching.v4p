@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="68535">
+  <BOUNDS type="Window" width="20235" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -1557,7 +1557,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|DarkSeaGreen |">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1591,7 +1591,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|LightSkyBlue |">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1641,7 +1641,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|Tan|">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1691,7 +1691,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|SlateGray|">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1739,7 +1739,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|MediumPurple |">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1791,7 +1791,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|Linen |">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1841,7 +1841,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|Khaki |">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1875,7 +1875,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|Tomato|">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1909,7 +1909,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|SandyBrown |">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2535,7 +2535,7 @@
   </PIN>
   </NODE>
   <NODE id="1065" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20625" top="29730" width="100" height="100">
+  <BOUNDS type="Node" left="21240" top="30270" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2547,33 +2547,21 @@
   </PIN>
   </NODE>
   <NODE id="1068" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20955" top="30330" width="100" height="100">
+  <BOUNDS type="Node" left="21570" top="30870" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|DarkSeaGreen|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1069" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21240" top="30960" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1070" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20730" top="32220" width="100" height="100">
+  <BOUNDS type="Node" left="20940" top="32655" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2585,33 +2573,21 @@
   </PIN>
   </NODE>
   <NODE id="1072" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21060" top="32820" width="100" height="100">
+  <BOUNDS type="Node" left="21270" top="33255" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|LightSkyBlue |">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1073" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21345" top="33450" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1074" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20490" top="33885" width="100" height="100">
+  <BOUNDS type="Node" left="21165" top="34740" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2623,33 +2599,21 @@
   </PIN>
   </NODE>
   <NODE id="1076" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20820" top="34485" width="100" height="100">
+  <BOUNDS type="Node" left="21495" top="35340" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|Tan|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1077" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21105" top="35115" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1078" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20535" top="35835" width="100" height="100">
+  <BOUNDS type="Node" left="20925" top="36210" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2661,33 +2625,21 @@
   </PIN>
   </NODE>
   <NODE id="1080" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20865" top="36435" width="100" height="100">
+  <BOUNDS type="Node" left="21255" top="36810" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|SlateGray|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1081" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21150" top="37065" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1082" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21045" top="38100" width="100" height="100">
+  <BOUNDS type="Node" left="21765" top="38565" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2699,33 +2651,21 @@
   </PIN>
   </NODE>
   <NODE id="1084" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21375" top="38700" width="100" height="100">
+  <BOUNDS type="Node" left="22095" top="39165" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|MediumPurple |">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1085" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21660" top="39330" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1086" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20895" top="40020" width="100" height="100">
+  <BOUNDS type="Node" left="21840" top="40545" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2737,33 +2677,21 @@
   </PIN>
   </NODE>
   <NODE id="1088" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21225" top="40620" width="100" height="100">
+  <BOUNDS type="Node" left="22170" top="41145" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|Linen |">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1089" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21510" top="41250" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1090" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21315" top="42480" width="100" height="100">
+  <BOUNDS type="Node" left="21975" top="42900" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2775,45 +2703,21 @@
   </PIN>
   </NODE>
   <NODE id="1092" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21645" top="43080" width="100" height="100">
+  <BOUNDS type="Node" left="22305" top="43500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|Khaki |">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1093" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21930" top="43710" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1094" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="22050" top="46215" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|background-color|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1" values="|Khaki |">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1095" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20700" top="44445" width="100" height="100">
+  <BOUNDS type="Node" left="21825" top="45480" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2825,45 +2729,21 @@
   </PIN>
   </NODE>
   <NODE id="1097" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21030" top="45045" width="100" height="100">
+  <BOUNDS type="Node" left="22155" top="46080" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|Tomato|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1098" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21315" top="45675" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1099" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="22335" top="48690" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|background-color|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1" values="|Khaki |">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1100" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20985" top="46920" width="100" height="100">
+  <BOUNDS type="Node" left="22170" top="48000" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -2875,27 +2755,15 @@
   </PIN>
   </NODE>
   <NODE id="1102" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21315" top="47520" width="100" height="100">
+  <BOUNDS type="Node" left="22500" top="48600" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|none|">
+  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|block|">
+  <PIN pinname="Input 2" visible="1" values="|SandyBrown |">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1103" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21600" top="48150" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3061,7 +2929,7 @@
   </PIN>
   </NODE>
   <NODE id="1164" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20325" top="43890" width="270" height="100">
+  <BOUNDS type="Node" left="21450" top="44925" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3069,7 +2937,7 @@
   </PIN>
   </NODE>
   <NODE id="1165" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20475" top="46185" width="270" height="100">
+  <BOUNDS type="Node" left="21660" top="47265" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3077,7 +2945,7 @@
   </PIN>
   </NODE>
   <NODE id="1166" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20715" top="41670" width="270" height="100">
+  <BOUNDS type="Node" left="21375" top="42090" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3085,7 +2953,7 @@
   </PIN>
   </NODE>
   <NODE id="1167" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20505" top="39375" width="270" height="100">
+  <BOUNDS type="Node" left="21450" top="39900" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3093,7 +2961,7 @@
   </PIN>
   </NODE>
   <NODE id="1168" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20550" top="37620" width="270" height="100">
+  <BOUNDS type="Node" left="21270" top="38085" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3101,7 +2969,7 @@
   </PIN>
   </NODE>
   <NODE id="1169" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="19980" top="35160" width="270" height="100">
+  <BOUNDS type="Node" left="20370" top="35535" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3109,7 +2977,7 @@
   </PIN>
   </NODE>
   <NODE id="1170" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="19920" top="33225" width="270" height="100">
+  <BOUNDS type="Node" left="20595" top="34080" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3117,7 +2985,7 @@
   </PIN>
   </NODE>
   <NODE id="1171" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20115" top="31635" width="270" height="100">
+  <BOUNDS type="Node" left="20325" top="32070" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3125,7 +2993,7 @@
   </PIN>
   </NODE>
   <NODE id="1172" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20310" top="29070" width="270" height="100">
+  <BOUNDS type="Node" left="20925" top="29610" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -3556,61 +3424,21 @@
   </LINK>
   <LINK srcnodeid="1065" srcpinname="Output" dstnodeid="1068" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="1069" srcpinname="Style Out" dstnodeid="827" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1068" srcpinname="Output" dstnodeid="1069" dstpinname="Property Value">
-  </LINK>
   <LINK srcnodeid="1070" srcpinname="Output" dstnodeid="1072" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="1072" srcpinname="Output" dstnodeid="1073" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1073" srcpinname="Style Out" dstnodeid="831" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="1074" srcpinname="Output" dstnodeid="1076" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="1076" srcpinname="Output" dstnodeid="1077" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1077" srcpinname="Style Out" dstnodeid="835" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="1078" srcpinname="Output" dstnodeid="1080" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="1080" srcpinname="Output" dstnodeid="1081" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1081" srcpinname="Style Out" dstnodeid="839" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="1082" srcpinname="Output" dstnodeid="1084" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="1084" srcpinname="Output" dstnodeid="1085" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1085" srcpinname="Style Out" dstnodeid="843" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="1086" srcpinname="Output" dstnodeid="1088" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="1088" srcpinname="Output" dstnodeid="1089" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1089" srcpinname="Style Out" dstnodeid="847" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="1090" srcpinname="Output" dstnodeid="1092" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="1092" srcpinname="Output" dstnodeid="1093" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1093" srcpinname="Style Out" dstnodeid="852" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1098" srcpinname="Style Out" dstnodeid="1094" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="1095" srcpinname="Output" dstnodeid="1097" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="1097" srcpinname="Output" dstnodeid="1098" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1094" srcpinname="Style Out" dstnodeid="856" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1103" srcpinname="Style Out" dstnodeid="1099" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="1100" srcpinname="Output" dstnodeid="1102" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="1102" srcpinname="Output" dstnodeid="1103" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="1099" srcpinname="Style Out" dstnodeid="860" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 9">
   </LINK>
@@ -3619,10 +3447,6 @@
   <LINK srcnodeid="825" srcpinname="Layers Out" dstnodeid="828" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="830" srcpinname="Layers Out" dstnodeid="832" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="827" srcpinname="Style Out" dstnodeid="828" dstpinname="Style">
-  </LINK>
-  <LINK srcnodeid="831" srcpinname="Style Out" dstnodeid="832" dstpinname="Style">
   </LINK>
   <LINK srcnodeid="1133" srcpinname="Layers Out" dstnodeid="1135" dstpinname="Element">
   </LINK>
@@ -3693,5 +3517,27 @@
   <LINK srcnodeid="1195" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 8">
   </LINK>
   <LINK srcnodeid="1196" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 9">
+  </LINK>
+  <LINK srcnodeid="1068" srcpinname="Output" dstnodeid="827" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1072" srcpinname="Output" dstnodeid="831" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="827" srcpinname="Style Out" dstnodeid="828" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="831" srcpinname="Style Out" dstnodeid="832" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="1076" srcpinname="Output" dstnodeid="835" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1080" srcpinname="Output" dstnodeid="839" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1084" srcpinname="Output" dstnodeid="843" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1088" srcpinname="Output" dstnodeid="847" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1092" srcpinname="Output" dstnodeid="852" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1097" srcpinname="Output" dstnodeid="856" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1102" srcpinname="Output" dstnodeid="860" dstpinname="Property Value">
   </LINK>
   </PATCH>
