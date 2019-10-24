@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="68535">
+  <BOUNDS type="Window" width="19740" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -233,7 +233,7 @@
   </PIN>
   </NODE>
   <NODE id="227" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="960" top="23340" width="100" height="100">
+  <BOUNDS type="Node" left="975" top="23340" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1" values="|1|">
   </PIN>
@@ -245,17 +245,7 @@
   </PIN>
   <PIN pinname="Layer 4" visible="1">
   </PIN>
-  <PIN pinname="Layer 5" visible="1">
-  </PIN>
-  <PIN pinname="Layer 6" visible="1">
-  </PIN>
-  <PIN pinname="Layer 7" visible="1">
-  </PIN>
-  <PIN pinname="Layer 8" visible="1">
-  </PIN>
-  <PIN pinname="Layer 9" visible="1">
-  </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|9|">
+  <PIN pinname="Layer Template Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -498,14 +488,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="520" nodename="leja.v4p" systemname="leja" filename="leja.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="1830" top="18855" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="mapa" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="621" nodename="nav.v4p" systemname="nav" filename="nav.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="4980" top="26055" width="100" height="100">
   </BOUNDS>
@@ -546,76 +528,6 @@
   <PIN pinname="Input" visible="1">
   </PIN>
   <PIN pinname="Bin Size" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="652" nodename="leja2.v4p" systemname="leja2" filename="leja2.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2220" top="19560" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="mapa" visible="1">
-  </PIN>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="scaleX" visible="1" values="|310|">
-  </PIN>
-  <PIN pinname="positionX" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="653" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3135" top="18810" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|-18|">
-  </PIN>
-  <PIN pinname="Y" visible="1">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|143|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="657" nodename="leja2.v4p" systemname="leja2" filename="leja2.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2970" top="20385" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="mapa" visible="1">
-  </PIN>
-  <PIN pinname="scaleX" visible="1" values="|105|">
-  </PIN>
-  <PIN pinname="positionX" visible="1" values="|-34|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="658" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3930" top="19665" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|139|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="660" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4545" top="18870" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0.25|">
-  </PIN>
-  <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3130,23 +3042,11 @@
   </LINK>
   <LINK srcnodeid="509" srcpinname="Output" dstnodeid="58" dstpinname="CamPos">
   </LINK>
-  <LINK srcnodeid="520" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 5">
-  </LINK>
   <LINK srcnodeid="638" srcpinname="Layers Out" dstnodeid="640" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="640" srcpinname="OnEvent" dstnodeid="651" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="651" srcpinname="Output" dstnodeid="621" dstpinname="reset">
-  </LINK>
-  <LINK srcnodeid="652" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 7">
-  </LINK>
-  <LINK srcnodeid="653" srcpinname="Transform Out" dstnodeid="652" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="657" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 8">
-  </LINK>
-  <LINK srcnodeid="658" srcpinname="Transform Out" dstnodeid="657" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="660" srcpinname="Transform Out" dstnodeid="658" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="714" srcpinname="Transform Out" dstnodeid="60" dstpinname="Transform In">
   </LINK>
@@ -3440,8 +3340,6 @@
   </LINK>
   <LINK srcnodeid="1100" srcpinname="Output" dstnodeid="1102" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 9">
-  </LINK>
   <LINK srcnodeid="1132" srcpinname="Output" dstnodeid="825" dstpinname="Selector">
   </LINK>
   <LINK srcnodeid="825" srcpinname="Layers Out" dstnodeid="828" dstpinname="Element">
@@ -3539,5 +3437,7 @@
   <LINK srcnodeid="1097" srcpinname="Output" dstnodeid="856" dstpinname="Property Value">
   </LINK>
   <LINK srcnodeid="1102" srcpinname="Output" dstnodeid="860" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 4">
   </LINK>
   </PATCH>
