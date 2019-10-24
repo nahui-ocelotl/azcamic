@@ -69,7 +69,7 @@
   <NODE id="8" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="2265" top="705" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|Tlalticpac|">
+  <PIN pinname="Input 1" visible="1" values="|Tlalticpac |">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|Apanohuayan|">
   </PIN>
@@ -171,23 +171,23 @@
   <NODE id="13" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="5550" top="5865" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|Ahora te encuentras en el primer paso, un camino donde la tierra se une con el lugar de los muertos...|">
+  <PIN pinname="Input 1" visible="1" values="|En este momento te encuentras en el primer paso, el sitio donde la tierra se conecta con el mundo de los muertos… Tu meta es viajar durante cuatro años al último paso, Itzmictlan Apochcalocan, y llevar una ofrenda a Mictlantecuhtli, dios del inframundo.|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="||">
+  <PIN pinname="Input 2" visible="1" values="|El agua es un puente entre ambos mundos, los difuntos deben atravesar el río montados sobre el lomo de un perro, este se convertirá en su guía durante todo el viaje…|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="||">
+  <PIN pinname="Input 3" visible="1" values="|Deberás pasar a través de las montañas, si te atrapan te destruirán impidiendo la llegada al inframundo, ¡Cuidado! Cuando el ave Oactli canta se anuncia la destrucción... |">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="||">
+  <PIN pinname="Input 4" visible="1" values="| Bienvenido a la tierra devoradora, una combinación entre Tepetl Monamiquian e Itzehecayan, un sitio muy peligroso donde podrías encontrar la destrucción si no eres cuidadoso...|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="||">
+  <PIN pinname="Input 5" visible="1" values="|El sitio más frío del viaje, lugar de los vientos más fuertes. Las piedras, árboles y cuchillos de obsidiana se levantan, cuida que no lleguen a ti...|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="||">
+  <PIN pinname="Input 6" visible="1" values="| En el lugar de las banderas, los difuntos han de aceptar su situación, y conocer su destino, ¿Llegarás al último paso y entregaras tu ofrenda a Mictlantecuhtli, o, el trayecto te destruirá?...|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="||">
+  <PIN pinname="Input 7" visible="1" values="|Te encuentras en el sitio por el cual pasa el sol, el dios Citli le lanza sus flechas, pero este las esquiva y  responde al ataque con  sus rayos que se volverán un desafío para ti, enfrentarás calor y sequedad, los cuerpos, huesos y cenizas que están en el lugar fertilizan a la tierra que entrega frutos como alimento de los hombres.|">
   </PIN>
-  <PIN pinname="Input 8" visible="1" values="||">
+  <PIN pinname="Input 8" visible="1" values="|En el lugar de las bestias salvajes el principal alimento son los corazones.  El movimiento, la fuerza, el conocimiento y la memoria se pierden. Te estás convirtiendo en un ente sin pasado...|">
   </PIN>
-  <PIN pinname="Input 9" visible="1" values="||">
+  <PIN pinname="Input 9" visible="1" values="| Bienvenido a la última etapa del viaje, el lugar más oscuro del inframundo, Mictlantecuhtli te espera, lleva la ofrenda que has conservado durante cuatro años. Toma una forma nueva, y enfrenta la existencia en un nuevo mundo.|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|9|">
   </PIN>
