@@ -2103,6 +2103,8 @@
   <NODE id="1190" nodename="tepetl_monamiquian.v4p" systemname="tepetl_monamiquian" filename="tepetl_monamiquian.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3720" top="315" width="100" height="100">
   </BOUNDS>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
