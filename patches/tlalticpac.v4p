@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19995" height="10155">
+  <BOUNDS type="Window" width="19500" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="1125" width="100" height="100">
@@ -133,7 +133,7 @@
   <NODE id="12" nodename="leja.v4p" systemname="leja" filename="leja.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="7140" top="465" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="mapa" visible="1">
+  <PIN pinname="mapa" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -211,13 +211,15 @@
   <NODE id="18" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
   <BOUNDS type="Node" left="8490" top="3555" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Enabled" visible="1">
+  <PIN pinname="Enabled" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Layer 1" visible="1">
   </PIN>
   <PIN pinname="Layer 2" visible="1">
   </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  <PIN pinname="Layer 3" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|3|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -248,12 +250,12 @@
   </LINK>
   <LINK srcnodeid="17" srcpinname="Transform Out" dstnodeid="16" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="12" srcpinname="mapa" dstnodeid="18" dstpinname="Enabled">
-  </LINK>
-  <LINK srcnodeid="13" srcpinname="Layer" dstnodeid="18" dstpinname="Layer 1">
-  </LINK>
-  <LINK srcnodeid="15" srcpinname="Layer" dstnodeid="18" dstpinname="Layer 2">
-  </LINK>
   <LINK srcnodeid="18" srcpinname="Layer" dstnodeid="8" dstpinname="Layer 5">
+  </LINK>
+  <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="18" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="13" srcpinname="Layer" dstnodeid="18" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="15" srcpinname="Layer" dstnodeid="18" dstpinname="Layer 3">
   </LINK>
   </PATCH>
