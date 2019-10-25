@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18255" height="14640">
+  <BOUNDS type="Window" width="17760" height="14640">
   </BOUNDS>
   <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="870" top="1290" width="100" height="100">
@@ -24,32 +24,6 @@
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|21|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="3" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3810" top="1230" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/o.png|">
-  </PIN>
-  <PIN pinname="letra" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ o|">
-  </PIN>
-  </NODE>
-  <NODE id="4" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3810" top="675" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|60|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|13|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -487,11 +461,11 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|.a|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|.o|">
+  <PIN pinname="Input 2" visible="1" values="|.fi|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|.fi|">
+  <PIN pinname="Input 3" visible="1" values="|.cdeportivo|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|.cdeportivo|">
+  <PIN pinname="Input 4" visible="1" values="|.l|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -732,9 +706,31 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="60" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="3990" top="1215" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/l.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ l|">
+  </PIN>
+  </NODE>
+  <NODE id="61" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3990" top="675" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|21|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|30|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="2" srcpinname="Transform Out" dstnodeid="1" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="4" srcpinname="Transform Out" dstnodeid="3" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="6" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform">
   </LINK>
@@ -743,8 +739,6 @@
   <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="5" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 2">
-  </LINK>
-  <LINK srcnodeid="3" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 3">
   </LINK>
   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="8" dstpinname="Input 1">
   </LINK>
@@ -837,5 +831,9 @@
   <LINK srcnodeid="58" srcpinname="Texture Out" dstnodeid="50" dstpinname="Texture">
   </LINK>
   <LINK srcnodeid="59" srcpinname="Output String" dstnodeid="58" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="61" srcpinname="Transform Out" dstnodeid="60" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="60" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 3">
   </LINK>
   </PATCH>
