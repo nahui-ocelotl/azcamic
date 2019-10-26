@@ -329,11 +329,11 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|1.0499999999999996|">
+  <PIN pinname="X" visible="1" values="|-0.47000000000000114|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-6.5|">
+  <PIN pinname="Z" visible="1" values="|-6.020000000000008|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -377,7 +377,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|1.4700000000000002|">
+  <PIN pinname="X" visible="1" values="|-1.4700000000000002|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|2|">
   </PIN>
@@ -393,7 +393,7 @@
   </PIN>
   <PIN pinname="Saturation" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Value" visible="1" values="|0.75|">
+  <PIN pinname="Value" visible="1" values="|0.3|">
   </PIN>
   <PIN pinname="Alpha" visible="1">
   </PIN>
