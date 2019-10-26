@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="68535">
+  <BOUNDS type="Window" width="20235" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2385" top="16830" width="100" height="100">
@@ -659,7 +659,7 @@
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|23.5|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="|80|">
+  <PIN pinname="Input 7" visible="1" values="|70|">
   </PIN>
   <PIN pinname="Input 8" visible="1" values="|80|">
   </PIN>
@@ -743,7 +743,7 @@
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|-91|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="|-115|">
+  <PIN pinname="Input 7" visible="1" values="|-98|">
   </PIN>
   <PIN pinname="Input 8" visible="1" values="|-111|">
   </PIN>
@@ -1667,7 +1667,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-105|">
+  <PIN pinname="Input 2" visible="1" values="|-102|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1687,7 +1687,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-120|">
+  <PIN pinname="Input 2" visible="1" values="|-95|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
