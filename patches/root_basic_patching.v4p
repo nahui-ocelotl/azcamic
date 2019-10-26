@@ -1117,7 +1117,7 @@
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1" values="|bottom|">
+  <PIN pinname="Property Name" visible="1" values="|top|">
   </PIN>
   <PIN pinname="Property Value" visible="1" values="|5%|">
   </PIN>
@@ -1143,7 +1143,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|width|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|36%|">
+  <PIN pinname="Property Value" visible="1" values="|20%|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1155,7 +1155,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|height|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|50%|">
+  <PIN pinname="Property Value" visible="1" values="|40%|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1197,7 +1197,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|text-align|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|center|">
+  <PIN pinname="Property Value" visible="1" values="|left|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1275,7 +1275,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|padding|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|10px|">
+  <PIN pinname="Property Value" visible="1" values="|2%|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2068,6 +2068,18 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1205" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5925" top="34665" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|font-size|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|small|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -2403,5 +2415,7 @@
   <LINK srcnodeid="1203" srcpinname="Layers Out" dstnodeid="1199" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="1199" srcpinname="Text" dstnodeid="1204" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1205" srcpinname="Style Out" dstnodeid="807" dstpinname="Style In">
   </LINK>
   </PATCH>
