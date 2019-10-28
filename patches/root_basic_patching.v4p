@@ -2136,14 +2136,200 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1216" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="25545" top="32730" width="0" height="0">
+  <NODE id="1217" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17445" top="32595" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
+  <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1">
+  <PIN pinname="Tag Name" visible="1">
   </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1218" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17295" top="29340" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|position|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|absolute|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1219" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17295" top="29925" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|bottom|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|0%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1220" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17310" top="30540" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|left|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|40%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1221" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17340" top="31170" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|width|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|10%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1222" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17355" top="31875" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|height|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|50%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1223" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17265" top="28725" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|z-index|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|16|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1224" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15105" top="34230" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1225" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14535" top="35235" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|cihuaaxolotl-ce.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1229" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16740" top="34215" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1230" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16170" top="35220" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|cihuaaxolotl-ome.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1231" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18420" top="34290" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1232" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17850" top="35295" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|cihuaaxolotl-yei.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1233" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17205" top="28095" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|opacity|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2490,8 +2676,32 @@
   </LINK>
   <LINK srcnodeid="1207" srcpinname="Output" dstnodeid="1210" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="1210" srcpinname="Output" dstnodeid="1216" dstpinname="Input String">
+  <LINK srcnodeid="1222" srcpinname="Style Out" dstnodeid="1217" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="1216" srcpinname="Output String" dstnodeid="997" dstpinname="Input 2">
+  <LINK srcnodeid="1223" srcpinname="Style Out" dstnodeid="1218" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1218" srcpinname="Style Out" dstnodeid="1219" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1219" srcpinname="Style Out" dstnodeid="1220" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1220" srcpinname="Style Out" dstnodeid="1221" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1221" srcpinname="Style Out" dstnodeid="1222" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1224" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1224" srcpinname="Layers Out" dstnodeid="1225" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1229" srcpinname="Layers Out" dstnodeid="1230" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1229" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1231" srcpinname="Layers Out" dstnodeid="1232" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1231" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1233" srcpinname="Style Out" dstnodeid="1223" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1210" srcpinname="Output" dstnodeid="997" dstpinname="Input 2">
   </LINK>
   </PATCH>
