@@ -145,9 +145,9 @@
   <NODE id="12" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="1470" top="5880" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|Axcan tica ipan inic ce centlaxitl, in ohtli campa in tlalli centilia ihuan mictlan...|">
+  <PIN pinname="Input 1" visible="1" values="|Axcan tica ipan inic ce centlaxitl, in ohtli campa in tlalli centilia ihuan mictlan... Motlamiliztli tiyahui nahui xihuitl ixquixca in zatlatzonco centlalixtli, Itzmictlan Apochcalocan ihuan tihuica ce tlalmanalli inic Mictlantecuhtli.|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="||">
+  <PIN pinname="Input 2" visible="1" values="|In atl ce tenolli nepantla inin ome tlalticpac, in miquiztli panozqueh ce atoyatl acopan ce itzcuintli cuitlaxiloyotl, inin mocuepaz iteyacaniliztli ipan nochi ohtli...|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="||">
   </PIN>
