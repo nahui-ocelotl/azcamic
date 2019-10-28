@@ -1825,7 +1825,7 @@
   </PIN>
   </NODE>
   <NODE id="996" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21540" top="35985" width="100" height="100">
+  <BOUNDS type="Node" left="22695" top="35010" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -2080,22 +2080,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1206" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="24150" top="30675" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Period" visible="1" values="|0.15|">
-  </PIN>
-  <PIN pinname="Pause" visible="1">
-  </PIN>
-  <PIN pinname="Reverse" visible="1">
-  </PIN>
-  <PIN pinname="Reset" visible="1">
-  </PIN>
-  <PIN pinname="Phase" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1207" nodename="Counter (Animation)" systemname="Counter (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="24975" top="31410" width="100" height="100">
   </BOUNDS>
@@ -2136,20 +2120,26 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1214" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23355" top="29925" width="100" height="100">
+  <NODE id="1215" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25005" top="30750" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1" values="|0.15|">
+  </PIN>
+  <PIN pinname="Pause" visible="1">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1218" nodename="NOT (Boolean)" systemname="NOT (Boolean)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23670" top="29325" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Source Minimum" visible="1">
-  </PIN>
-  <PIN pinname="Source Maximum" visible="1">
-  </PIN>
-  <PIN pinname="Destination Minimum" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Mapping" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2492,14 +2482,14 @@
   </LINK>
   <LINK srcnodeid="1205" srcpinname="Style Out" dstnodeid="807" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="1206" srcpinname="Change" dstnodeid="1207" dstpinname="Up">
-  </LINK>
-  <LINK srcnodeid="621" srcpinname="_ tlani" dstnodeid="1214" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="1214" srcpinname="Output" dstnodeid="1206" dstpinname="Pause">
-  </LINK>
   <LINK srcnodeid="1207" srcpinname="Output" dstnodeid="1210" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="1210" srcpinname="Output" dstnodeid="997" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="1215" srcpinname="Change" dstnodeid="1207" dstpinname="Up">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="_ tlani" dstnodeid="1218" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1218" srcpinname="Output" dstnodeid="1215" dstpinname="Pause">
   </LINK>
   </PATCH>
