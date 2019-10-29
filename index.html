@@ -84,7 +84,7 @@ $(document).ready(function(){
 	<button value="x" name="x" class="x">x</button>
 	<button value="z" name="z" class="z">z</button>
 	<button value="azc" name="azc" class="azc">azc</button>
-	<button value="direccion" name="direccion" class="direccion">direccion</button>
+	<button value="direccion" name="direccion" class="direccion" onclick="playAudio()">direccion</button>
 	<button value="pec1" name="pec1" class="pec1">pec1</button>
 	<button value="pec2" name="pec2" class="pec2">pec2</button>
 	<button value="biblioteca" name="biblioteca" class="biblioteca">biblioteca</button>
@@ -139,5 +139,22 @@ $(document).ready(function(){
     <p>Edificio: <span id="edificio"></span></p>
     <p>Tecla: <span id="tecla"></span></p>
 </div>
-	 </body>
+
+<audio id="myAudio">
+  <source src="tzatziliztli/tlalticpac.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playAudio()" type="button">Play Audio</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+</script>
+
+		 
+</body>
 </html>
