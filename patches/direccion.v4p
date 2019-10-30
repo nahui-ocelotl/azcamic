@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="7875" height="9555">
+  <BOUNDS type="Window" width="7380" height="9555">
   </BOUNDS>
   <NODE id="2" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
   <BOUNDS type="Node" left="675" top="6255" width="100" height="100">
@@ -381,15 +381,15 @@
   </PIN>
   </NODE>
   <NODE id="23" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4170" top="300" width="100" height="100">
+  <BOUNDS type="Node" left="3705" top="405" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-44|">
+  <PIN pinname="X" visible="1" values="|-41|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|4.7|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-15.170000000000003|">
+  <PIN pinname="Z" visible="1" values="|-19|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -430,6 +430,28 @@
   <PIN pinname="Input Node" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|Layer|">
+  </PIN>
+  </NODE>
+  <NODE id="28" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="5205" top="7530" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Translate|">
+  </PIN>
+  </NODE>
+  <NODE id="30" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5895" top="5730" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|-0.07|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="3" srcpinname="Mesh" dstnodeid="2" dstpinname="Mesh">
@@ -483,5 +505,9 @@
   <LINK srcnodeid="15" srcpinname="Transform Out" dstnodeid="23" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="19" srcpinname="Layer" dstnodeid="27" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="23" srcpinname="Transform Out" dstnodeid="30" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="23" srcpinname="Transform Out" dstnodeid="28" dstpinname="Input Node">
   </LINK>
   </PATCH>
