@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="68535">
+  <BOUNDS type="Window" width="20235" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3300" top="6240" width="100" height="100">
@@ -1060,16 +1060,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="808" nodename="OnClick (HTML)" systemname="OnClick (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7380" top="44025" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Element" visible="1">
-  </PIN>
-  <PIN pinname="Prevent Default" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="809" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="7320" top="44640" width="100" height="100">
   </BOUNDS>
@@ -2114,6 +2104,46 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1235" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="12255" top="46140" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1237" nodename="OnEvent (HTML)" systemname="OnEvent (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11640" top="44355" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Prevent Default" visible="1">
+  </PIN>
+  <PIN pinname="Event" visible="1" values="|hover|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1238" nodename="TogEdge (Animation)" systemname="TogEdge (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13470" top="44760" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1239" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11985" top="45405" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -2249,10 +2279,6 @@
   <LINK srcnodeid="804" srcpinname="Layers Out" dstnodeid="806" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="807" srcpinname="Style Out" dstnodeid="770" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="804" srcpinname="Layers Out" dstnodeid="808" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="808" srcpinname="OnEvent" dstnodeid="809" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="809" srcpinname="Output" dstnodeid="803" dstpinname="Y Input Value">
   </LINK>
@@ -2455,5 +2481,15 @@
   <LINK srcnodeid="1210" srcpinname="Output" dstnodeid="997" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="227" srcpinname="Layer" dstnodeid="188" dstpinname="Layers">
+  </LINK>
+  <LINK srcnodeid="804" srcpinname="Layers Out" dstnodeid="1237" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1237" srcpinname="OnEvent" dstnodeid="1238" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1238" srcpinname="Up Edge" dstnodeid="1239" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1239" srcpinname="Output" dstnodeid="1235" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="1238" srcpinname="Up Edge" dstnodeid="809" dstpinname="Input">
   </LINK>
   </PATCH>

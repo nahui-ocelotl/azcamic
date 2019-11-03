@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="10605">
+  <BOUNDS type="Window" width="20235" height="10605">
   </BOUNDS>
   <NODE id="1" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="3465" top="3810" width="100" height="100">
@@ -149,7 +149,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|In atl ce tenolli nepantla inin ome tlalticpac, in miquiztli panozqueh ce atoyatl acopan ce itzcuintli cuitlaxiloyotl, inin mocuepaz iteyacaniliztli ipan nochi ohtli...|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="||">
+  <PIN pinname="Input 3" visible="1" values="|Mah Xitihuiquiliaz tipanoz nepantla tepemeh, intla anmopachohuazqueh anmopopoloazqueh tlacahualtica moaci ompa Mictlan. ¡Cuetlahuiliztli! Ihcuac in Oactli tototl cuica, mocaquiztilia in tlapopoliztli...|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|Mah ximopanoltitzino ompa tlacuatlalli, centlaliztli ipan Tepetl  Monamiquian ihuan Itzehecayan, ce ohtli cenca ohui ompa tihuelitiz nextiaz in tlapopoliztli intla ahmo netlacuitlahuini|">
   </PIN>
