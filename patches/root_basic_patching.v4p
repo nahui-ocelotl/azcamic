@@ -5,7 +5,7 @@
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3300" top="6240" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Filename" visible="1" values="|tex/Cubemaps/ilhuicatl.jpg|">
+  <PIN pinname="Filename" visible="1">
   </PIN>
   <PIN pinname="Type" visible="1" values="|Cube Texture|">
   </PIN>
@@ -2144,6 +2144,52 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1240" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3360" top="4575" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|tex/Cubemaps/apanohuayan.jpg|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|tex/Cubemaps/itzehecayan.jpg|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1241" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3555" top="5565" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1242" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4530" top="5025" width="270" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|ohtli|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -2491,5 +2537,11 @@
   <LINK srcnodeid="1239" srcpinname="Output" dstnodeid="1235" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="1238" srcpinname="Up Edge" dstnodeid="809" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1240" srcpinname="Output" dstnodeid="1241" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1242" srcpinname="Output" dstnodeid="1241" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="1241" srcpinname="Output" dstnodeid="46" dstpinname="Filename">
   </LINK>
   </PATCH>
