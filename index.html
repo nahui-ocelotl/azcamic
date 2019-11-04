@@ -144,7 +144,7 @@ $(document).ready(function(){
 <audio id="myAudio" autoplay>
   <source src="tzatziliztli/tlalticpac.mp3" type="audio/mpeg">
 </audio>
-
+<img src="bocina.png" class="bocina" onclick="pauseAudio()">
 <div class="intro">
 <button class="tzatziliztli" onclick="playAudio()" type="button">Iniciar</button> 
 </div>
@@ -156,6 +156,10 @@ function playAudio() {
   x.loop = true;
   x.load();
 } 
+
+function pauseAudio() { 
+  x.pause(); 
+} 	
 
 </script>
 
