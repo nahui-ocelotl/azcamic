@@ -671,7 +671,7 @@
   </PIN>
   <PIN pinname="Input 16" visible="1" values="|-77|">
   </PIN>
-  <PIN pinname="Input 17" visible="1">
+  <PIN pinname="Input 17" visible="1" values="|-89|">
   </PIN>
   <PIN pinname="Input 18" visible="1" values="|-89|">
   </PIN>
@@ -755,7 +755,7 @@
   </PIN>
   <PIN pinname="Input 16" visible="1" values="|-28.5|">
   </PIN>
-  <PIN pinname="Input 17" visible="1" values="|0|">
+  <PIN pinname="Input 17" visible="1" values="|-51|">
   </PIN>
   <PIN pinname="Input 18" visible="1" values="|-51|">
   </PIN>
