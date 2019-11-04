@@ -215,7 +215,11 @@ button {
   text-align: center;
   z-index: 15;
 }
-    
+ 
+.bocina {
+display: none;
+}
+
 .container {
  position: fixed;
  bottom: 2.5%;
