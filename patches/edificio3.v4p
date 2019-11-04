@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="17265">
+  <BOUNDS type="Window" width="18705" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="4920" top="12309" width="750" height="240">
@@ -126,130 +126,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="52" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="11055" top="5100" width="7575" height="100">
-  </BOUNDS>
-  <PIN pinname="Render State" visible="1">
-  </PIN>
-  <PIN pinname="Mesh" visible="1">
-  </PIN>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="Technique" visible="1">
-  </PIN>
-  <PIN pinname="VS Defines" visible="1">
-  </PIN>
-  <PIN pinname="PS Defines" visible="1">
-  </PIN>
-  <PIN pinname="Texture Transform" visible="1">
-  </PIN>
-  <PIN pinname="Texture Transform col" visible="1">
-  </PIN>
-  <PIN pinname="CamPos" visible="1">
-  </PIN>
-  <PIN pinname="refraction etaRatio" visible="1" values="|0.3|">
-  </PIN>
-  <PIN pinname="tNormal1" visible="1">
-  </PIN>
-  <PIN pinname="tCol1" visible="1">
-  </PIN>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
-  <PIN pinname="u fresnel0" visible="1" values="|0.3|">
-  </PIN>
-  <PIN pinname="u roughness" visible="1" values="|0.5800000000000003|">
-  </PIN>
-  <PIN pinname="Ambient Color" visible="1">
-  </PIN>
-  <PIN pinname="u diffuseColor" visible="1" values="|0.02500000037252903, 0.02500000037252903, 0.02500000037252903, 1|">
-  </PIN>
-  <PIN pinname="u lightColor" visible="1">
-  </PIN>
-  <PIN pinname="u lightDir" visible="1" values="|0|,|0|,|0|">
-  </PIN>
-  <PIN pinname="NormalScale" visible="1">
-  </PIN>
-  <PIN pinname="BumpFactor" visible="1">
-  </PIN>
-  <PIN pinname="refract amount" visible="1" values="|0.4|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="56" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11490" top="4095" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|50.5|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|10|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="59" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11100" top="3375" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="61" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10410" top="3645" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="62" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17175" top="4215" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Hue" visible="1">
-  </PIN>
-  <PIN pinname="Saturation" visible="1">
-  </PIN>
-  <PIN pinname="Value" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Alpha" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="63" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9975" top="2175" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|0.25|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Z" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="64" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11760" top="2280" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|-0.3|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-4.440000000000018|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="65" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="2700" top="2250" width="100" height="100">
   </BOUNDS>
@@ -344,30 +220,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="73" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16365" top="3120" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0.56|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="74" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17325" top="3030" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="78" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="465" top="345" width="100" height="100">
   </BOUNDS>
@@ -421,7 +273,7 @@
   </PIN>
   </NODE>
   <NODE id="83" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="11235" top="9975" width="100" height="100">
+  <BOUNDS type="Node" left="10755" top="3525" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -455,7 +307,7 @@
   </PIN>
   </NODE>
   <NODE id="84" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10860" top="8100" width="100" height="100">
+  <BOUNDS type="Node" left="10380" top="1650" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1" values="|2|">
   </PIN>
@@ -465,7 +317,7 @@
   </PIN>
   </NODE>
   <NODE id="85" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11565" top="7185" width="100" height="100">
+  <BOUNDS type="Node" left="11085" top="735" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -479,7 +331,7 @@
   </PIN>
   </NODE>
   <NODE id="86" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12030" top="7905" width="100" height="100">
+  <BOUNDS type="Node" left="11550" top="1455" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -493,7 +345,7 @@
   </PIN>
   </NODE>
   <NODE id="87" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12375" top="8565" width="100" height="100">
+  <BOUNDS type="Node" left="11895" top="2115" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -507,7 +359,7 @@
   </PIN>
   </NODE>
   <NODE id="88" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13215" top="7005" width="100" height="100">
+  <BOUNDS type="Node" left="12735" top="555" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|-0.76|">
   </PIN>
@@ -519,7 +371,7 @@
   </PIN>
   </NODE>
   <NODE id="89" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13950" top="8775" width="100" height="100">
+  <BOUNDS type="Node" left="13470" top="2325" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -531,7 +383,7 @@
   </PIN>
   </NODE>
   <NODE id="90" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="14340" top="7785" width="0" height="0">
+  <BOUNDS type="Box" left="13860" top="1335" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -543,7 +395,7 @@
   </PIN>
   </NODE>
   <NODE id="91" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14775" top="9615" width="100" height="100">
+  <BOUNDS type="Node" left="14295" top="3165" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Hue" visible="1">
   </PIN>
@@ -576,18 +428,6 @@
   </LINK>
   <LINK srcnodeid="50" srcpinname="Layer" dstnodeid="31" dstpinname="Input Node">
   </LINK>
-  <LINK srcnodeid="56" srcpinname="Transform Out" dstnodeid="52" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="59" srcpinname="Transform Out" dstnodeid="56" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="61" srcpinname="Mesh" dstnodeid="52" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="62" srcpinname="Output" dstnodeid="52" dstpinname="Ambient Color">
-  </LINK>
-  <LINK srcnodeid="63" srcpinname="Transform Out" dstnodeid="59" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="64" srcpinname="Output" dstnodeid="59" dstpinname="Z">
-  </LINK>
   <LINK srcnodeid="65" srcpinname="Output" dstnodeid="49" dstpinname="Z">
   </LINK>
   <LINK srcnodeid="66" srcpinname="Output" dstnodeid="48" dstpinname="Filename">
@@ -600,19 +440,11 @@
   </LINK>
   <LINK srcnodeid="72" srcpinname="Output" dstnodeid="49" dstpinname="X">
   </LINK>
-  <LINK srcnodeid="73" srcpinname="Output" dstnodeid="62" dstpinname="Hue">
-  </LINK>
-  <LINK srcnodeid="74" srcpinname="Output" dstnodeid="62" dstpinname="Saturation">
-  </LINK>
   <LINK srcnodeid="79" srcpinname="Transform Out" dstnodeid="42" dstpinname="Texture Transform">
   </LINK>
   <LINK srcnodeid="78" srcpinname="Output Node" dstnodeid="80" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="80" srcpinname="Transform Out" dstnodeid="68" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="80" srcpinname="Transform Out" dstnodeid="63" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="52" srcpinname="Layer" dstnodeid="50" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="81" srcpinname="Output" dstnodeid="79" dstpinname="X">
   </LINK>
@@ -637,7 +469,5 @@
   <LINK srcnodeid="78" srcpinname="Output Node" dstnodeid="85" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="92" srcpinname="Output" dstnodeid="42" dstpinname="CamPos">
-  </LINK>
-  <LINK srcnodeid="92" srcpinname="Output" dstnodeid="52" dstpinname="CamPos">
   </LINK>
   </PATCH>

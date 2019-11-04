@@ -653,15 +653,15 @@
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|70|">
   </PIN>
-  <PIN pinname="Input 8" visible="1" values="|80|">
+  <PIN pinname="Input 8" visible="1" values="|75|">
   </PIN>
   <PIN pinname="Input 9" visible="1" values="|-18|">
   </PIN>
   <PIN pinname="Input 10" visible="1" values="|-29|">
   </PIN>
-  <PIN pinname="Input 11" visible="1" values="|-29|">
+  <PIN pinname="Input 11" visible="1" values="|-27|">
   </PIN>
-  <PIN pinname="Input 12" visible="1" values="|-55|">
+  <PIN pinname="Input 12" visible="1" values="|-51|">
   </PIN>
   <PIN pinname="Input 13" visible="1" values="|-36|">
   </PIN>
@@ -689,7 +689,7 @@
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|60|">
   </PIN>
-  <PIN pinname="Input 26" visible="1" values="|-115|">
+  <PIN pinname="Input 26" visible="1" values="|-115.5|">
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|25|">
   </PIN>
@@ -701,13 +701,13 @@
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|-23|">
   </PIN>
-  <PIN pinname="Input 32" visible="1" values="|16|">
+  <PIN pinname="Input 32" visible="1" values="|21|">
   </PIN>
   <PIN pinname="Input 33" visible="1" values="|-85|">
   </PIN>
-  <PIN pinname="Input 34" visible="1" values="|-160|">
+  <PIN pinname="Input 34" visible="1" values="|-152|">
   </PIN>
-  <PIN pinname="Input 35" visible="1" values="|-149|">
+  <PIN pinname="Input 35" visible="1" values="|-147|">
   </PIN>
   <PIN pinname="Input 36" visible="1" values="|-162|">
   </PIN>
@@ -737,15 +737,15 @@
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|-98|">
   </PIN>
-  <PIN pinname="Input 8" visible="1" values="|-111|">
+  <PIN pinname="Input 8" visible="1" values="|-108|">
   </PIN>
   <PIN pinname="Input 9" visible="1" values="|-68|">
   </PIN>
   <PIN pinname="Input 10" visible="1" values="|-80|">
   </PIN>
-  <PIN pinname="Input 11" visible="1" values="|-108|">
+  <PIN pinname="Input 11" visible="1" values="|-97|">
   </PIN>
-  <PIN pinname="Input 12" visible="1" values="|-100|">
+  <PIN pinname="Input 12" visible="1" values="|-105|">
   </PIN>
   <PIN pinname="Input 13" visible="1" values="|-42|">
   </PIN>
@@ -769,11 +769,11 @@
   </PIN>
   <PIN pinname="Input 23" visible="1" values="|-67|">
   </PIN>
-  <PIN pinname="Input 24" visible="1" values="|-110|">
+  <PIN pinname="Input 24" visible="1" values="|-95|">
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|-72|">
   </PIN>
-  <PIN pinname="Input 26" visible="1" values="|-130|">
+  <PIN pinname="Input 26" visible="1" values="|-117|">
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|-14|">
   </PIN>
@@ -785,13 +785,13 @@
   </PIN>
   <PIN pinname="Input 31" visible="1" values="|-5|">
   </PIN>
-  <PIN pinname="Input 32" visible="1" values="|-99|">
+  <PIN pinname="Input 32" visible="1" values="|-103|">
   </PIN>
   <PIN pinname="Input 33" visible="1" values="|-107|">
   </PIN>
-  <PIN pinname="Input 34" visible="1" values="|-114|">
+  <PIN pinname="Input 34" visible="1" values="|-109|">
   </PIN>
-  <PIN pinname="Input 35" visible="1" values="|-117|">
+  <PIN pinname="Input 35" visible="1" values="|-100|">
   </PIN>
   <PIN pinname="Input 36" visible="1" values="|-81|">
   </PIN>
