@@ -220,6 +220,11 @@ button {
 display: none;
 }
 
+#fondo {
+position: absolute;
+left: 25%;
+}
+
 .tzatziliztli {
 display: none;
 }
