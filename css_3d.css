@@ -220,6 +220,10 @@ button {
 display: none;
 }
 
+.tzatziliztli {
+display: none;
+}
+
 .container {
  position: fixed;
  bottom: 2.5%;
