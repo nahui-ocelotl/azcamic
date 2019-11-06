@@ -1491,7 +1491,7 @@
   </PIN>
   </NODE>
   <NODE id="980" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20730" top="29445" width="100" height="100">
+  <BOUNDS type="Node" left="18705" top="28860" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1503,7 +1503,7 @@
   </PIN>
   </NODE>
   <NODE id="981" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20730" top="30030" width="100" height="100">
+  <BOUNDS type="Node" left="18705" top="29445" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1515,7 +1515,7 @@
   </PIN>
   </NODE>
   <NODE id="982" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20745" top="30645" width="100" height="100">
+  <BOUNDS type="Node" left="18720" top="30060" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1527,7 +1527,7 @@
   </PIN>
   </NODE>
   <NODE id="983" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20775" top="31275" width="100" height="100">
+  <BOUNDS type="Node" left="18750" top="30690" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1539,7 +1539,7 @@
   </PIN>
   </NODE>
   <NODE id="984" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20790" top="31980" width="100" height="100">
+  <BOUNDS type="Node" left="18765" top="31395" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1551,7 +1551,7 @@
   </PIN>
   </NODE>
   <NODE id="985" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20700" top="28830" width="100" height="100">
+  <BOUNDS type="Node" left="18675" top="28245" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1611,13 +1611,17 @@
   <NODE id="997" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
   <BOUNDS type="Node" left="22215" top="33570" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Switch" visible="1" values="|0|">
+  <PIN pinname="Switch" visible="1">
   </PIN>
   <PIN pinname="Input 1" visible="1" values="|icampa_cihuatl.png|">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1" values="|axolocihuatl_opoxtli.png|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|axolocihuatl_opoxtli.png|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2898,28 +2902,146 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1308" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="24630" top="33645" width="100" height="100">
+  <NODE id="1311" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="22245" top="32730" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1313" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="21870" top="31305" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|2|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1315" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="19740" top="31935" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|transform|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1316" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="20310" top="31050" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|icampa_cihuatl.png|">
+  <PIN pinname="Input 1" visible="1" values="|scaleX(1)|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|axolocihuatl_opoxtli.png|">
+  <PIN pinname="Input 2" visible="1" values="|scaleX(-1)|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1310" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="24975" top="34695" width="0" height="0">
+  <NODE id="1317" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="22005" top="28395" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|#tecla|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1318" nodename="GetText (HTML)" systemname="GetText (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="22470" top="29100" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1319" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="21420" top="29790" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
   <PIN pinname="Input String" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1320" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23610" top="30015" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|ArrowRight|">
+  </PIN>
+  <PIN pinname="Case Sensitive" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1322" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24060" top="32370" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1323" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="23970" top="33405" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1324" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23655" top="31260" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|ArrowRight|">
+  </PIN>
+  <PIN pinname="Case Sensitive" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3162,8 +3284,6 @@
   </LINK>
   <LINK srcnodeid="983" srcpinname="Style Out" dstnodeid="984" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="984" srcpinname="Style Out" dstnodeid="979" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="979" srcpinname="Layers Out" dstnodeid="994" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="994" srcpinname="Layers Out" dstnodeid="995" dstpinname="Element">
@@ -3384,8 +3504,32 @@
   </LINK>
   <LINK srcnodeid="1307" srcpinname="Style Out" dstnodeid="1250" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="621" srcpinname="_ opoxtli" dstnodeid="1308" dstpinname="Switch">
+  <LINK srcnodeid="621" srcpinname="_ tlani" dstnodeid="1311" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="1308" srcpinname="Output" dstnodeid="1310" dstpinname="Input String">
+  <LINK srcnodeid="1311" srcpinname="Output" dstnodeid="997" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="_ opoxtli" dstnodeid="1313" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1313" srcpinname="Output" dstnodeid="1311" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="984" srcpinname="Style Out" dstnodeid="1315" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1315" srcpinname="Style Out" dstnodeid="979" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1317" srcpinname="Layers Out" dstnodeid="1318" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1318" srcpinname="Text" dstnodeid="1319" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="1318" srcpinname="Text" dstnodeid="1320" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="1320" srcpinname="Output" dstnodeid="1316" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="1316" srcpinname="Output" dstnodeid="1315" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1320" srcpinname="Output" dstnodeid="1322" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1322" srcpinname="Output" dstnodeid="1311" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="1322" srcpinname="Output" dstnodeid="1323" dstpinname="Y Input Value">
   </LINK>
   </PATCH>
