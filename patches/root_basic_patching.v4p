@@ -3,7 +3,7 @@
   <BOUNDS type="Window" width="28545" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3300" top="6240" width="100" height="100">
+  <BOUNDS type="Node" left="3330" top="9330" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -15,13 +15,13 @@
   </PIN>
   </NODE>
   <NODE id="48" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1350" top="6675" width="100" height="100">
+  <BOUNDS type="Node" left="1380" top="9765" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="49" nodename="UniformScale (Transform)" systemname="UniformScale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1635" top="6225" width="100" height="100">
+  <BOUNDS type="Node" left="1665" top="9315" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -31,7 +31,7 @@
   </PIN>
   </NODE>
   <NODE id="50" nodename="Skybox (EX9.Effect)" systemname="Skybox (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/Skybox.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="1365" top="7380" width="100" height="100">
+  <BOUNDS type="Node" left="1395" top="10470" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -341,7 +341,7 @@
   </PIN>
   </NODE>
   <NODE id="265" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="465" top="1245" width="17130" height="100">
+  <BOUNDS type="Node" left="450" top="1875" width="17130" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1" values="|1|">
   </PIN>
@@ -1333,7 +1333,7 @@
   </PIN>
   </NODE>
   <NODE id="1133" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4605" top="19410" width="100" height="100">
+  <BOUNDS type="Node" left="4305" top="24405" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Selector" visible="1" values="|.container|">
   </PIN>
@@ -1345,7 +1345,7 @@
   </PIN>
   </NODE>
   <NODE id="1134" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3645" top="19410" width="100" height="100">
+  <BOUNDS type="Node" left="3345" top="24405" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1357,7 +1357,7 @@
   </PIN>
   </NODE>
   <NODE id="1135" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4410" top="20775" width="100" height="100">
+  <BOUNDS type="Node" left="3720" top="25125" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style" visible="1">
   </PIN>
@@ -1385,7 +1385,7 @@
   </PIN>
   </NODE>
   <NODE id="1188" nodename="tlalticpac.v4p" systemname="tlalticpac" filename="tlalticpac.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="510" top="345" width="100" height="100">
+  <BOUNDS type="Node" left="435" top="975" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Button" visible="1">
   </PIN>
@@ -1393,7 +1393,7 @@
   </PIN>
   </NODE>
   <NODE id="1189" nodename="apanohuayan.v4p" systemname="apanohuayan" filename="apanohuayan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2070" top="330" width="100" height="100">
+  <BOUNDS type="Node" left="2055" top="975" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Button" visible="1">
   </PIN>
@@ -1401,7 +1401,7 @@
   </PIN>
   </NODE>
   <NODE id="1190" nodename="tepetl_monamiquian.v4p" systemname="tepetl_monamiquian" filename="tepetl_monamiquian.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3705" top="300" width="100" height="100">
+  <BOUNDS type="Node" left="3720" top="960" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Letra" visible="1">
   </PIN>
@@ -1411,43 +1411,43 @@
   </PIN>
   </NODE>
   <NODE id="1191" nodename="itztepetl.v4p" systemname="itztepetl" filename="itztepetl.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="6030" top="285" width="100" height="100">
+  <BOUNDS type="Node" left="6045" top="945" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="1192" nodename="itzehecayan.v4p" systemname="itzehecayan" filename="itzehecayan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="7515" top="285" width="100" height="100">
+  <BOUNDS type="Node" left="7530" top="945" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="1193" nodename="pancuecuetlacayan.v4p" systemname="pancuecuetlacayan" filename="pancuecuetlacayan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="9150" top="285" width="100" height="100">
+  <BOUNDS type="Node" left="9165" top="945" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="1194" nodename="temimiloayan.v4p" systemname="temimiloayan" filename="temimiloayan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="11355" top="285" width="100" height="100">
+  <BOUNDS type="Node" left="11370" top="945" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="1195" nodename="teyollocualoyan.v4p" systemname="teyollocualoyan" filename="teyollocualoyan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="13125" top="270" width="100" height="100">
+  <BOUNDS type="Node" left="13140" top="930" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="1196" nodename="itzmictlan_apochcalocan.v4p" systemname="itzmictlan_apochcalocan" filename="itzmictlan_apochcalocan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="15135" top="270" width="100" height="100">
+  <BOUNDS type="Node" left="15150" top="930" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="1198" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3510" top="18840" width="100" height="100">
+  <BOUNDS type="Node" left="3210" top="23835" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1547,7 +1547,7 @@
   </PIN>
   </NODE>
   <NODE id="1217" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12150" top="33675" width="100" height="100">
+  <BOUNDS type="Node" left="28980" top="31170" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1561,11 +1561,11 @@
   </PIN>
   <PIN pinname="Attribute Names" visible="0" values="||">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|_ preloading|">
   </PIN>
   </NODE>
   <NODE id="1218" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12000" top="30420" width="100" height="100">
+  <BOUNDS type="Node" left="28830" top="27915" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1577,7 +1577,7 @@
   </PIN>
   </NODE>
   <NODE id="1219" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12000" top="31005" width="100" height="100">
+  <BOUNDS type="Node" left="28830" top="28500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1589,7 +1589,7 @@
   </PIN>
   </NODE>
   <NODE id="1220" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12015" top="31620" width="100" height="100">
+  <BOUNDS type="Node" left="28845" top="29115" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1601,7 +1601,7 @@
   </PIN>
   </NODE>
   <NODE id="1221" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12045" top="32250" width="100" height="100">
+  <BOUNDS type="Node" left="28875" top="29745" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1613,7 +1613,7 @@
   </PIN>
   </NODE>
   <NODE id="1222" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12060" top="32955" width="100" height="100">
+  <BOUNDS type="Node" left="28890" top="30450" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1625,7 +1625,7 @@
   </PIN>
   </NODE>
   <NODE id="1223" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11970" top="29805" width="100" height="100">
+  <BOUNDS type="Node" left="28800" top="27300" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1637,7 +1637,7 @@
   </PIN>
   </NODE>
   <NODE id="1224" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9810" top="35310" width="100" height="100">
+  <BOUNDS type="Node" left="27360" top="33570" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1655,7 +1655,7 @@
   </PIN>
   </NODE>
   <NODE id="1225" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9240" top="36315" width="100" height="100">
+  <BOUNDS type="Node" left="26790" top="34575" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -1669,7 +1669,7 @@
   </PIN>
   </NODE>
   <NODE id="1229" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11445" top="35295" width="100" height="100">
+  <BOUNDS type="Node" left="28995" top="33555" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1687,7 +1687,7 @@
   </PIN>
   </NODE>
   <NODE id="1230" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10875" top="36300" width="100" height="100">
+  <BOUNDS type="Node" left="28425" top="34560" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -1701,7 +1701,7 @@
   </PIN>
   </NODE>
   <NODE id="1231" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13125" top="35370" width="100" height="100">
+  <BOUNDS type="Node" left="30675" top="33630" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1719,7 +1719,7 @@
   </PIN>
   </NODE>
   <NODE id="1232" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12555" top="36375" width="100" height="100">
+  <BOUNDS type="Node" left="30105" top="34635" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -1733,7 +1733,7 @@
   </PIN>
   </NODE>
   <NODE id="1233" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11910" top="29175" width="100" height="100">
+  <BOUNDS type="Node" left="28740" top="26670" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1744,34 +1744,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1240" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3360" top="4575" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|tex/Cubemaps/itzehecayan.jpg|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|tex/Cubemaps/apanohuayan.jpg|">
-  </PIN>
-  <PIN pinname="Input 3" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input 4" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input 5" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input 6" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input 7" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input 8" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input 9" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|9|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1241" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3555" top="5565" width="100" height="100">
+  <BOUNDS type="Node" left="3585" top="8655" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -1783,7 +1757,7 @@
   </PIN>
   </NODE>
   <NODE id="1242" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4530" top="5025" width="270" height="100">
+  <BOUNDS type="Node" left="4560" top="8115" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -1791,9 +1765,9 @@
   </PIN>
   </NODE>
   <NODE id="1268" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26175" top="27570" width="100" height="100">
+  <BOUNDS type="Node" left="26730" top="22710" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Selector" visible="1" values="|.bocina|">
+  <PIN pinname="Selector" visible="1">
   </PIN>
   <PIN pinname="Parent" visible="1">
   </PIN>
@@ -1803,7 +1777,7 @@
   </PIN>
   </NODE>
   <NODE id="1269" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="24825" top="27555" width="100" height="100">
+  <BOUNDS type="Node" left="25605" top="23205" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1815,7 +1789,7 @@
   </PIN>
   </NODE>
   <NODE id="1270" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25635" top="28815" width="100" height="100">
+  <BOUNDS type="Node" left="26190" top="23955" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style" visible="1">
   </PIN>
@@ -1825,7 +1799,7 @@
   </PIN>
   </NODE>
   <NODE id="1272" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23070" top="23595" width="630" height="100">
+  <BOUNDS type="Node" left="23070" top="19380" width="630" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1837,7 +1811,7 @@
   </PIN>
   </NODE>
   <NODE id="1273" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="24315" top="26985" width="100" height="100">
+  <BOUNDS type="Node" left="25095" top="22545" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1849,7 +1823,7 @@
   </PIN>
   </NODE>
   <NODE id="1274" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23730" top="26460" width="100" height="100">
+  <BOUNDS type="Node" left="24570" top="21915" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1861,7 +1835,7 @@
   </PIN>
   </NODE>
   <NODE id="1275" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23295" top="25815" width="100" height="100">
+  <BOUNDS type="Node" left="24105" top="21255" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1873,7 +1847,7 @@
   </PIN>
   </NODE>
   <NODE id="1276" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23490" top="25260" width="100" height="100">
+  <BOUNDS type="Node" left="23775" top="20670" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1885,7 +1859,7 @@
   </PIN>
   </NODE>
   <NODE id="1278" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23655" top="24330" width="630" height="100">
+  <BOUNDS type="Node" left="23400" top="20025" width="630" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2111,7 +2085,7 @@
   </PIN>
   </NODE>
   <NODE id="1325" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11430" top="12360" width="100" height="100">
+  <BOUNDS type="Node" left="21105" top="27045" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Selector" visible="1" values="|.indicador|">
   </PIN>
@@ -2123,7 +2097,7 @@
   </PIN>
   </NODE>
   <NODE id="1326" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10410" top="13020" width="100" height="100">
+  <BOUNDS type="Node" left="20085" top="27705" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style" visible="1">
   </PIN>
@@ -2133,7 +2107,7 @@
   </PIN>
   </NODE>
   <NODE id="1328" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10410" top="12390" width="100" height="100">
+  <BOUNDS type="Node" left="20085" top="27075" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2145,7 +2119,7 @@
   </PIN>
   </NODE>
   <NODE id="1329" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1800" top="4260" width="0" height="0">
+  <BOUNDS type="Box" left="3360" top="7320" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -2157,7 +2131,7 @@
   </PIN>
   </NODE>
   <NODE id="1331" nodename="ohnonotzaliztli.v4p" systemname="ohnonotzaliztli" filename="ohnonotzaliztli.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="9435" top="3390" width="100" height="100">
+  <BOUNDS type="Node" left="18795" top="1380" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Button" visible="1">
   </PIN>
@@ -2165,9 +2139,21 @@
   </PIN>
   </NODE>
   <NODE id="1333" nodename="calaquiyan.v4p" systemname="calaquiyan" filename="calaquiyan.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="7830" top="3405" width="100" height="100">
+  <BOUNDS type="Node" left="465" top="300" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Button" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1334" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="26520" top="22050" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|.bocina|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2452,40 +2438,6 @@
   </LINK>
   <LINK srcnodeid="1241" srcpinname="Output" dstnodeid="46" dstpinname="Filename">
   </LINK>
-  <LINK srcnodeid="1243" srcpinname="Layers Out" dstnodeid="1249" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1250" srcpinname="Style Out" dstnodeid="1249" dstpinname="Style">
-  </LINK>
-  <LINK srcnodeid="1252" srcpinname="Style Out" dstnodeid="1253" dstpinname="Style">
-  </LINK>
-  <LINK srcnodeid="1247" srcpinname="Layers Out" dstnodeid="1253" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1255" srcpinname="Style Out" dstnodeid="1256" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1256" srcpinname="Style Out" dstnodeid="1257" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1257" srcpinname="Style Out" dstnodeid="1258" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1258" srcpinname="Style Out" dstnodeid="1252" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1259" srcpinname="Style Out" dstnodeid="1255" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1248" srcpinname="Style Out" dstnodeid="1261" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1261" srcpinname="Style Out" dstnodeid="1263" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1263" srcpinname="Style Out" dstnodeid="1260" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1247" srcpinname="Layers Out" dstnodeid="1264" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1264" srcpinname="OnEvent" dstnodeid="1265" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="1265" srcpinname="Up Edge" dstnodeid="1266" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="1266" srcpinname="Output" dstnodeid="1267" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="1267" srcpinname="Output" dstnodeid="1248" dstpinname="Property Value">
-  </LINK>
   <LINK srcnodeid="1268" srcpinname="Layers Out" dstnodeid="1270" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="1269" srcpinname="Style Out" dstnodeid="1270" dstpinname="Style">
@@ -2498,41 +2450,9 @@
   </LINK>
   <LINK srcnodeid="1276" srcpinname="Style Out" dstnodeid="1275" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="1254" srcpinname="Style Out" dstnodeid="1277" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1277" srcpinname="Style Out" dstnodeid="1259" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="1272" srcpinname="Style Out" dstnodeid="1278" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="1278" srcpinname="Style Out" dstnodeid="1276" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1279" srcpinname="Style Out" dstnodeid="1254" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1243" srcpinname="Layers Out" dstnodeid="1245" dstpinname="Parent">
-  </LINK>
-  <LINK srcnodeid="1243" srcpinname="Layers Out" dstnodeid="1280" dstpinname="Parent">
-  </LINK>
-  <LINK srcnodeid="1280" srcpinname="Layers Out" dstnodeid="1281" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1282" srcpinname="Layers Out" dstnodeid="1283" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1243" srcpinname="Layers Out" dstnodeid="1282" dstpinname="Parent">
-  </LINK>
-  <LINK srcnodeid="1280" srcpinname="Layers Out" dstnodeid="1284" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1282" srcpinname="Layers Out" dstnodeid="1285" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1280" srcpinname="Layers Out" dstnodeid="1286" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1287" srcpinname="Style Out" dstnodeid="1289" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1288" srcpinname="Style Out" dstnodeid="1290" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1290" srcpinname="Style Out" dstnodeid="1282" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1289" srcpinname="Style Out" dstnodeid="1291" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1291" srcpinname="Style Out" dstnodeid="1280" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="1293" srcpinname="Layers Out" dstnodeid="1295" dstpinname="Element">
   </LINK>
@@ -2543,22 +2463,6 @@
   <LINK srcnodeid="1298" srcpinname="Style Out" dstnodeid="1297" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="1297" srcpinname="Style Out" dstnodeid="1294" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1301" srcpinname="Layers Out" dstnodeid="1302" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1301" srcpinname="Layers Out" dstnodeid="1303" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1304" srcpinname="Style Out" dstnodeid="1305" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1243" srcpinname="Layers Out" dstnodeid="1301" dstpinname="Parent">
-  </LINK>
-  <LINK srcnodeid="1305" srcpinname="Style Out" dstnodeid="1306" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1306" srcpinname="Style Out" dstnodeid="1301" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1260" srcpinname="Style Out" dstnodeid="1307" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="1307" srcpinname="Style Out" dstnodeid="1250" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="621" srcpinname="_ tlani" dstnodeid="1311" dstpinname="Input 1">
   </LINK>
@@ -2593,5 +2497,7 @@
   <LINK srcnodeid="1328" srcpinname="Style Out" dstnodeid="1326" dstpinname="Style">
   </LINK>
   <LINK srcnodeid="1329" srcpinname="Output String" dstnodeid="1241" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1334" srcpinname="Output String" dstnodeid="1268" dstpinname="Selector">
   </LINK>
   </PATCH>
