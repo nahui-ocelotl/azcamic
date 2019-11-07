@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18705" height="68535">
+  <BOUNDS type="Window" width="20235" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3300" top="6240" width="100" height="100">
@@ -1745,12 +1745,16 @@
   <NODE id="1188" nodename="tlalticpac.v4p" systemname="tlalticpac" filename="tlalticpac.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="510" top="345" width="100" height="100">
   </BOUNDS>
+  <PIN pinname="_ Button" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="1189" nodename="apanohuayan.v4p" systemname="apanohuayan" filename="apanohuayan.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2070" top="330" width="100" height="100">
   </BOUNDS>
+  <PIN pinname="_ Button" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -1758,6 +1762,8 @@
   <BOUNDS type="Node" left="3705" top="300" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Button" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3046,6 +3052,52 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1325" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11430" top="12360" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|.indicador|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1326" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10410" top="13020" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1328" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10410" top="12390" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|opacity|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1329" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1800" top="4260" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/itzehecayan.jpg|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -3390,8 +3442,6 @@
   </LINK>
   <LINK srcnodeid="1238" srcpinname="Up Edge" dstnodeid="809" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="1240" srcpinname="Output" dstnodeid="1241" dstpinname="Input">
-  </LINK>
   <LINK srcnodeid="1242" srcpinname="Output" dstnodeid="1241" dstpinname="Index">
   </LINK>
   <LINK srcnodeid="1241" srcpinname="Output" dstnodeid="46" dstpinname="Filename">
@@ -3531,5 +3581,11 @@
   <LINK srcnodeid="1322" srcpinname="Output" dstnodeid="1311" dstpinname="Input 3">
   </LINK>
   <LINK srcnodeid="1322" srcpinname="Output" dstnodeid="1323" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="1325" srcpinname="Layers Out" dstnodeid="1326" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1328" srcpinname="Style Out" dstnodeid="1326" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="1329" srcpinname="Output String" dstnodeid="1241" dstpinname="Input">
   </LINK>
   </PATCH>
