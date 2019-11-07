@@ -553,7 +553,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|1|">
+  <PIN pinname="X" visible="1" values="|1.2|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|1.75|">
   </PIN>
