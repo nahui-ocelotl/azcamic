@@ -163,7 +163,7 @@
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
+  <PIN pinname="Input 1" visible="1" values="|Gray|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|MediumPurple |">
   </PIN>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18705" height="10155">
+  <BOUNDS type="Window" width="20490" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="555" top="1260" width="100" height="100">
@@ -233,7 +233,7 @@
   </PIN>
   </NODE>
   <NODE id="20" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17325" top="2715" width="100" height="100">
+  <BOUNDS type="Node" left="16230" top="2415" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -255,7 +255,7 @@
   </PIN>
   </NODE>
   <NODE id="22" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16845" top="1560" width="100" height="100">
+  <BOUNDS type="Node" left="16410" top="960" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -267,11 +267,11 @@
   </PIN>
   </NODE>
   <NODE id="23" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17175" top="2160" width="100" height="100">
+  <BOUNDS type="Node" left="16740" top="1560" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|Lightgray|">
+  <PIN pinname="Input 1" visible="1" values="|Gray|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|LightSalmon|">
   </PIN>
@@ -295,7 +295,7 @@
   </PIN>
   </NODE>
   <NODE id="25" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16530" top="900" width="270" height="100">
+  <BOUNDS type="Node" left="16095" top="300" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -528,8 +528,6 @@
   </LINK>
   <LINK srcnodeid="22" srcpinname="Output" dstnodeid="23" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="20" srcpinname="Style Out" dstnodeid="21" dstpinname="Style">
-  </LINK>
   <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="8" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="3" srcpinname="Layer" dstnodeid="8" dstpinname="Layer 2">
@@ -561,5 +559,7 @@
   <LINK srcnodeid="33" srcpinname="Transform Out" dstnodeid="37" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="32" srcpinname="Layer" dstnodeid="8" dstpinname="Layer 6">
+  </LINK>
+  <LINK srcnodeid="20" srcpinname="Style Out" dstnodeid="21" dstpinname="Style">
   </LINK>
   </PATCH>
