@@ -622,18 +622,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="50" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3600" top="5550" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|background-image|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1" values="|url(calaqui.jpg)|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="51" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="6960" top="5040" width="100" height="100">
   </BOUNDS>
@@ -660,6 +648,20 @@
   <PIN pinname="Attribute Name" visible="1" values="|src|">
   </PIN>
   <PIN pinname="Attribute Value" visible="1" values="|calaqui.jpg|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="53" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9405" top="5910" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|width|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|20%|">
   </PIN>
   <PIN pinname="Attribute BinSize" visible="1">
   </PIN>
@@ -760,12 +762,12 @@
   </LINK>
   <LINK srcnodeid="49" srcpinname="Style Out" dstnodeid="26" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="7" srcpinname="Style Out" dstnodeid="50" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="50" srcpinname="Style Out" dstnodeid="8" dstpinname="Style">
-  </LINK>
   <LINK srcnodeid="51" srcpinname="Layers Out" dstnodeid="52" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="3" srcpinname="Layers Out" dstnodeid="51" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="51" srcpinname="Layers Out" dstnodeid="53" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="7" srcpinname="Style Out" dstnodeid="8" dstpinname="Style">
   </LINK>
   </PATCH>
