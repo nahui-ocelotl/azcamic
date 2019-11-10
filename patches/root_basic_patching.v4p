@@ -243,7 +243,9 @@
   </PIN>
   <PIN pinname="Layer 3" visible="1">
   </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|3|">
+  <PIN pinname="Layer 4" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -449,7 +451,7 @@
   </PIN>
   </NODE>
   <NODE id="415" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1395" top="29310" width="100" height="100">
+  <BOUNDS type="Node" left="1665" top="29325" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -2159,9 +2161,11 @@
   </PIN>
   </NODE>
   <NODE id="1336" nodename="ollin.v4p" systemname="ollin" filename="ollin.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3615" top="27045" width="100" height="100">
+  <BOUNDS type="Node" left="4065" top="27660" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="_ TranslateZ" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2507,5 +2511,11 @@
   <LINK srcnodeid="1329" srcpinname="Output String" dstnodeid="1241" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="1334" srcpinname="Output String" dstnodeid="1268" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="1336" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 4">
+  </LINK>
+  <LINK srcnodeid="739" srcpinname="Output" dstnodeid="1336" dstpinname="_ TranslateX">
+  </LINK>
+  <LINK srcnodeid="740" srcpinname="Output" dstnodeid="1336" dstpinname="_ TranslateZ">
   </LINK>
   </PATCH>
