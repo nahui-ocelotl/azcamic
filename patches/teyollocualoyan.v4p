@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20490" height="10155">
+  <BOUNDS type="Window" width="18285" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="3285" top="7650" width="750" height="240">
@@ -205,7 +205,7 @@
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|Gray|">
+  <PIN pinname="Input 1" visible="1" values="|Moccasin|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|Tomato|">
   </PIN>
