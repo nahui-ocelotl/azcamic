@@ -365,9 +365,7 @@
   </PIN>
   <PIN pinname="Layer 9" visible="1">
   </PIN>
-  <PIN pinname="Layer 10" visible="1">
-  </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|10|">
+  <PIN pinname="Layer Template Count" visible="0" values="|9|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2123,7 +2121,7 @@
   </PIN>
   </NODE>
   <NODE id="1331" nodename="ohnonotzaliztli.v4p" systemname="ohnonotzaliztli" filename="ohnonotzaliztli.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="7860" top="2955" width="100" height="100">
+  <BOUNDS type="Node" left="18795" top="1380" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Button" visible="1">
   </PIN>
@@ -2228,44 +2226,6 @@
   <PIN pinname="Input 4" visible="1" values="|axolocihuatl_opoxtli.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1343" nodename="cihuatl.v4p" systemname="cihuatl" filename="cihuatl.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="17940" top="930" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1344" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="18075" top="27390" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1" values="|none|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1345" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2910" top="26670" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Name" visible="1" values="|tX|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1346" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3765" top="26685" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Name" visible="1" values="|tZ|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2629,13 +2589,5 @@
   <LINK srcnodeid="1311" srcpinname="Output" dstnodeid="1342" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="1342" srcpinname="Output" dstnodeid="1341" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="1343" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 10">
-  </LINK>
-  <LINK srcnodeid="1344" srcpinname="Style Out" dstnodeid="985" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="621" srcpinname="translateX" dstnodeid="1345" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="621" srcpinname="translateZ" dstnodeid="1346" dstpinname="Input">
   </LINK>
   </PATCH>
