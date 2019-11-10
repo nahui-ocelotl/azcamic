@@ -31,7 +31,7 @@
   </PIN>
   </NODE>
   <NODE id="6" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3300" top="4305" width="100" height="100">
+  <BOUNDS type="Node" left="765" top="6120" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -111,7 +111,7 @@
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|0|">
+  <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -235,7 +235,7 @@
   </PIN>
   <PIN pinname="Random Seed" visible="1">
   </PIN>
-  <PIN pinname="Spread Count" visible="1" values="|20|">
+  <PIN pinname="Spread Count" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -249,7 +249,7 @@
   </PIN>
   <PIN pinname="Random Seed" visible="1">
   </PIN>
-  <PIN pinname="Spread Count" visible="1" values="|20|">
+  <PIN pinname="Spread Count" visible="1" values="|30|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -333,7 +333,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/tepetl.png|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/mizchipictli.png|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -397,7 +397,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|-2.5|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -477,7 +477,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|10|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|4|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -495,7 +495,7 @@
   </PIN>
   </NODE>
   <NODE id="49" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2655" top="7890" width="100" height="100">
+  <BOUNDS type="Node" left="2280" top="7500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -503,7 +503,7 @@
   </PIN>
   </NODE>
   <NODE id="50" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1665" top="8880" width="100" height="100">
+  <BOUNDS type="Node" left="180" top="8730" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -513,7 +513,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|6|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|0.3|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -531,7 +531,7 @@
   </PIN>
   </NODE>
   <NODE id="51" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3720" top="8895" width="100" height="100">
+  <BOUNDS type="Node" left="2235" top="8745" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -541,7 +541,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|6|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|0.6|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -559,7 +559,7 @@
   </PIN>
   </NODE>
   <NODE id="52" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9300" top="8460" width="100" height="100">
+  <BOUNDS type="Node" left="9795" top="8640" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -577,7 +577,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|30|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -613,7 +613,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|-5|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|-1|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -641,7 +641,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|5|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|40|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -703,7 +703,7 @@
   </PIN>
   </NODE>
   <NODE id="60" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4485" top="1170" width="100" height="100">
+  <BOUNDS type="Node" left="3375" top="1830" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -729,7 +729,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|10|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|10|">
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
@@ -756,9 +756,113 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="65" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="975" top="3660" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="66" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1950" top="2895" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0.17999999999999994|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="68" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16410" top="8595" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|30|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|60|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="69" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16260" top="8055" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|ohtli|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="70" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4125" top="8745" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|30|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|60|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="9" srcpinname="Mesh" dstnodeid="7" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="10" srcpinname="Transform Out" dstnodeid="6" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Layer" dstnodeid="5" dstpinname="Input Node">
   </LINK>
@@ -775,8 +879,6 @@
   <LINK srcnodeid="17" srcpinname="Texture Out" dstnodeid="7" dstpinname="Texture">
   </LINK>
   <LINK srcnodeid="18" srcpinname="Output String" dstnodeid="17" dstpinname="Filename">
-  </LINK>
-  <LINK srcnodeid="6" srcpinname="Transform Out" dstnodeid="11" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="11" srcpinname="Transform Out" dstnodeid="21" dstpinname="Transform In">
   </LINK>
@@ -867,5 +969,27 @@
   <LINK srcnodeid="19" srcpinname="Output" dstnodeid="64" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="64" srcpinname="Output" dstnodeid="43" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="22" srcpinname="Output" dstnodeid="35" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="19" srcpinname="Output" dstnodeid="43" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="27" srcpinname="Output" dstnodeid="57" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="66" srcpinname="Output" dstnodeid="65" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="6" srcpinname="Transform Out" dstnodeid="11" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="10" srcpinname="Transform Out" dstnodeid="65" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="65" srcpinname="Transform Out" dstnodeid="6" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="68" srcpinname="Output" dstnodeid="22" dstpinname="Spread Count">
+  </LINK>
+  <LINK srcnodeid="69" srcpinname="Output" dstnodeid="68" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="49" srcpinname="Output" dstnodeid="70" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="70" srcpinname="Output" dstnodeid="11" dstpinname="Z">
   </LINK>
   </PATCH>
