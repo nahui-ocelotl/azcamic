@@ -1873,7 +1873,7 @@
   </PIN>
   </NODE>
   <NODE id="1293" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="22260" top="36705" width="100" height="100">
+  <BOUNDS type="Node" left="16350" top="32715" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Selector" visible="1" values="|#fondo|">
   </PIN>
@@ -1885,7 +1885,7 @@
   </PIN>
   </NODE>
   <NODE id="1294" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20475" top="37215" width="100" height="100">
+  <BOUNDS type="Node" left="14565" top="33225" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1897,7 +1897,7 @@
   </PIN>
   </NODE>
   <NODE id="1295" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21825" top="37785" width="100" height="100">
+  <BOUNDS type="Node" left="15915" top="33795" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style" visible="1">
   </PIN>
@@ -1907,7 +1907,7 @@
   </PIN>
   </NODE>
   <NODE id="1296" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="19845" top="35055" width="100" height="100">
+  <BOUNDS type="Node" left="13560" top="31320" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1919,7 +1919,7 @@
   </PIN>
   </NODE>
   <NODE id="1297" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20295" top="36435" width="100" height="100">
+  <BOUNDS type="Node" left="14385" top="32445" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1931,7 +1931,7 @@
   </PIN>
   </NODE>
   <NODE id="1298" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20205" top="35790" width="100" height="100">
+  <BOUNDS type="Node" left="13965" top="31845" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2149,7 +2149,7 @@
   </PIN>
   </NODE>
   <NODE id="1336" nodename="ollin.v4p" systemname="ollin" filename="ollin.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="4065" top="27660" width="100" height="100">
+  <BOUNDS type="Node" left="3570" top="27345" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ TranslateX" visible="1">
   </PIN>
@@ -2226,6 +2226,28 @@
   <PIN pinname="Input 4" visible="1" values="|axolocihuatl_opoxtli.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1343" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18585" top="27525" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|block|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1345" nodename="cihuatl.v4p" systemname="cihuatl" filename="cihuatl.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="3360" top="28530" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="_ TranslateZ" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2589,5 +2611,7 @@
   <LINK srcnodeid="1311" srcpinname="Output" dstnodeid="1342" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="1342" srcpinname="Output" dstnodeid="1341" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="1343" srcpinname="Style Out" dstnodeid="985" dstpinname="Style In">
   </LINK>
   </PATCH>
