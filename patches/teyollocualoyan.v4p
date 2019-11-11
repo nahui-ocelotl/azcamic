@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18285" height="10155">
+  <BOUNDS type="Window" width="18705" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="3285" top="7650" width="750" height="240">
@@ -275,11 +275,11 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|1|">
+  <PIN pinname="X" visible="1" values="|-1|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|2|">
+  <PIN pinname="Y" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-2|">
+  <PIN pinname="Z" visible="1" values="|-5|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -323,9 +323,9 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|7|">
+  <PIN pinname="X" visible="1" values="|4|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|10|">
+  <PIN pinname="Y" visible="1" values="|6|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|1|">
   </PIN>
