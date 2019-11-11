@@ -2159,7 +2159,7 @@
   </PIN>
   </NODE>
   <NODE id="1337" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="33960" top="33600" width="100" height="100">
+  <BOUNDS type="Node" left="28365" top="35475" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2177,7 +2177,7 @@
   </PIN>
   </NODE>
   <NODE id="1338" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="33390" top="34605" width="100" height="100">
+  <BOUNDS type="Node" left="27795" top="36480" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -2221,11 +2221,43 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|itzcuintli_ce.png|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|axolocihuatl_opoxtli.png|">
+  <PIN pinname="Input 3" visible="1" values="|itzcuintli_opochtli_ce.png|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|axolocihuatl_opoxtli.png|">
+  <PIN pinname="Input 4" visible="1" values="|itzcuintli_opochtli_ce.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1343" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="30060" top="35355" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1344" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="29490" top="36360" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|itzcuintli_opochtli_ce.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2589,5 +2621,9 @@
   <LINK srcnodeid="1311" srcpinname="Output" dstnodeid="1342" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="1342" srcpinname="Output" dstnodeid="1341" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="1343" srcpinname="Layers Out" dstnodeid="1344" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1343" dstpinname="Parent">
   </LINK>
   </PATCH>
