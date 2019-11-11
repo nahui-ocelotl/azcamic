@@ -31,13 +31,13 @@
   </PIN>
   </NODE>
   <NODE id="6" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="765" top="6120" width="100" height="100">
+  <BOUNDS type="Node" left="2505" top="6075" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
   <PIN pinname="X" visible="1">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|1|">
+  <PIN pinname="Y" visible="1">
   </PIN>
   <PIN pinname="Z" visible="1">
   </PIN>
@@ -259,7 +259,7 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Width" visible="1" values="|5|">
+  <PIN pinname="Width" visible="1" values="|3|">
   </PIN>
   <PIN pinname="Random Seed" visible="1">
   </PIN>
@@ -269,7 +269,7 @@
   </PIN>
   </NODE>
   <NODE id="28" nodename="Counter (Animation)" systemname="Counter (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6975" top="2970" width="100" height="100">
+  <BOUNDS type="Node" left="7020" top="3165" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Up" visible="1">
   </PIN>
@@ -335,7 +335,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|tex/facade/mizchipictli.png|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|tex/facade/mixtin.png|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="||">
   </PIN>
@@ -371,7 +371,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|-1.5|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|17.007148437105137|,|24.557562614019417|,|23.497870311314998|,|11.722210755819942|,|7.491499836959457|,|21.74163427139328|,|9.52671937340666|,|20.803895530284358|,|21.128545632769587|,|7.6930007487143115|,|16.538888594871118|,|13.101989735670568|,|14.640665583843909|,|23.08776041627607|,|8.236214417906208|,|22.822408139436373|,|25.701062345734343|,|11.891417880713023|,|20.629939013226583|,|22.318402645051396|,|14.9739976026607|,|14.25824809916481|,|26.05228908834194|,|24.282110657337345|,|18.846116801589666|,|12.42556453521196|,|21.823162886984004|,|17.383132653397993|,|11.869993542399545|,|21.87483444030554|,|20.013982321306038|,|21.79526465809508|,|21.423362090792445|,|13.791904719951916|,|20.311367536161256|,|20.31843487918195|,|18.277279742549922|,|24.441411046271902|,|17.193055374349544|,|13.416121732796903|,|25.36245829271817|,|10.970680177779865|,|18.989373034332502|,|12.521266089612961|,|22.59315809086906|,|12.062601473378159|,|19.668048553575055|,|24.130364663249956|,|15.636116343376708|,|14.261301276546714|,|23.921979000524527|,|14.19247650904624|,|13.332985629525728|,|10.27253567730569|,|12.837461980752655|,|13.333972266007686|,|13.96803673403196|,|10.824128409710648|,|19.45537467193565|,|12.230621366752928|">
   </PIN>
@@ -479,7 +479,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|4|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|8|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -515,7 +515,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0.3|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|8|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -543,7 +543,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0.6|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -579,7 +579,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|30|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|3|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -615,7 +615,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|-10|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -643,7 +643,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|40|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -659,7 +659,7 @@
   </PIN>
   </NODE>
   <NODE id="57" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4470" top="2955" width="100" height="100">
+  <BOUNDS type="Node" left="4515" top="4710" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -683,7 +683,7 @@
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|9|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ TranslateX|">
+  <PIN pinname="Descriptive Name" visible="0" values="|_ TranslateZ|">
   </PIN>
   </NODE>
   <NODE id="58" nodename="LinearSpread (Spreads)" systemname="LinearSpread (Spreads)" componentmode="Hidden">
@@ -691,7 +691,7 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1" values="|8|">
   </PIN>
-  <PIN pinname="Width" visible="1" values="|14|">
+  <PIN pinname="Width" visible="1">
   </PIN>
   <PIN pinname="Alignment" visible="1">
   </PIN>
@@ -711,7 +711,7 @@
   </PIN>
   </NODE>
   <NODE id="61" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6255" top="165" width="100" height="100">
+  <BOUNDS type="Node" left="8070" top="150" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
@@ -731,7 +731,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|10|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|60|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -811,7 +811,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|60|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|20|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|NaN|">
   </PIN>
@@ -835,7 +835,7 @@
   </PIN>
   </NODE>
   <NODE id="71" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1170" top="4935" width="100" height="100">
+  <BOUNDS type="Node" left="240" top="4905" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -847,7 +847,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0.55|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|1.2779299508576987|,|4.140014810320675|,|3.9769005583719808|,|3.5953731570434018|,|2.556453661414151|,|1.0923775790864418|,|2.4756326405204514|,|0.8639791594480881|,|5.45466924956014|,|1.4924802238275336|">
   </PIN>
@@ -860,6 +860,96 @@
   <PIN pinname="Input Count" visible="0" values="|9|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ Translate X|">
+  </PIN>
+  </NODE>
+  <NODE id="72" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2430" top="4770" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|4|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1">
+  </PIN>
+  <PIN pinname="Input 7" visible="1">
+  </PIN>
+  <PIN pinname="Input 8" visible="1">
+  </PIN>
+  <PIN pinname="Input 9" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Translate Y|">
+  </PIN>
+  </NODE>
+  <NODE id="73" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9090" top="885" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="|14|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_  Linear Witdh|">
+  </PIN>
+  </NODE>
+  <NODE id="74" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12405" top="390" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Pause" visible="1">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="75" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12750" top="1020" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="9" srcpinname="Mesh" dstnodeid="7" dstpinname="Mesh">
@@ -1001,5 +1091,21 @@
   <LINK srcnodeid="71" srcpinname="Output" dstnodeid="6" dstpinname="X">
   </LINK>
   <LINK srcnodeid="60" srcpinname="Output" dstnodeid="71" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="58" srcpinname="Output" dstnodeid="57" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="19" srcpinname="Output" dstnodeid="43" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="72" srcpinname="Output" dstnodeid="6" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="60" srcpinname="Output" dstnodeid="72" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="73" srcpinname="Output" dstnodeid="58" dstpinname="Width">
+  </LINK>
+  <LINK srcnodeid="61" srcpinname="Output" dstnodeid="73" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="74" srcpinname="Output" dstnodeid="75" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="75" srcpinname="Output" dstnodeid="73" dstpinname="Input 5">
   </LINK>
   </PATCH>
