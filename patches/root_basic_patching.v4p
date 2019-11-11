@@ -2221,9 +2221,9 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|itzcuintli_ce.png|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|itzcuintli_opochtli_ce.png|">
+  <PIN pinname="Input 3" visible="1" values="|itzcuintli_opoxtli_ce.png|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|itzcuintli_opochtli_ce.png|">
+  <PIN pinname="Input 4" visible="1" values="|itzcuintli_opoxtli_ce.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -2255,7 +2255,7 @@
   </PIN>
   <PIN pinname="Attribute Name" visible="1" values="|src|">
   </PIN>
-  <PIN pinname="Attribute Value" visible="1" values="|itzcuintli_opochtli_ce.png|">
+  <PIN pinname="Attribute Value" visible="1" values="|itzcuintli_opoxtli_ce.png|">
   </PIN>
   <PIN pinname="Attribute BinSize" visible="1">
   </PIN>
