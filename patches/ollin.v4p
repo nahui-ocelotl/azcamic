@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18945" height="19845">
+  <BOUNDS type="Window" width="28545" height="19845">
   </BOUNDS>
   <NODE id="1" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="1335" top="525" width="0" height="0">
@@ -333,7 +333,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/tepetl.png|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/tepetl.png|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/iztli_ome.png|">
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|tex/facade/mizchipictli.png|">
   </PIN>
@@ -477,7 +477,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|10|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|10|">
+  <PIN pinname="Input 4" visible="1" values="|6|">
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|4|">
   </PIN>
@@ -577,7 +577,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|22|">
+  <PIN pinname="Input 4" visible="1" values="|40|">
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|30|">
   </PIN>
