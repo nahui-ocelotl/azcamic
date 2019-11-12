@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="19845">
+  <BOUNDS type="Window" width="28545" height="19845">
   </BOUNDS>
   <NODE id="1" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="1335" top="525" width="0" height="0">
@@ -335,9 +335,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|tex/facade/mizchipictli.png|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|tex/facade/mixtin.png|">
+  <PIN pinname="Input 5" visible="1" values="||">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="||">
+  <PIN pinname="Input 6" visible="1" values="|tex/facade/mixtin.png|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|tex/facade/mitl.png|">
   </PIN>
@@ -373,7 +373,7 @@
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|-1.5|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|17.007148437105137|,|24.557562614019417|,|23.497870311314998|,|11.722210755819942|,|7.491499836959457|,|21.74163427139328|,|9.52671937340666|,|20.803895530284358|,|21.128545632769587|,|7.6930007487143115|,|16.538888594871118|,|13.101989735670568|,|14.640665583843909|,|23.08776041627607|,|8.236214417906208|,|22.822408139436373|,|25.701062345734343|,|11.891417880713023|,|20.629939013226583|,|22.318402645051396|,|14.9739976026607|,|14.25824809916481|,|26.05228908834194|,|24.282110657337345|,|18.846116801589666|,|12.42556453521196|,|21.823162886984004|,|17.383132653397993|,|11.869993542399545|,|21.87483444030554|,|20.013982321306038|,|21.79526465809508|,|21.423362090792445|,|13.791904719951916|,|20.311367536161256|,|20.31843487918195|,|18.277279742549922|,|24.441411046271902|,|17.193055374349544|,|13.416121732796903|,|25.36245829271817|,|10.970680177779865|,|18.989373034332502|,|12.521266089612961|,|22.59315809086906|,|12.062601473378159|,|19.668048553575055|,|24.130364663249956|,|15.636116343376708|,|14.261301276546714|,|23.921979000524527|,|14.19247650904624|,|13.332985629525728|,|10.27253567730569|,|12.837461980752655|,|13.333972266007686|,|13.96803673403196|,|10.824128409710648|,|19.45537467193565|,|12.230621366752928|">
+  <PIN pinname="Input 6" visible="1" values="|-1.5|">
   </PIN>
   <PIN pinname="Input 7" visible="1">
   </PIN>
@@ -479,9 +479,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|4|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|8|">
+  <PIN pinname="Input 5" visible="1" values="|NaN|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|8|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|4|">
   </PIN>
@@ -515,9 +515,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0.3|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|8|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|8|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|0.05|">
   </PIN>
@@ -543,9 +543,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0.6|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|2|">
+  <PIN pinname="Input 5" visible="1" values="|NaN|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|1.5|">
   </PIN>
@@ -579,9 +579,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|30|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|3|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|3|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|30|">
   </PIN>
@@ -615,9 +615,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|-10|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|-10|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|-1|">
   </PIN>
@@ -643,9 +643,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|40|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|1|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|40|">
   </PIN>
@@ -671,9 +671,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|1.2779299508576987|,|4.140014810320675|,|3.9769005583719808|,|3.5953731570434018|,|2.556453661414151|,|1.0923775790864418|,|2.4756326405204514|,|0.8639791594480881|,|5.45466924956014|,|1.4924802238275336|">
+  <PIN pinname="Input 6" visible="1">
   </PIN>
   <PIN pinname="Input 7" visible="1">
   </PIN>
@@ -731,9 +731,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|10|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|60|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|60|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|20|">
   </PIN>
@@ -785,7 +785,7 @@
   </PIN>
   <PIN pinname="Input 5" visible="1">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|-0.17999999999999994|">
   </PIN>
@@ -811,9 +811,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|60|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|20|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|NaN|">
+  <PIN pinname="Input 6" visible="1" values="|20|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|40|">
   </PIN>
@@ -847,9 +847,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|0.55|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|1|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|1.2779299508576987|,|4.140014810320675|,|3.9769005583719808|,|3.5953731570434018|,|2.556453661414151|,|1.0923775790864418|,|2.4756326405204514|,|0.8639791594480881|,|5.45466924956014|,|1.4924802238275336|">
+  <PIN pinname="Input 6" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|-2|">
   </PIN>
@@ -875,9 +875,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|4|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1">
+  <PIN pinname="Input 6" visible="1" values="|4|">
   </PIN>
   <PIN pinname="Input 7" visible="1">
   </PIN>
@@ -903,9 +903,9 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|14|">
   </PIN>
-  <PIN pinname="Input 5" visible="1">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|14|">
+  <PIN pinname="Input 6" visible="1">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|14|">
   </PIN>
@@ -1092,8 +1092,6 @@
   </LINK>
   <LINK srcnodeid="60" srcpinname="Output" dstnodeid="71" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="58" srcpinname="Output" dstnodeid="57" dstpinname="Input 5">
-  </LINK>
   <LINK srcnodeid="19" srcpinname="Output" dstnodeid="43" dstpinname="Input 5">
   </LINK>
   <LINK srcnodeid="72" srcpinname="Output" dstnodeid="6" dstpinname="Y">
@@ -1106,6 +1104,8 @@
   </LINK>
   <LINK srcnodeid="74" srcpinname="Output" dstnodeid="75" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="75" srcpinname="Output" dstnodeid="73" dstpinname="Input 5">
+  <LINK srcnodeid="75" srcpinname="Output" dstnodeid="73" dstpinname="Input 6">
+  </LINK>
+  <LINK srcnodeid="58" srcpinname="Output" dstnodeid="57" dstpinname="Input 6">
   </LINK>
   </PATCH>
