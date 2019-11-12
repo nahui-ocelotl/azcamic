@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="68535">
+  <BOUNDS type="Window" width="20235" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3330" top="9330" width="100" height="100">
@@ -651,7 +651,7 @@
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|36.260000000000005|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|28|">
+  <PIN pinname="Input 6" visible="1" values="|23.509999999999994|">
   </PIN>
   <PIN pinname="Input 7" visible="1" values="|71.13000000000008|">
   </PIN>
@@ -679,13 +679,13 @@
   </PIN>
   <PIN pinname="Input 19" visible="1" values="|-67.5|">
   </PIN>
-  <PIN pinname="Input 20" visible="1" values="|-82|">
+  <PIN pinname="Input 20" visible="1" values="|-83|">
   </PIN>
   <PIN pinname="Input 21" visible="1" values="|-102.11999999999999|">
   </PIN>
   <PIN pinname="Input 22" visible="1" values="|-118|">
   </PIN>
-  <PIN pinname="Input 23" visible="1" values="|-103|">
+  <PIN pinname="Input 23" visible="1" values="|-107|">
   </PIN>
   <PIN pinname="Input 24" visible="1" values="|-106|">
   </PIN>
@@ -711,7 +711,7 @@
   </PIN>
   <PIN pinname="Input 35" visible="1" values="|-146.96000000000006|">
   </PIN>
-  <PIN pinname="Input 36" visible="1" values="|-161|">
+  <PIN pinname="Input 36" visible="1" values="|-162|">
   </PIN>
   <PIN pinname="Input 37" visible="1" values="|-165|">
   </PIN>
@@ -735,15 +735,15 @@
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|-74.5|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|-90|">
+  <PIN pinname="Input 6" visible="1" values="|-91|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="|-104.77999999999993|">
+  <PIN pinname="Input 7" visible="1" values="|-104.76999999999992|">
   </PIN>
   <PIN pinname="Input 8" visible="1" values="|-115.7|">
   </PIN>
   <PIN pinname="Input 9" visible="1" values="|-77.8|">
   </PIN>
-  <PIN pinname="Input 10" visible="1" values="|-88|">
+  <PIN pinname="Input 10" visible="1" values="|-80|">
   </PIN>
   <PIN pinname="Input 11" visible="1" values="|-104.5|">
   </PIN>
@@ -763,13 +763,13 @@
   </PIN>
   <PIN pinname="Input 19" visible="1" values="|-68.5|">
   </PIN>
-  <PIN pinname="Input 20" visible="1" values="|-88|">
+  <PIN pinname="Input 20" visible="1" values="|-81|">
   </PIN>
   <PIN pinname="Input 21" visible="1" values="|-4|">
   </PIN>
   <PIN pinname="Input 22" visible="1" values="|-10|">
   </PIN>
-  <PIN pinname="Input 23" visible="1" values="|-68|">
+  <PIN pinname="Input 23" visible="1" values="|-67|">
   </PIN>
   <PIN pinname="Input 24" visible="1" values="|-106.64999999999988|">
   </PIN>
@@ -795,7 +795,7 @@
   </PIN>
   <PIN pinname="Input 35" visible="1" values="|-109|">
   </PIN>
-  <PIN pinname="Input 36" visible="1" values="|-88|">
+  <PIN pinname="Input 36" visible="1" values="|-81|">
   </PIN>
   <PIN pinname="Input 37" visible="1" values="|-39|">
   </PIN>
