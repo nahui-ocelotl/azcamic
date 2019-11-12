@@ -711,7 +711,7 @@
   </PIN>
   </NODE>
   <NODE id="897" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="24975" top="45240" width="0" height="0">
+  <BOUNDS type="Box" left="8130" top="42405" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -733,7 +733,7 @@
   </PIN>
   </NODE>
   <NODE id="905" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35190" top="36885" width="0" height="0">
+  <BOUNDS type="Box" left="1515" top="35880" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -743,7 +743,7 @@
   </PIN>
   </NODE>
   <NODE id="906" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="35355" top="36210" width="270" height="100">
+  <BOUNDS type="Node" left="1680" top="35205" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -753,7 +753,7 @@
   </PIN>
   </NODE>
   <NODE id="907" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35265" top="39135" width="0" height="0">
+  <BOUNDS type="Box" left="1590" top="38130" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -763,7 +763,7 @@
   </PIN>
   </NODE>
   <NODE id="908" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="35715" top="38100" width="270" height="100">
+  <BOUNDS type="Node" left="2040" top="37095" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -773,7 +773,7 @@
   </PIN>
   </NODE>
   <NODE id="909" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35400" top="40890" width="0" height="0">
+  <BOUNDS type="Box" left="1725" top="39885" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -783,7 +783,7 @@
   </PIN>
   </NODE>
   <NODE id="910" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="35415" top="39945" width="270" height="100">
+  <BOUNDS type="Node" left="1740" top="38940" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -793,7 +793,7 @@
   </PIN>
   </NODE>
   <NODE id="911" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35490" top="42675" width="0" height="0">
+  <BOUNDS type="Box" left="1815" top="41670" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -803,7 +803,7 @@
   </PIN>
   </NODE>
   <NODE id="912" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="35940" top="41640" width="270" height="100">
+  <BOUNDS type="Node" left="2265" top="40635" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -813,7 +813,7 @@
   </PIN>
   </NODE>
   <NODE id="913" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35565" top="44685" width="0" height="0">
+  <BOUNDS type="Box" left="1890" top="43680" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -823,7 +823,7 @@
   </PIN>
   </NODE>
   <NODE id="914" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="36015" top="43650" width="270" height="100">
+  <BOUNDS type="Node" left="2340" top="42645" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -833,7 +833,7 @@
   </PIN>
   </NODE>
   <NODE id="915" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35520" top="46650" width="0" height="0">
+  <BOUNDS type="Box" left="1845" top="45645" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -843,7 +843,7 @@
   </PIN>
   </NODE>
   <NODE id="916" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="35970" top="45615" width="270" height="100">
+  <BOUNDS type="Node" left="2295" top="44610" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -853,7 +853,7 @@
   </PIN>
   </NODE>
   <NODE id="917" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35565" top="48360" width="0" height="0">
+  <BOUNDS type="Box" left="1890" top="47355" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -863,7 +863,7 @@
   </PIN>
   </NODE>
   <NODE id="918" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="36165" top="47580" width="270" height="100">
+  <BOUNDS type="Node" left="2490" top="46575" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -873,7 +873,7 @@
   </PIN>
   </NODE>
   <NODE id="919" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35640" top="50325" width="0" height="0">
+  <BOUNDS type="Box" left="1965" top="49320" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -883,7 +883,7 @@
   </PIN>
   </NODE>
   <NODE id="920" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="36090" top="49290" width="270" height="100">
+  <BOUNDS type="Node" left="2415" top="48285" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -893,7 +893,7 @@
   </PIN>
   </NODE>
   <NODE id="921" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35670" top="51990" width="0" height="0">
+  <BOUNDS type="Box" left="1995" top="50985" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -903,7 +903,7 @@
   </PIN>
   </NODE>
   <NODE id="922" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="36120" top="50955" width="270" height="100">
+  <BOUNDS type="Node" left="2445" top="49950" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -913,7 +913,7 @@
   </PIN>
   </NODE>
   <NODE id="923" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="33975" top="52890" width="100" height="100">
+  <BOUNDS type="Node" left="300" top="51885" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
@@ -941,7 +941,7 @@
   </PIN>
   </NODE>
   <NODE id="925" nodename="Subtract (Value)" systemname="Subtract (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="34185" top="53490" width="100" height="100">
+  <BOUNDS type="Node" left="510" top="52485" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -953,7 +953,7 @@
   </PIN>
   </NODE>
   <NODE id="926" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="35145" top="54720" width="0" height="0">
+  <BOUNDS type="Box" left="1470" top="53715" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -963,7 +963,7 @@
   </PIN>
   </NODE>
   <NODE id="927" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="34830" top="54075" width="100" height="100">
+  <BOUNDS type="Node" left="1155" top="53070" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -1157,9 +1157,9 @@
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|axolocihuatl_opoxtli.png|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|axolocihuatl_opoxtli.png|">
+  <PIN pinname="Input 4" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -1201,7 +1201,7 @@
   </PIN>
   </NODE>
   <NODE id="1161" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="35235" top="55410" width="100" height="100">
+  <BOUNDS type="Node" left="1560" top="54405" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -1325,7 +1325,7 @@
   </PIN>
   </NODE>
   <NODE id="1207" nodename="Counter (Animation)" systemname="Counter (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="24975" top="31410" width="100" height="100">
+  <BOUNDS type="Node" left="24900" top="29940" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Up" visible="1">
   </PIN>
@@ -1347,7 +1347,7 @@
   </PIN>
   </NODE>
   <NODE id="1210" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25245" top="32055" width="795" height="100">
+  <BOUNDS type="Node" left="25170" top="30585" width="795" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -1365,7 +1365,7 @@
   </PIN>
   </NODE>
   <NODE id="1215" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25005" top="30750" width="100" height="100">
+  <BOUNDS type="Node" left="24930" top="29280" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Period" visible="1" values="|0.15|">
   </PIN>
@@ -2081,45 +2081,13 @@
   </PIN>
   </NODE>
   <NODE id="1344" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="29490" top="36360" width="100" height="100">
+  <BOUNDS type="Node" left="29640" top="36480" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
   <PIN pinname="Attribute Name" visible="1" values="|src|">
   </PIN>
   <PIN pinname="Attribute Value" visible="1" values="|itzcuintli_opoxtli_ce.png|">
-  </PIN>
-  <PIN pinname="Attribute BinSize" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1345" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="32205" top="35445" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Tag Name" visible="1" values="|img|">
-  </PIN>
-  <PIN pinname="Parent" visible="1">
-  </PIN>
-  <PIN pinname="Text" visible="1">
-  </PIN>
-  <PIN pinname="Enabled" visible="1">
-  </PIN>
-  <PIN pinname="Attribute Names" visible="0" values="||">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1346" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="31635" top="36450" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Element" visible="1">
-  </PIN>
-  <PIN pinname="Attribute Name" visible="1" values="|src|">
-  </PIN>
-  <PIN pinname="Attribute Value" visible="1" values="|https://github.com/nahui-ocelotl/azcamic/blob/master/itzcuintli_icampa_ce.png|">
   </PIN>
   <PIN pinname="Attribute BinSize" visible="1">
   </PIN>
@@ -2292,6 +2260,158 @@
   <PIN pinname="Input Count" visible="0" values="|38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|profundidad|">
+  </PIN>
+  </NODE>
+  <NODE id="1349" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="28035" top="37440" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1350" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="27465" top="38445" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|cihuaaxolotl_opoxtli_ce.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1351" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="29670" top="37425" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1352" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="29100" top="38430" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|cihuaaxolotl_opoxtli_ome.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1353" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="31440" top="37395" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1354" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="30870" top="38400" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|cihuaaxolotl_opoxtli_yei.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1355" nodename="Counter (Animation)" systemname="Counter (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26490" top="29940" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Up" visible="1">
+  </PIN>
+  <PIN pinname="Down" visible="1">
+  </PIN>
+  <PIN pinname="Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Maximum" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Increment" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Mode" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1356" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26760" top="30585" width="795" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|cihuaaxolotl_opoxtli_ce.png|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|cihuaaxolotl_opoxtli_ome.png|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|cihuaaxolotl_opoxtli_yei.png|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|cihuaaxolotl_opoxtli_ome.png|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1357" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26520" top="29280" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1" values="|0.15|">
+  </PIN>
+  <PIN pinname="Pause" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
@@ -2654,12 +2774,28 @@
   </LINK>
   <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1343" dstpinname="Parent">
   </LINK>
-  <LINK srcnodeid="1345" srcpinname="Layers Out" dstnodeid="1346" dstpinname="Element">
-  </LINK>
-  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1345" dstpinname="Parent">
-  </LINK>
   <LINK srcnodeid="1347" srcpinname="Output" dstnodeid="743" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="1348" srcpinname="Output" dstnodeid="744" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1349" srcpinname="Layers Out" dstnodeid="1350" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1351" srcpinname="Layers Out" dstnodeid="1352" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1353" srcpinname="Layers Out" dstnodeid="1354" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1349" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1351" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1353" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1357" srcpinname="Change" dstnodeid="1355" dstpinname="Up">
+  </LINK>
+  <LINK srcnodeid="1355" srcpinname="Output" dstnodeid="1356" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="1356" srcpinname="Output" dstnodeid="997" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="1356" srcpinname="Output" dstnodeid="997" dstpinname="Input 4">
   </LINK>
   </PATCH>
