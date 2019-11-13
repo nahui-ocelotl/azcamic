@@ -2583,9 +2583,9 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|huiteccihua_ome.png|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|cihuaaxolotl_opoxtli_ce.png|">
+  <PIN pinname="Input 3" visible="1" values="|huiteccihua_yei.png|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|cihuaaxolotl_opoxtli_ce.png|">
+  <PIN pinname="Input 4" visible="1" values="|huiteccihua_yei.png|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
