@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="10875" height="19080">
+  <BOUNDS type="Window" width="28545" height="19080">
   </BOUNDS>
   <NODE id="1" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="13815" top="5745" width="100" height="100">
@@ -1246,6 +1246,38 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="110" nodename="OR (Boolean)" systemname="OR (Boolean)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7395" top="6390" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="111" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7425" top="4830" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|reset|">
+  </PIN>
+  </NODE>
+  <NODE id="112" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5790" top="8295" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ calaqui|">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="21" srcpinname="Output" dstnodeid="4" dstpinname="Property Value">
   </LINK>
   <LINK srcnodeid="6" srcpinname="Style Out" dstnodeid="5" dstpinname="Style">
@@ -1279,8 +1311,6 @@
   <LINK srcnodeid="3" srcpinname="Layers Out" dstnodeid="18" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="18" srcpinname="OnEvent" dstnodeid="19" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="19" srcpinname="Up Edge" dstnodeid="20" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="20" srcpinname="Output" dstnodeid="21" dstpinname="Switch">
   </LINK>
@@ -1453,5 +1483,13 @@
   <LINK srcnodeid="97" srcpinname="Style Out" dstnodeid="107" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="86" srcpinname="Layers Out" dstnodeid="105" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="19" srcpinname="Up Edge" dstnodeid="110" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="110" srcpinname="Output" dstnodeid="20" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="111" srcpinname="Y Output Value" dstnodeid="110" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="19" srcpinname="Up Edge" dstnodeid="112" dstpinname="Y Input Value">
   </LINK>
   </PATCH>
