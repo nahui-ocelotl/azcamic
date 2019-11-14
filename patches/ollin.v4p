@@ -511,7 +511,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|12|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|4|">
+  <PIN pinname="Input 3" visible="1" values="|9|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|1|">
   </PIN>
