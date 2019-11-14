@@ -2895,7 +2895,7 @@
   </PIN>
   </NODE>
   <NODE id="1410" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23265" top="25005" width="100" height="100">
+  <BOUNDS type="Node" left="23715" top="24660" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -2912,6 +2912,24 @@
   <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1412" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23295" top="25860" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3386,8 +3404,6 @@
   </LINK>
   <LINK srcnodeid="1405" srcpinname="Y Output Value" dstnodeid="1333" dstpinname="reset">
   </LINK>
-  <LINK srcnodeid="1410" srcpinname="Output" dstnodeid="1409" dstpinname="Switch">
-  </LINK>
   <LINK srcnodeid="1409" srcpinname="Output" dstnodeid="1393" dstpinname="Property Value">
   </LINK>
   <LINK srcnodeid="1405" srcpinname="Y Output Value" dstnodeid="1411" dstpinname="Input 2">
@@ -3397,5 +3413,9 @@
   <LINK srcnodeid="1333" srcpinname="_ calaqui" dstnodeid="1411" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="1408" srcpinname="Up Edge" dstnodeid="1405" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="1410" srcpinname="Output" dstnodeid="1412" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1412" srcpinname="Output" dstnodeid="1409" dstpinname="Switch">
   </LINK>
   </PATCH>
