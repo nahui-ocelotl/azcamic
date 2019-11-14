@@ -513,7 +513,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|4|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|0.6900000000000003|">
+  <PIN pinname="Input 4" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|0.3|">
   </PIN>
@@ -541,7 +541,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|6|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|0.7900000000000001|">
+  <PIN pinname="Input 4" visible="1">
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|0.6|">
   </PIN>
@@ -583,7 +583,7 @@
   </PIN>
   <PIN pinname="Input 6" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="|30|">
+  <PIN pinname="Input 7" visible="1" values="|120|">
   </PIN>
   <PIN pinname="Input 8" visible="1" values="|200|">
   </PIN>
@@ -873,7 +873,7 @@
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|2|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|0.245|">
+  <PIN pinname="Input 4" visible="1">
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
@@ -948,6 +948,82 @@
   <PIN pinname="Destination Maximum" visible="1" values="|20|">
   </PIN>
   <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="76" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4500" top="5535" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Pause" visible="1">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="77" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3585" top="7350" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="78" nodename="Delay (Animation)" systemname="Delay (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4560" top="8085" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Time" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Insert" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="79" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4890" top="6420" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="80" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5415" top="8895" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1115,5 +1191,19 @@
   <LINK srcnodeid="20" srcpinname="Output" dstnodeid="39" dstpinname="Input 4">
   </LINK>
   <LINK srcnodeid="58" srcpinname="Output" dstnodeid="57" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="76" srcpinname="Output" dstnodeid="77" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="77" srcpinname="Output" dstnodeid="78" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="76" srcpinname="Output" dstnodeid="79" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="79" srcpinname="Output" dstnodeid="72" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="77" srcpinname="Output" dstnodeid="80" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="78" srcpinname="Output" dstnodeid="80" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="80" srcpinname="Output" dstnodeid="51" dstpinname="Input 4">
   </LINK>
   </PATCH>
