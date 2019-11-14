@@ -1,7 +1,19 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="20595">
+  <BOUNDS type="Window" width="20235" height="20595">
   </BOUNDS>
+  <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="870" top="1290" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/a.png|">
+  </PIN>
+  <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ a|">
+  </PIN>
+  </NODE>
   <NODE id="2" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
   <BOUNDS type="Node" left="885" top="675" width="100" height="100">
   </BOUNDS>
@@ -14,6 +26,18 @@
   <PIN pinname="Z" visible="1" values="|21|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="5" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2340" top="1260" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/fi.png|">
+  </PIN>
+  <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ fi|">
   </PIN>
   </NODE>
   <NODE id="6" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -164,6 +188,16 @@
   <PIN pinname="Name" visible="1" values="|ohtli|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="60" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="3990" top="1215" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/l.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ l|">
   </PIN>
   </NODE>
   <NODE id="61" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -392,7 +426,15 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <LINK srcnodeid="2" srcpinname="Transform Out" dstnodeid="1" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="6" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform">
+  </LINK>
   <LINK srcnodeid="8" srcpinname="Output" dstnodeid="7" dstpinname="Enabled">
+  </LINK>
+  <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="5" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="8" dstpinname="Input 1">
   </LINK>
@@ -409,6 +451,10 @@
   <LINK srcnodeid="49" srcpinname="Output" dstnodeid="47" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="47" srcpinname="Output" dstnodeid="48" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="61" srcpinname="Transform Out" dstnodeid="60" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="60" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 3">
   </LINK>
   <LINK srcnodeid="62" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 4">
   </LINK>
