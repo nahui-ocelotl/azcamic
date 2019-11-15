@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18165" height="17265">
+  <BOUNDS type="Window" width="19155" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="6705" top="11259" width="750" height="240">
@@ -43,7 +43,7 @@
   </PIN>
   <PIN pinname="u roughness" visible="1" values="|0.5800000000000003|">
   </PIN>
-  <PIN pinname="Ambient Color" visible="1">
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
   </PIN>
   <PIN pinname="u diffuseColor" visible="1" values="|0.02500000037252903, 0.02500000037252903, 0.02500000037252903, 1|">
   </PIN>
@@ -56,6 +56,30 @@
   <PIN pinname="BumpFactor" visible="1">
   </PIN>
   <PIN pinname="refract amount" visible="1" values="|0.4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="43" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3840" top="3120" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1" values="|Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="44" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3675" top="2520" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/water_normal.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -172,6 +196,30 @@
   <PIN pinname="BumpFactor" visible="1">
   </PIN>
   <PIN pinname="refract amount" visible="1" values="|0.4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="53" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13350" top="4140" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1" values="|Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="54" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="12720" top="3315" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/water_normal.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -578,16 +626,14 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="99" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8340" top="3150" width="100" height="100">
+  <NODE id="103" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7665" top="4230" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Hue" visible="1">
+  <PIN pinname="Filename" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
   </PIN>
-  <PIN pinname="Saturation" visible="1">
+  <PIN pinname="Type" visible="1" values="|Cube Texture|">
   </PIN>
-  <PIN pinname="Value" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Alpha" visible="1">
+  <PIN pinname="Apply" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -596,7 +642,11 @@
   </LINK>
   <LINK srcnodeid="46" srcpinname="Transform Out" dstnodeid="42" dstpinname="Transform">
   </LINK>
+  <LINK srcnodeid="43" srcpinname="Texture Out" dstnodeid="42" dstpinname="tNormal1">
+  </LINK>
   <LINK srcnodeid="48" srcpinname="Texture Out" dstnodeid="42" dstpinname="tCol1">
+  </LINK>
+  <LINK srcnodeid="44" srcpinname="Output String" dstnodeid="43" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="46" dstpinname="Transform In">
   </LINK>
@@ -605,6 +655,10 @@
   <LINK srcnodeid="50" srcpinname="Layer" dstnodeid="31" dstpinname="Input Node">
   </LINK>
   <LINK srcnodeid="56" srcpinname="Transform Out" dstnodeid="52" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="53" srcpinname="Texture Out" dstnodeid="52" dstpinname="tNormal1">
+  </LINK>
+  <LINK srcnodeid="54" srcpinname="Output String" dstnodeid="53" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="59" srcpinname="Transform Out" dstnodeid="56" dstpinname="Transform In">
   </LINK>
@@ -670,6 +724,8 @@
   </LINK>
   <LINK srcnodeid="98" srcpinname="Output" dstnodeid="52" dstpinname="CamPos">
   </LINK>
-  <LINK srcnodeid="99" srcpinname="Output" dstnodeid="42" dstpinname="Ambient Color">
+  <LINK srcnodeid="103" srcpinname="Texture Out" dstnodeid="42" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="103" srcpinname="Texture Out" dstnodeid="52" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
