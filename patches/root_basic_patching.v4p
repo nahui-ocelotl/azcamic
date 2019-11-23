@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="68535">
+  <BOUNDS type="Window" width="28545" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3330" top="9330" width="100" height="100">
@@ -2129,7 +2129,7 @@
   </PIN>
   <PIN pinname="Input 25" visible="1" values="|-68|">
   </PIN>
-  <PIN pinname="Input 26" visible="1" values="|-124|">
+  <PIN pinname="Input 26" visible="1" values="|-117|">
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|-21.5|">
   </PIN>
