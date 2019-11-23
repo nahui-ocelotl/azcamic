@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="68535">
+  <BOUNDS type="Window" width="19245" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3330" top="9330" width="100" height="100">
@@ -3354,6 +3354,32 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1443" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14865" top="27540" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1444" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14790" top="26775" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|block|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -3905,5 +3931,11 @@
   <LINK srcnodeid="1442" srcpinname="Output" dstnodeid="1198" dstpinname="Property Value">
   </LINK>
   <LINK srcnodeid="1441" srcpinname="Output" dstnodeid="1442" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="1443" srcpinname="Style Out" dstnodeid="985" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="1444" srcpinname="Output" dstnodeid="1443" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="1441" srcpinname="Output" dstnodeid="1444" dstpinname="Switch">
   </LINK>
   </PATCH>
