@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19245" height="68535">
+  <BOUNDS type="Window" width="20235" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3330" top="9330" width="100" height="100">
@@ -1790,16 +1790,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1323" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="25770" top="30225" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1325" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="17895" top="27075" width="100" height="100">
   </BOUNDS>
@@ -3380,6 +3370,44 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1445" nodename="Counter (Animation)" systemname="Counter (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25395" top="33420" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Up" visible="1">
+  </PIN>
+  <PIN pinname="Down" visible="1">
+  </PIN>
+  <PIN pinname="Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Maximum" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Increment" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Mode" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1446" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25425" top="32760" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1" values="|0.075|">
+  </PIN>
+  <PIN pinname="Pause" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -3688,8 +3716,6 @@
   </LINK>
   <LINK srcnodeid="1322" srcpinname="Output" dstnodeid="1311" dstpinname="Input 3">
   </LINK>
-  <LINK srcnodeid="1322" srcpinname="Output" dstnodeid="1323" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="1325" srcpinname="Layers Out" dstnodeid="1326" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="1328" srcpinname="Style Out" dstnodeid="1326" dstpinname="Style">
@@ -3775,8 +3801,6 @@
   <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 4">
   </LINK>
   <LINK srcnodeid="1311" srcpinname="Output" dstnodeid="1375" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
   </LINK>
   <LINK srcnodeid="1341" srcpinname="Output" dstnodeid="1376" dstpinname="Input String">
   </LINK>
@@ -3908,8 +3932,6 @@
   </LINK>
   <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1435" dstpinname="Parent">
   </LINK>
-  <LINK srcnodeid="1207" srcpinname="Output" dstnodeid="1437" dstpinname="Switch">
-  </LINK>
   <LINK srcnodeid="1437" srcpinname="Output" dstnodeid="1342" dstpinname="Input 3">
   </LINK>
   <LINK srcnodeid="1437" srcpinname="Output" dstnodeid="1342" dstpinname="Input 4">
@@ -3919,8 +3941,6 @@
   <LINK srcnodeid="1438" srcpinname="Output" dstnodeid="1341" dstpinname="Input 9">
   </LINK>
   <LINK srcnodeid="1438" srcpinname="Output" dstnodeid="1341" dstpinname="Input 8">
-  </LINK>
-  <LINK srcnodeid="1438" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
   </LINK>
   <LINK srcnodeid="740" srcpinname="Output" dstnodeid="1441" dstpinname="Input 1">
   </LINK>
@@ -3937,5 +3957,13 @@
   <LINK srcnodeid="1444" srcpinname="Output" dstnodeid="1443" dstpinname="Property Value">
   </LINK>
   <LINK srcnodeid="1441" srcpinname="Output" dstnodeid="1444" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="1446" srcpinname="Change" dstnodeid="1445" dstpinname="Up">
+  </LINK>
+  <LINK srcnodeid="1445" srcpinname="Output" dstnodeid="1437" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
   </LINK>
   </PATCH>
