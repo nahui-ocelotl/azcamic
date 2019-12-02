@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18285" height="10155">
+  <BOUNDS type="Window" width="20490" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="3810" top="5235" width="750" height="240">
@@ -329,7 +329,7 @@
   </PIN>
   <PIN pinname="X" visible="1" values="|9|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|4.5|">
+  <PIN pinname="Y" visible="1">
   </PIN>
   <PIN pinname="Z" visible="1" values="|-2|">
   </PIN>
@@ -398,6 +398,50 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="31" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13425" top="720" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Period" visible="1" values="|5|">
+  </PIN>
+  <PIN pinname="Pause" visible="1">
+  </PIN>
+  <PIN pinname="Reverse" visible="1">
+  </PIN>
+  <PIN pinname="Reset" visible="1">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="32" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14250" top="2235" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|3.5|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|4.5|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="33" nodename="WaveShaper (Value)" systemname="WaveShaper (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14115" top="1455" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Shape" visible="1" values="|Sine|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="3" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="4" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform">
@@ -455,5 +499,11 @@
   <LINK srcnodeid="24" srcpinname="Layer" dstnodeid="12" dstpinname="Layer 7">
   </LINK>
   <LINK srcnodeid="11" srcpinname="Transform Out" dstnodeid="25" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="31" srcpinname="Output" dstnodeid="33" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="33" srcpinname="Output" dstnodeid="32" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="32" srcpinname="Output" dstnodeid="25" dstpinname="Y">
   </LINK>
   </PATCH>
