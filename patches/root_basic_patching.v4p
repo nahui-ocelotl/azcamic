@@ -2451,11 +2451,11 @@
   </PIN>
   </NODE>
   <NODE id="1375" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21705" top="37020" width="100" height="100">
+  <BOUNDS type="Node" left="23955" top="35175" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|huiteccihua_ce.png|">
+  <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|huiteccihua_ome.png|">
   </PIN>
@@ -3277,7 +3277,7 @@
   </PIN>
   </NODE>
   <NODE id="1437" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23505" top="34350" width="795" height="100">
+  <BOUNDS type="Node" left="21810" top="34260" width="795" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
@@ -3371,7 +3371,7 @@
   </PIN>
   </NODE>
   <NODE id="1445" nodename="Counter (Animation)" systemname="Counter (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25395" top="33420" width="100" height="100">
+  <BOUNDS type="Node" left="20220" top="33600" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Up" visible="1">
   </PIN>
@@ -3393,7 +3393,7 @@
   </PIN>
   </NODE>
   <NODE id="1446" nodename="LFO (Animation)" systemname="LFO (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25425" top="32760" width="100" height="100">
+  <BOUNDS type="Node" left="20250" top="32940" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Period" visible="1" values="|0.075|">
   </PIN>
@@ -3404,6 +3404,146 @@
   <PIN pinname="Reset" visible="1">
   </PIN>
   <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1447" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="33255" top="42180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1448" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="32685" top="43185" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|huiteccihua_yectli_ce.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1449" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="34950" top="42060" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1450" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="34530" top="43185" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|huiteccihua_yectli_ome.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1451" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="36750" top="42060" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1452" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="36180" top="43065" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Name" visible="1" values="|src|">
+  </PIN>
+  <PIN pinname="Attribute Value" visible="1" values="|huiteccihua_yectli_yei.png|">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1453" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24330" top="33570" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|huiteccihua_yectli_ome.png|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1454" nodename="FrameDelay (String)" systemname="FrameDelay (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24780" top="34365" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Default 1" visible="1">
+  </PIN>
+  <PIN pinname="Initialize" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1455" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25500" top="32865" width="795" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|huiteccihua_yectli_ce.png|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|huiteccihua_yectli_ome.png|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|huiteccihua_yectli_yei.png|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|huiteccihua_yectli_ome.png|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3965,5 +4105,27 @@
   <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
   </LINK>
   <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
+  </LINK>
+  <LINK srcnodeid="1447" srcpinname="Layers Out" dstnodeid="1448" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1449" srcpinname="Layers Out" dstnodeid="1450" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1451" srcpinname="Layers Out" dstnodeid="1452" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1447" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1449" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1217" srcpinname="Layers Out" dstnodeid="1451" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="1453" srcpinname="Output" dstnodeid="1454" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="1359" srcpinname="Output" dstnodeid="1453" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="1454" srcpinname="Output 1" dstnodeid="1375" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="1207" srcpinname="Output" dstnodeid="1455" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="1455" srcpinname="Output" dstnodeid="1453" dstpinname="Input 2">
   </LINK>
   </PATCH>
