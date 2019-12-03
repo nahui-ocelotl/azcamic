@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28800" height="14835">
+  <BOUNDS type="Window" width="28545" height="15255">
   </BOUNDS>
   <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3645" top="885" width="100" height="100">
@@ -363,7 +363,7 @@
   </PIN>
   </NODE>
   <NODE id="28" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="14775" top="4065" width="100" height="100">
+  <BOUNDS type="Node" left="3480" top="5775" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -397,7 +397,7 @@
   </PIN>
   </NODE>
   <NODE id="29" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14925" top="2880" width="100" height="100">
+  <BOUNDS type="Node" left="3630" top="4590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -411,7 +411,7 @@
   </PIN>
   </NODE>
   <NODE id="30" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14535" top="2145" width="100" height="100">
+  <BOUNDS type="Node" left="3240" top="3855" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1">
   </PIN>
@@ -421,7 +421,7 @@
   </PIN>
   </NODE>
   <NODE id="31" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15975" top="2055" width="100" height="100">
+  <BOUNDS type="Node" left="4680" top="3765" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -433,7 +433,7 @@
   </PIN>
   </NODE>
   <NODE id="32" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="15210" top="1020" width="0" height="0">
+  <BOUNDS type="Box" left="3915" top="2730" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
@@ -445,7 +445,7 @@
   </PIN>
   </NODE>
   <NODE id="33" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15585" top="3525" width="100" height="100">
+  <BOUNDS type="Node" left="4290" top="5235" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1214,6 +1214,116 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="83" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="14460" top="3285" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
+  <PIN pinname="Light Direction XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
+  </PIN>
+  <PIN pinname="Diffuse Color" visible="1">
+  </PIN>
+  <PIN pinname="Specular Color" visible="1">
+  </PIN>
+  <PIN pinname="Power" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="84" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14610" top="2100" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|-3|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|4|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|-6|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="85" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14220" top="1365" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Resolution X" visible="1">
+  </PIN>
+  <PIN pinname="Resolution Y" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="86" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15660" top="1275" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="87" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="14895" top="240" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/facade/apanohuayan1.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="88" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15270" top="2745" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|2.2900000000000027|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="89" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12330" top="4590" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Layer 1" visible="1">
+  </PIN>
+  <PIN pinname="Layer 2" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="2" srcpinname="Transform Out" dstnodeid="1" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="4" srcpinname="Transform Out" dstnodeid="3" dstpinname="Transform">
@@ -1261,8 +1371,6 @@
   <LINK srcnodeid="26" srcpinname="Output String" dstnodeid="25" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="23" srcpinname="Transform Out" dstnodeid="27" dstpinname="Transform In">
-  </LINK>
-  <LINK srcnodeid="22" srcpinname="Layer" dstnodeid="6" dstpinname="Layer 7">
   </LINK>
   <LINK srcnodeid="19" srcpinname="Transform Out" dstnodeid="23" dstpinname="Transform In">
   </LINK>
@@ -1383,5 +1491,23 @@
   <LINK srcnodeid="75" srcpinname="Layer" dstnodeid="82" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="82" srcpinname="Layer" dstnodeid="6" dstpinname="Layer 12">
+  </LINK>
+  <LINK srcnodeid="85" srcpinname="Mesh" dstnodeid="83" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="88" srcpinname="Transform Out" dstnodeid="83" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="86" srcpinname="Texture Out" dstnodeid="83" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="87" srcpinname="Output String" dstnodeid="86" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="84" srcpinname="Transform Out" dstnodeid="88" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="83" srcpinname="Layer" dstnodeid="89" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="22" srcpinname="Layer" dstnodeid="89" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="89" srcpinname="Layer" dstnodeid="6" dstpinname="Layer 7">
+  </LINK>
+  <LINK srcnodeid="19" srcpinname="Transform Out" dstnodeid="84" dstpinname="Transform In">
   </LINK>
   </PATCH>
