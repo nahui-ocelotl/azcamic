@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="15255">
+  <BOUNDS type="Window" width="19995" height="15255">
   </BOUNDS>
   <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3645" top="885" width="100" height="100">
@@ -353,7 +353,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|2.2900000000000027|">
+  <PIN pinname="X" visible="1" values="|2.4|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|3|">
   </PIN>
@@ -1255,7 +1255,7 @@
   </PIN>
   <PIN pinname="X" visible="1" values="|-3|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|4|">
+  <PIN pinname="Y" visible="1" values="|3.9|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|-6|">
   </PIN>
