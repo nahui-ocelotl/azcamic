@@ -1301,7 +1301,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|2.2900000000000027|">
+  <PIN pinname="X" visible="1" values="|3|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|3|">
   </PIN>
