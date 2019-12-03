@@ -4184,8 +4184,6 @@
   </LINK>
   <LINK srcnodeid="1341" srcpinname="Output" dstnodeid="1376" dstpinname="Input String">
   </LINK>
-  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 6">
-  </LINK>
   <LINK srcnodeid="1377" srcpinname="Layers Out" dstnodeid="1378" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="1379" srcpinname="Layers Out" dstnodeid="1380" dstpinname="Element">
@@ -4318,10 +4316,6 @@
   </LINK>
   <LINK srcnodeid="1311" srcpinname="Output" dstnodeid="1438" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="1438" srcpinname="Output" dstnodeid="1341" dstpinname="Input 9">
-  </LINK>
-  <LINK srcnodeid="1438" srcpinname="Output" dstnodeid="1341" dstpinname="Input 8">
-  </LINK>
   <LINK srcnodeid="740" srcpinname="Output" dstnodeid="1441" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="1441" srcpinname="Output" dstnodeid="1439" dstpinname="Toggle">
@@ -4341,8 +4335,6 @@
   <LINK srcnodeid="1446" srcpinname="Change" dstnodeid="1445" dstpinname="Up">
   </LINK>
   <LINK srcnodeid="1445" srcpinname="Output" dstnodeid="1437" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
   </LINK>
   <LINK srcnodeid="1447" srcpinname="Layers Out" dstnodeid="1448" dstpinname="Element">
   </LINK>
@@ -4365,8 +4357,6 @@
   <LINK srcnodeid="1207" srcpinname="Output" dstnodeid="1455" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="1455" srcpinname="Output" dstnodeid="1453" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
   </LINK>
   <LINK srcnodeid="1457" srcpinname="Layers Out" dstnodeid="1458" dstpinname="Element">
   </LINK>
@@ -4401,5 +4391,15 @@
   <LINK srcnodeid="1207" srcpinname="Output" dstnodeid="1470" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="1470" srcpinname="Output" dstnodeid="1375" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 6">
+  </LINK>
+  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
+  </LINK>
+  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 8">
+  </LINK>
+  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 9">
   </LINK>
   </PATCH>

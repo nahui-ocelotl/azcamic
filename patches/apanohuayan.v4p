@@ -1285,11 +1285,11 @@
   </PIN>
   </NODE>
   <NODE id="87" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="14895" top="240" width="0" height="0">
+  <BOUNDS type="Box" left="14895" top="705" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/facade/apanohuayan1.png|">
+  <PIN pinname="Input String" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1401,7 +1401,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/facade/apanohuayan2.png|">
+  <PIN pinname="Input String" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1418,6 +1418,42 @@
   <PIN pinname="Y" visible="1" values="|3|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="96" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16785" top="240" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/apanohuayan1.png|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/apanohuayan1e.png|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="98" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="19860" top="15" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|caxtilan|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="99" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="20925" top="525" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/apanohuayan2.png|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/apanohuayan2e.png|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1596,8 +1632,6 @@
   </LINK>
   <LINK srcnodeid="86" srcpinname="Texture Out" dstnodeid="83" dstpinname="Texture">
   </LINK>
-  <LINK srcnodeid="87" srcpinname="Output String" dstnodeid="86" dstpinname="Filename">
-  </LINK>
   <LINK srcnodeid="84" srcpinname="Transform Out" dstnodeid="88" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="83" srcpinname="Layer" dstnodeid="89" dstpinname="Layer 2">
@@ -1621,5 +1655,15 @@
   <LINK srcnodeid="90" srcpinname="Layer" dstnodeid="89" dstpinname="Layer 3">
   </LINK>
   <LINK srcnodeid="2" srcpinname="Transform Out" dstnodeid="91" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="96" srcpinname="Output" dstnodeid="87" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="87" srcpinname="Output String" dstnodeid="86" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="98" srcpinname="Output" dstnodeid="96" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="98" srcpinname="Output" dstnodeid="99" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="99" srcpinname="Output" dstnodeid="94" dstpinname="Input String">
   </LINK>
   </PATCH>
