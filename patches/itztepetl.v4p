@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28800" height="14835">
+  <BOUNDS type="Window" width="19740" height="14835">
   </BOUNDS>
   <NODE id="1" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3435" top="885" width="100" height="100">
@@ -323,7 +323,7 @@
   </PIN>
   </NODE>
   <NODE id="29" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="10470" top="6765" width="100" height="100">
+  <BOUNDS type="Node" left="10365" top="5625" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -357,13 +357,13 @@
   </PIN>
   </NODE>
   <NODE id="30" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10620" top="5580" width="100" height="100">
+  <BOUNDS type="Node" left="10515" top="4440" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|0.44000000000000133|">
+  <PIN pinname="X" visible="1" values="|-2.999999999999996|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|3.929999999999996|">
+  <PIN pinname="Y" visible="1" values="|3.9299999999999975|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|-6|">
   </PIN>
@@ -371,7 +371,7 @@
   </PIN>
   </NODE>
   <NODE id="31" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10230" top="4845" width="100" height="100">
+  <BOUNDS type="Node" left="10125" top="3705" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1">
   </PIN>
@@ -381,7 +381,7 @@
   </PIN>
   </NODE>
   <NODE id="32" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11670" top="4755" width="100" height="100">
+  <BOUNDS type="Node" left="11565" top="3615" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -393,7 +393,7 @@
   </PIN>
   </NODE>
   <NODE id="33" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="10905" top="3720" width="0" height="0">
+  <BOUNDS type="Box" left="10800" top="2580" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
@@ -405,7 +405,7 @@
   </PIN>
   </NODE>
   <NODE id="34" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11280" top="6225" width="100" height="100">
+  <BOUNDS type="Node" left="11175" top="5085" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -419,7 +419,7 @@
   </PIN>
   </NODE>
   <NODE id="35" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12165" top="3105" width="100" height="100">
+  <BOUNDS type="Node" left="12060" top="1965" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|caxtilan|">
   </PIN>
@@ -427,7 +427,7 @@
   </PIN>
   </NODE>
   <NODE id="36" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13230" top="3615" width="100" height="100">
+  <BOUNDS type="Node" left="13125" top="2475" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
