@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="68535">
+  <BOUNDS type="Window" width="20235" height="68535">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3330" top="9330" width="100" height="100">
@@ -3788,6 +3788,60 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1471" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11610" top="33795" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="File" visible="1">
+  </PIN>
+  <PIN pinname="Do Execute" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1477" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13755" top="32250" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Amitla|">
+  </PIN>
+  <PIN pinname="Case Sensitive" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1478" nodename="NOT (Boolean)" systemname="NOT (Boolean)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13335" top="32925" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1480" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="10800" top="33000" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|playAudio2()|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1481" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="10965" top="34695" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -4401,5 +4455,15 @@
   <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 8">
   </LINK>
   <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 9">
+  </LINK>
+  <LINK srcnodeid="1319" srcpinname="Output String" dstnodeid="1477" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="1477" srcpinname="Output" dstnodeid="1478" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="1480" srcpinname="Output String" dstnodeid="1471" dstpinname="File">
+  </LINK>
+  <LINK srcnodeid="1471" srcpinname="Result" dstnodeid="1481" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="1478" srcpinname="Output" dstnodeid="1471" dstpinname="Do Execute">
   </LINK>
   </PATCH>
