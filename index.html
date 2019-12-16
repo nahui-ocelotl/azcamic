@@ -145,8 +145,11 @@ $(document).ready(function(){
     <p class="indicador">Tecla: <span id="tecla"></span></p>
 </div>
 
-<audio id="myAudio" autoplay>
+<audio id="myAudio">
   <source src="tzatziliztli/tlalticpac.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio2">
+  <source src="tzatziliztli/acaxacahuitztli.mp3" type="audio/mpeg">
 </audio>
 <img src="bocina.png" class="bocina" onclick="pauseAudio()">
 <div class="intro">
@@ -154,11 +157,18 @@ $(document).ready(function(){
 </div>
 <script>
 var x = document.getElementById("myAudio"); 
+var y = document.getElementById("myAudio2"); 
 
 function playAudio() { 
   x.play(); 
   x.loop = true;
   x.load();
+} 
+	
+function playAudio2() { 
+  y.play(); 
+  y.loop = true;
+  y.load();
 } 
 
 function pauseAudio() { 
