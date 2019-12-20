@@ -3984,6 +3984,62 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="1504" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10230" top="38175" width="450" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Epsilon" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1505" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10065" top="40170" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="File" visible="1">
+  </PIN>
+  <PIN pinname="Do Execute" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1506" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="9255" top="39375" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|playAudio5()|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1507" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11805" top="41550" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="File" visible="1">
+  </PIN>
+  <PIN pinname="Do Execute" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="1508" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="11280" top="40905" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|pauseAudio5()|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -4588,12 +4644,6 @@
   </LINK>
   <LINK srcnodeid="1470" srcpinname="Output" dstnodeid="1375" dstpinname="Input 2">
   </LINK>
-  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
-  </LINK>
-  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 6">
-  </LINK>
-  <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
-  </LINK>
   <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 8">
   </LINK>
   <LINK srcnodeid="997" srcpinname="Output" dstnodeid="1341" dstpinname="Input 9">
@@ -4627,5 +4677,21 @@
   <LINK srcnodeid="1503" srcpinname="Output String" dstnodeid="1502" dstpinname="File">
   </LINK>
   <LINK srcnodeid="1499" srcpinname="Inverse Output" dstnodeid="1502" dstpinname="Do Execute">
+  </LINK>
+  <LINK srcnodeid="1506" srcpinname="Output String" dstnodeid="1505" dstpinname="File">
+  </LINK>
+  <LINK srcnodeid="1504" srcpinname="Output" dstnodeid="1505" dstpinname="Do Execute">
+  </LINK>
+  <LINK srcnodeid="1508" srcpinname="Output String" dstnodeid="1507" dstpinname="File">
+  </LINK>
+  <LINK srcnodeid="1504" srcpinname="Inverse Output" dstnodeid="1507" dstpinname="Do Execute">
+  </LINK>
+  <LINK srcnodeid="1486" srcpinname="Output" dstnodeid="1504" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 6">
+  </LINK>
+  <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
   </LINK>
   </PATCH>
