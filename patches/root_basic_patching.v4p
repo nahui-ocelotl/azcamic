@@ -3837,7 +3837,7 @@
   <NODE id="1482" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
   <BOUNDS type="Node" left="13665" top="33840" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="File" visible="1" values="|pauseAudio2()|,|pauseAudio3()|">
+  <PIN pinname="File" visible="1">
   </PIN>
   <PIN pinname="Do Execute" visible="1">
   </PIN>
@@ -3845,7 +3845,7 @@
   </PIN>
   </NODE>
   <NODE id="1484" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="12930" top="34560" width="0" height="0">
+  <BOUNDS type="Box" left="13140" top="35265" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -3873,7 +3873,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|playAudio3()|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="||">
+  <PIN pinname="Input 3" visible="1" values="|playAudio4()|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="||">
   </PIN>
@@ -3892,24 +3892,16 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1490" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14325" top="35415" width="100" height="100">
+  <NODE id="1492" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12975" top="33060" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="File" visible="1" values="|pauseAudio3()|,|pauseAudio3()|">
+  <PIN pinname="Input 1" visible="1" values="|pauseAudio2()|">
   </PIN>
-  <PIN pinname="Do Execute" visible="1">
+  <PIN pinname="Input 2" visible="1" values="|pauseAudio3()|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 3" visible="1" values="|pauseAudio4()|">
   </PIN>
-  </NODE>
-  <NODE id="1491" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="13590" top="36135" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
+  <PIN pinname="Input Count" visible="0" values="|3|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -4544,8 +4536,6 @@
   </LINK>
   <LINK srcnodeid="1487" srcpinname="Output" dstnodeid="1480" dstpinname="Input String">
   </LINK>
-  <LINK srcnodeid="1490" srcpinname="Result" dstnodeid="1491" dstpinname="Input String">
-  </LINK>
-  <LINK srcnodeid="1477" srcpinname="Output" dstnodeid="1490" dstpinname="Do Execute">
+  <LINK srcnodeid="1492" srcpinname="Output" dstnodeid="1482" dstpinname="File">
   </LINK>
   </PATCH>
