@@ -154,6 +154,9 @@ $(document).ready(function(){
 <audio id="myAudio3" autoplay>
   <source src="tzatziliztli/acentlaxitl.mp3" type="audio/mpeg">
 </audio>
+<audio id="myAudio4" autoplay>
+  <source src="tzatziliztli/oltepetl.mp3" type="audio/mpeg">
+</audio>
 <img src="bocina.png" class="bocina" onclick="pauseAudio()">
 <div class="intro">
 <button class="tzatziliztli" onclick="playAudio()" type="button"></button> 
@@ -201,6 +204,21 @@ function pauseAudio3() {
 } 	
 
 </script>
+
+<script>
+var a = document.getElementById("myAudio4"); 
+
+function playAudio4() { 
+  a.play(); 
+  a.loop = true;
+  a.load();
+} 
+
+function pauseAudio4() { 
+  a.pause(); 
+} 	
+
+</script>		 
 		 
 </body>
 </html>
