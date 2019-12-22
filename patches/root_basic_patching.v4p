@@ -3880,20 +3880,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="1492" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12000" top="32835" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|pauseAudio2()|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|pauseAudio3()|">
-  </PIN>
-  <PIN pinname="Input 3" visible="1" values="|pauseAudio4()|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="1493" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
   <BOUNDS type="Box" left="13140" top="33180" width="0" height="0">
   </BOUNDS>
@@ -3929,7 +3915,7 @@
   </PIN>
   </NODE>
   <NODE id="1499" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7035" top="34725" width="100" height="100">
+  <BOUNDS type="Node" left="12600" top="36180" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -3941,7 +3927,7 @@
   </PIN>
   </NODE>
   <NODE id="1500" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6870" top="36720" width="100" height="100">
+  <BOUNDS type="Node" left="11370" top="38175" width="100" height="100">
   </BOUNDS>
   <PIN pinname="File" visible="1">
   </PIN>
@@ -3951,7 +3937,7 @@
   </PIN>
   </NODE>
   <NODE id="1501" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6060" top="35925" width="0" height="0">
+  <BOUNDS type="Box" left="10725" top="37305" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -3963,7 +3949,7 @@
   </PIN>
   </NODE>
   <NODE id="1502" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8610" top="38100" width="100" height="100">
+  <BOUNDS type="Node" left="12630" top="39825" width="100" height="100">
   </BOUNDS>
   <PIN pinname="File" visible="1">
   </PIN>
@@ -3973,67 +3959,11 @@
   </PIN>
   </NODE>
   <NODE id="1503" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="8085" top="37440" width="0" height="0">
+  <BOUNDS type="Box" left="12105" top="39165" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
   <PIN pinname="Input String" visible="1" values="|pauseAudio4()|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1504" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10230" top="38175" width="450" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Epsilon" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1505" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10065" top="40170" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="File" visible="1">
-  </PIN>
-  <PIN pinname="Do Execute" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1506" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="9255" top="39375" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|playAudio5()|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1507" nodename="ShellExecute (Windows)" systemname="ShellExecute (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11805" top="41550" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="File" visible="1">
-  </PIN>
-  <PIN pinname="Do Execute" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="1508" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="11280" top="40905" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|pauseAudio5()|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -4668,8 +4598,6 @@
   </LINK>
   <LINK srcnodeid="1477" srcpinname="Output" dstnodeid="1494" dstpinname="Do Execute">
   </LINK>
-  <LINK srcnodeid="1486" srcpinname="Output" dstnodeid="1499" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="1501" srcpinname="Output String" dstnodeid="1500" dstpinname="File">
   </LINK>
   <LINK srcnodeid="1499" srcpinname="Output" dstnodeid="1500" dstpinname="Do Execute">
@@ -4678,20 +4606,12 @@
   </LINK>
   <LINK srcnodeid="1499" srcpinname="Inverse Output" dstnodeid="1502" dstpinname="Do Execute">
   </LINK>
-  <LINK srcnodeid="1506" srcpinname="Output String" dstnodeid="1505" dstpinname="File">
-  </LINK>
-  <LINK srcnodeid="1504" srcpinname="Output" dstnodeid="1505" dstpinname="Do Execute">
-  </LINK>
-  <LINK srcnodeid="1508" srcpinname="Output String" dstnodeid="1507" dstpinname="File">
-  </LINK>
-  <LINK srcnodeid="1504" srcpinname="Inverse Output" dstnodeid="1507" dstpinname="Do Execute">
-  </LINK>
-  <LINK srcnodeid="1486" srcpinname="Output" dstnodeid="1504" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 5">
   </LINK>
   <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 6">
   </LINK>
   <LINK srcnodeid="1375" srcpinname="Output" dstnodeid="1341" dstpinname="Input 7">
+  </LINK>
+  <LINK srcnodeid="1486" srcpinname="Output" dstnodeid="1499" dstpinname="Input 1">
   </LINK>
   </PATCH>
